@@ -454,6 +454,7 @@ namespace Star_Wars_D6
                         MessageBox.Show("Character loaded successfully.", "Load", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
+                UpdateChecker.CheckForUpdates();
             };
         }
 
