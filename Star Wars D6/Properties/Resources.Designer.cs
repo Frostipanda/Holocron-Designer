@@ -189,5 +189,14 @@ namespace Star_Wars_D6.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0.9.0.0.
+        /// </summary>
+        internal static string version {
+            get {
+                return ResourceManager.GetString("version", resourceCulture);
+            }
+        }
     }
 }
