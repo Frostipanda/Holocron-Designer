@@ -141,6 +141,46 @@ namespace Star_Wars_D6.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Equipment1 {
+            get {
+                object obj = ResourceManager.GetObject("Equipment1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Export_Template {
+            get {
+                object obj = ResourceManager.GetObject("Export_Template", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] force_powers {
+            get {
+                object obj = ResourceManager.GetObject("force_powers", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] General_Goods {
+            get {
+                object obj = ResourceManager.GetObject("General_Goods", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap n0hcqdjg1ag81 {
@@ -191,11 +231,21 @@ namespace Star_Wars_D6.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 0.9.0.0.
+        ///   Looks up a localized string similar to 0.9.0.1.
         /// </summary>
         internal static string version {
             get {
                 return ResourceManager.GetString("version", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Weapons {
+            get {
+                object obj = ResourceManager.GetObject("Weapons", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

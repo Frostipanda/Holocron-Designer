@@ -1,0 +1,880 @@
+{
+  "package": "starwarsd6-essentialcompanion-od6s.module-commodity",
+  "metadata": {
+    "name": "module-commodity",
+    "label": "Star Wars General Goods",
+    "path": "modules/starwarsd6-essentialcompanion-od6s/packs/reupcommodity",
+    "type": "Item",
+    "system": "od6s",
+    "ownership": {
+      "PLAYER": "OBSERVER",
+      "ASSISTANT": "OWNER"
+    },
+    "flags": {},
+    "packageType": "module",
+    "packageName": "starwarsd6-essentialcompanion-od6s",
+    "id": "starwarsd6-essentialcompanion-od6s.module-commodity"
+  },
+  "type": "Item",
+  "items": [
+    {
+      "name": "Animal, exotic",
+      "type": "gear",
+      "img": "icons/creatures/tentacles/tentacles-thing-green.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "",
+        "labels": {},
+        "tags": [],
+        "cost": 2000,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "4M8Fqne28ibVfNzY"
+    },
+    {
+      "name": "Animal, livestock",
+      "type": "gear",
+      "img": "icons/creatures/mammals/livestock-pig-green.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "",
+        "labels": {},
+        "tags": [],
+        "cost": 500,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "50U6zFKSlXwE0Ror"
+    },
+    {
+      "name": "Spice, exotic (1g)",
+      "type": "gear",
+      "img": "icons/commodities/materials/powder-teal.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "<p>1g = 20</p>\n<p>1 kg = 20,000</p>",
+        "labels": {},
+        "tags": [],
+        "cost": 20,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "564t14BpL1jqVuoi"
+    },
+    {
+      "name": "Food, common (1kg)",
+      "type": "gear",
+      "img": "icons/commodities/materials/bowl-powder-blue.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "<p>1 kg</p>",
+        "labels": {},
+        "tags": [],
+        "cost": 10,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "5N7iJ0rqNpjT0n2y"
+    },
+    {
+      "name": "Gems, precious (1g)",
+      "type": "gear",
+      "img": "icons/commodities/gems/gem-faceted-round-teal.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "<p>1 gram</p>",
+        "labels": {},
+        "tags": [],
+        "cost": 1000,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "5QmrHkmjICXE592O"
+    },
+    {
+      "name": "Gems, semiprecious (1g)",
+      "type": "gear",
+      "img": "icons/commodities/gems/pearl-rough-white.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "<p>1 gram</p>",
+        "labels": {},
+        "tags": [],
+        "cost": 100,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "AMMpFRpqjxjgvZrZ"
+    },
+    {
+      "name": "Bacta, 1 liter (1kg)",
+      "type": "gear",
+      "img": "modules/starwarsd6-essentialcompanion-od6s/art/items/equipIcons/DarthBanjo/bacta.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "<p>1 kg</p>",
+        "labels": {},
+        "tags": [],
+        "cost": 1000,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "BEp81HvcYUZKMTt7"
+    },
+    {
+      "name": "Water, 1 liter (1kg)",
+      "type": "gear",
+      "img": "icons/consumables/drinks/water-jug-clay-brown.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "<p>1 kg</p>",
+        "labels": {},
+        "tags": [],
+        "cost": 1,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "DFjm6H8bB4ImurMK"
+    },
+    {
+      "name": "Art, quality",
+      "type": "gear",
+      "img": "icons/commodities/treasure/mask-bone-white.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "",
+        "labels": {},
+        "tags": [],
+        "cost": 1000,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "E7gIhaE7eclsxvfc"
+    },
+    {
+      "name": "Holovid",
+      "type": "gear",
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "",
+        "labels": {},
+        "tags": [],
+        "cost": 10,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "IeQm5PQZbmTl0uYs"
+    },
+    {
+      "name": "Gems, exotic (1g)",
+      "type": "gear",
+      "img": "icons/commodities/gems/gem-cut-faceted-square-purple.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "<p>1 gram</p>",
+        "labels": {},
+        "tags": [],
+        "cost": 10000,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "LIPisPHWwq5vBdR3"
+    },
+    {
+      "name": "Textiles, common (1 meter)",
+      "type": "gear",
+      "img": "icons/commodities/cloth/cloth-roll-worn-blue.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "",
+        "labels": {},
+        "tags": [],
+        "cost": 5,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "Ni99kos6rQ3GbMPF"
+    },
+    {
+      "name": "Animal, common",
+      "type": "gear",
+      "img": "icons/creatures/mammals/rodent-rat-green.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "",
+        "labels": {},
+        "tags": [],
+        "cost": 100,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "PS1zawEaWq1Txri5"
+    },
+    {
+      "name": "Spice, common (1kg)",
+      "type": "gear",
+      "img": "icons/commodities/materials/powder-red-green-yellow.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "<p>1 kg</p>",
+        "labels": {},
+        "tags": [],
+        "cost": 1000,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "Tof8o5re6D6xtSqI"
+    },
+    {
+      "name": "Food, exotic (1kg)",
+      "type": "gear",
+      "img": "icons/commodities/materials/bowl-powder-pink.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "<p>1 kg</p>",
+        "labels": {},
+        "tags": [],
+        "cost": 50,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "U7JNC5axyPcXB8FM"
+    },
+    {
+      "name": "Textiles, quality (1 meter)",
+      "type": "gear",
+      "img": "icons/commodities/cloth/cloth-bolt-gold-orange.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "",
+        "labels": {},
+        "tags": [],
+        "cost": 20,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "W8qn01gJZsgMLIW0"
+    },
+    {
+      "name": "Metal, common (1000kg)",
+      "type": "gear",
+      "img": "icons/commodities/metal/ingot-iron.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "",
+        "labels": {},
+        "tags": [],
+        "cost": 2500,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "cJhqECFI93e5bXGm"
+    },
+    {
+      "name": "Fuel, 1 liter (1kg)",
+      "type": "gear",
+      "img": "icons/commodities/materials/metal-liquid.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "<p>1 kg</p>",
+        "labels": {},
+        "tags": [],
+        "cost": 50,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "cjcV1w0NSXMwrQUR"
+    },
+    {
+      "name": "Textiles, exotic (1 meter)",
+      "type": "gear",
+      "img": "icons/commodities/cloth/cloth-bolt-embroidered-pink.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "",
+        "labels": {},
+        "tags": [],
+        "cost": 100,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "mTm32WpHmzHcWnXx"
+    },
+    {
+      "name": "Art, precious",
+      "type": "gear",
+      "img": "icons/commodities/treasure/mask-jeweled-gold.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "",
+        "labels": {},
+        "tags": [],
+        "cost": 10000,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "nlXKwWi1RJpanK2w"
+    },
+    {
+      "name": "Food, quality (1kg)",
+      "type": "gear",
+      "img": "icons/commodities/materials/bowl-liquid-white.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "<p>1 kg</p>",
+        "labels": {},
+        "tags": [],
+        "cost": 20,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "o8dchYJS7OwwxlUN"
+    },
+    {
+      "name": "Ore, common (1000kg)",
+      "type": "gear",
+      "img": "icons/commodities/stone/ore-pile-iron-black.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "",
+        "labels": {},
+        "tags": [],
+        "cost": 1000,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "tAj5ePXfocxhxLUO"
+    },
+    {
+      "name": "Metal, semi-precious (1kg)",
+      "type": "gear",
+      "img": "icons/commodities/metal/ingot-copper.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "<p>1 kg = 200</p>\n<p>1 metric ton = 200,000</p>",
+        "labels": {},
+        "tags": [],
+        "cost": 200,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "tHkshE9RfMGjYgsk"
+    },
+    {
+      "name": "Metal, precious (1kg)",
+      "type": "gear",
+      "img": "icons/commodities/metal/ingot-engraved-gold.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "<p>1 kg = 10,000</p>\n<p>1 metric ton =&nbsp;<span style=\"font-family: var(--font-primary); font-size: var(--font-size-14);\">10,000,000</span></p>",
+        "labels": {},
+        "tags": [],
+        "cost": 10000,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "y3Duka8w5aQn8lJp"
+    },
+    {
+      "name": "Art, common",
+      "type": "gear",
+      "img": "icons/commodities/treasure/mask-wood-tan.webp",
+      "effects": [],
+      "folder": null,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "12.331",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "system": {
+        "description": "",
+        "labels": {},
+        "tags": [],
+        "cost": 100,
+        "price": "",
+        "availability": "",
+        "quantity": 1,
+        "equipped": {
+          "value": false,
+          "type": "Boolean",
+          "label": "OD6S.EQUIPPED",
+          "consumable": false
+        },
+        "consumable": false,
+        "label": "OD6S.CHAR_GEAR"
+      },
+      "_id": "zS3Z4NmtS7DHj1vp"
+    }
+  ],
+  "source": {
+    "world": "test-world",
+    "system": "od6s",
+    "version": {
+      "core": "12.331",
+      "system": "0.9.20"
+    }
+  },
+  "folders": []
+}

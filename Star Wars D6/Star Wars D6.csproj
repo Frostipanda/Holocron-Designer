@@ -150,18 +150,24 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Weapons.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Starjedi.ttf" />
+    <None Include="Resources\Equipment.json" />
+    <None Include="Resources\Export_Template.json" />
+    <None Include="Resources\force_powers.json" />
+    <None Include="Resources\General_Goods.json" />
     <None Include="Resources\vector-feb-2021-74_generated.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\pngaaa.com-5928904.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\version.txt" />
     <None Include="Resources\Coffee.png" />
     <None Include="Resources\Discord.png" />
     <None Include="Resources\star-wars-ship-blueprints-v0-97elqk5c33ta1.png" />
