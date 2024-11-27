@@ -25,7 +25,7 @@ I sincerely thank everyone for their support, feedback, and enthusiasm.
 
 ## 🛠 Installation
 
-1. Download the latest release from the [Releases](https://github.com/yourusername/HolocronDesigner/releases) section.
+1. Download the latest release from the [Releases](https://github.com/Frostipanda/Holocron-Designer/releases) section.
 2. Extract the files to a folder of your choice.
 3. Run the `Holocron Designer.exe` file to start the application.
 
