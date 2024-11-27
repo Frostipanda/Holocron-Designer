@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Star Wars D6")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyDescription("A Character Creation Tool for SWD6")]
+[assembly: AssemblyConfiguration("release")]
+[assembly: AssemblyCompany("Panda Creates")]
 [assembly: AssemblyProduct("Star Wars D6")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
