@@ -1,18 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Star_Wars_D6
 {
     public class UpdateChecker
     {
-        private const string VersionUrl = "https://raw.githubusercontent.com/Frostipanda/Holocron-Designer/master/version.txt";
-        private const string GitHubUrl = "https://github.com/Frostipanda/Holocron-Designer/tree/master";
+        // Define the current version here
+        private const string CurrentVersion = "0.9.0.1"; // Change this whenever you update the program version
+        private const string VersionUrl = "https://raw.githubusercontent.com/Frostipanda/Holocron-Designer/master/Star%20Wars%20D6/Resources/version.txt";
+        private const string GitHubUrl = "https://github.com/Frostipanda/Holocron-Designer";
 
         public static async void CheckForUpdates()
         {
@@ -23,11 +20,8 @@ namespace Star_Wars_D6
                     // Fetch the latest version from GitHub
                     string latestVersion = await client.GetStringAsync(VersionUrl);
 
-                    // Get the current version of the program
-                    string currentVersion = Assembly.GetExecutingAssembly().GetName().Version.ToString();
-
                     // Compare versions
-                    if (IsNewerVersion(latestVersion.Trim(), currentVersion))
+                    if (IsNewerVersion(latestVersion.Trim(), CurrentVersion))
                     {
                         // Prompt the user
                         DialogResult result = MessageBox.Show(
@@ -38,7 +32,11 @@ namespace Star_Wars_D6
 
                         if (result == DialogResult.Yes)
                         {
-                            System.Diagnostics.Process.Start(GitHubUrl);
+                            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
+                            {
+                                FileName = GitHubUrl,
+                                UseShellExecute = true
+                            });
                         }
                     }
                 }

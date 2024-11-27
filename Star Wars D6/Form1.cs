@@ -72,6 +72,7 @@ namespace Star_Wars_D6
             this.buyCoffee.Click += new EventHandler(this.buyCoffee_Click);
             this.od6.LinkClicked += new LinkLabelLinkClickedEventHandler(this.od6_LinkClicked);
             this.od6sw.LinkClicked += new LinkLabelLinkClickedEventHandler(this.od6sw_LinkClicked);
+            UpdateChecker.CheckForUpdates();
 
 
 
@@ -454,7 +455,7 @@ namespace Star_Wars_D6
                         MessageBox.Show("Character loaded successfully.", "Load", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
-                UpdateChecker.CheckForUpdates();
+                
             };
         }
 
