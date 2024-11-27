@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="textBox15.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="racialCampList.Text" xml:space="preserve">
+    <value>Aar'aa
+Abinyshi
+Abyssin
+Adarian
+Adnerem
+Advozse
+Affytechan
+Aganof
+Aing-Tii
+Akwin
+Aleena
+Amanin
+Anguilla
+Annoo-Dat
+Anointed People
+Anomid
+Ansionian
+Anx
+Anzat
+Aqualish
+Aquar
+Arachnoid
+Aramandi
+Araquia
+Arcona
+Argauun
+Arkanian
+Arpor-Lan
+Aruzan
+Askajian
+Assembler
+Asramul
+Avogwi
+Avun
+Ayrou
+Balinaka
+Balosar
+Barabel
+Baragwin
+Bartokk
+B'harnii
+Belorian
+Berrite
+Besalisk
+Bilar
+Bimm
+Bith
+Bitthaevrian
+Blood Carver
+Boltrunian
+Borneck
+Bosph
+Bothan
+Bouncer
+Bovorian
+Bpfasshi
+Brolfi
+Brrbrlpp
+Brubb
+Buzchub
+Brizzit
+Caamasi
+Caarite
+Calian - Human
+Calibop
+Caridan
+Carosite
+Casisoman
+Cathar
+Celegian
+Cerean
+Cha'a
+Chadran-Fan
+Chagrian
+Chalactan
+Charon (Bioscientist)
+Charon (Warrior)
+Charr Ontee
+Cha´wen´he
+Chazrach
+Chev
+Chevin
+Chikarri
+Chiss
+Chistori
+Cizerack
+Clawdite
+Codru-Ji
+Colicoid
+Columi
+Conjeni
+Cor
+Covallon
+Coway
+Coynite
+Cragmoloid
+Croke
+Crooloyan
+Crystal Clone
+Cyborrean
+Cystell
+Dantari
+Dashade
+Dazouri
+Defel
+Derriphan
+Devaronian
+Devlikk
+Dimmamyuk
+Dornean
+Draedan
+Draethos
+Drall
+Dresselian
+Dug
+Duinuogwuin
+Dulok
+Durgur
+Duros
+Dzhoor
+Ebranite
+Ebruchi
+Ee
+Eirrauc
+Eklaad
+Elom
+Elomin
+Em'liy
+Entymals
+Ergesh
+Er'stacian
+Esoomian
+Essastii
+Evocii
+Ewok
+Falleen
+Farghul
+Farrn
+Fefze
+Feeorin
+Felinoid
+Felucian
+Fia
+Fiery One
+Filar-Nitzan
+Filordi
+Filvian
+Firrerreo
+Florn Lamproid
+Fluggrian
+Fosh
+Frozian
+Furret
+Gacerite
+Gados
+Galandan
+Galidyn
+Gamorrean
+Ganathan - Near-Human
+Gand
+Gank
+Gargoyle
+Gastrulan
+Gavreeni
+Gazaran
+Geelan
+Gen’Dai
+Geonosian
+Geran
+Gerb
+Gesarils
+Ghorhal
+Ghostling
+Gigoran
+Givin
+Glottalphib
+Glymphid
+Godoan
+Goran Horansi
+Gotal
+Gorm
+Gorothite
+Gossam
+Gran
+Gree
+Gruvian
+Gungan
+Gutretee
+Guudrian
+Habeen
+Herglic
+Hethas
+Hiitian
+Hithur
+H’nemthe
+Ho´Din
+Hoojib
+Hortek
+Houk
+Hrakian
+Human
+Huralok
+Huthor
+Hutt
+Hysalrian
+Iagon
+Iktotchi
+Illuthian
+Ilosian
+Ilwizzt
+Iotran
+Ipharian-Da'Lor
+Iraxxan
+Ishi Tib
+Iskalloni
+Iskalonian/Chuhkyvi
+Issori
+Ithorian
+Ixlls
+Iyra
+Jarell
+Jawa
+Jeggrest
+Jenet
+Jiivahar
+Jillsarian
+Jilruan
+Kadri’Ra
+Kaethar
+Ka'hren
+Kalduu
+Kaleesh
+Kal Krakk
+Kalmoorin
+Kamarian
+Kaminoan
+Kari
+Karran
+Karyk
+Kasa Horansi
+Kel Dor
+Kentra
+Kerestian
+Keshiri
+Ketton
+Khil
+Khommite
+Kian´thar
+Kiffar
+Killiks
+Kilmaulsi
+Kitonak
+Klatooinian
+Klik'tak'nek
+Kluuzot
+Kobok
+Kolac
+Koorivar
+Kowakian Monkey-Lizard
+Krakai
+Krevaaki
+Kriek
+Krikthasi
+Krish
+Krytollak
+Kubaz
+Kumidai
+Kurtzen
+Kushiban
+Kwa
+Laboi
+Lafrarian
+Lahsbee
+Lannik
+Lasat
+L’Brii
+Lepi
+Locan
+Lorrdian
+Lurman
+Lurrian
+Lutrillian
+Makurth
+Malakashi
+Mantellian Savrip
+Maoi
+Marasan
+Mashi Horansi
+Massassi
+Meerian
+Melodie
+Menahuun
+Mephout
+Meri
+Mimbanite
+Miraluka
+Mirialan
+Molavaran
+Mon Calamari
+Moocher
+Morellian
+Morodin
+Morseerian
+Moutain
+Mridone
+Mrissi
+Mrlssi
+M’shinn
+Mugaari
+Multopos
+Murachaun
+Mustafarian (Taller/Thinner)
+Muun
+Mvromow
+Myneyrsh
+Nagai
+Najib
+Nalrithian
+Nalroni
+Nautolan
+Nazzar
+Near-Human
+Neesava
+Neimoidian
+Nelvaanian
+Nemesi
+Neti
+Nistanni
+Nharwaak
+Nikto
+Nimbanel
+Nimirr
+Noehon
+Noghri
+Nolisha
+Nosaurian
+Nuiwit
+Nuknog
+Oblee
+Ocsinin
+Odenji
+Omwati
+Ongree
+Orfite
+Orgon
+Orion Rogue
+Orrem
+Ortolan
+Ossan
+Oswaft
+Pacithhip
+Paigun
+Pantoran
+Pashvi
+Pau'an
+Pa´lowick
+Permian
+Phindian
+Pho Ph´eahian
+Phuii
+Polis Massan (Kallidahin)
+Polydroxol
+Poss´Nomin
+Priapulin
+Protean
+Psadan
+Pulra
+Punjarian
+P'w'eck
+Pydyrian
+Python Lizard
+Qiraash
+Qieg
+Qom Jha / Qom Qae
+Qonto
+Quarren
+Quermian
+Quockran
+Quor’sav
+Qwohog
+Rakaan
+Rakata
+Rakririan
+Ram Python
+Ranat
+Ranth
+Rayndihr
+Red Nebula species
+Reigat
+Rellarin
+Reussi
+Revwiens
+Ri´Dar
+Riileb
+Rilians
+Riorian
+Rishii
+Rodian
+Rodisar
+Roonan
+Ropagu
+Ruurian (Larva/Croma-Wing)
+Ruusanian
+Rybet
+Ryn
+Saheelindeeli
+Tusken Raider (Sand People)
+Sakiyan
+Sanyassan
+Sarkan
+Sarrish
+Saurin
+Saurton
+Sauvax
+Sati
+Sebiri
+Sedrian
+Segmi
+Seikoshan
+Sekct
+Selkath
+Selonian
+Sephi
+Shak’la
+Shallitan
+Shard
+Sharik
+Sharnoth
+Sharu
+Shatra
+Shashay
+Shawda Ubb
+Shi’ido
+Shistavanen
+Shownarri
+Shuumar
+Sic-Six
+Silentium
+Silika
+Siniteen
+Skakoan
+Skrilling
+Skups
+S’kytri
+Slith
+Sljee
+Sludir
+Sluissi
+Sneevel
+Snivvian
+Spiner
+Squalris
+Squib
+Srrors´tok
+Ssamb
+Ssither
+Ssi-ruuk
+Stenax
+Stennes Shifter
+Sullustan
+Sunesis
+Svivreni
+Swokes Swokes
+Sy Myrthian
+Talid
+Tallion
+Tammuz-an
+Tal Nami
+Taloron
+Talz
+Tarasin
+Tarc
+Tarnab
+Tarong
+Tarro
+Tasari
+Taung (True Mandalorian)
+Taurill
+Tchuukthai
+Teek
+Teltior
+Temolak
+Tempestro
+Thakwaash
+T’Karran
+T’landa Til
+Theelin
+Th'iruckai
+Thisspian
+Thraeka
+Thulda
+Tirrith
+Tiss'shar
+Tikiarri
+Tinnell
+Togruta
+Togorian
+Toka
+Torine
+Toong
+Toydarian
+Trandoshan
+Treka Horansi
+Tren
+Triffian
+Trianii
+Trogodile
+Troig
+Tsil
+T’surr
+Tsyklen
+T'Syriél
+Tuhgri
+Tulvarees
+Tu'nang Ro
+Tunroth
+Turazza
+Twi'lek
+Tynnan
+Ubese (True)
+Ubese (Yark Pootzck)
+Ugnaught
+Ugor
+Ukian
+Ulfgar
+Umbaran
+Umrin
+Uroth
+Utai
+Uthar Forest Dragon
+Uukaablian
+Vaathkree
+Vagaari
+Vashan
+Veknoid
+Vernol
+Verpine
+Vingelic
+Vippit
+Viska
+Vodran
+Vor
+Vorzydiak
+Voss
+Vratix
+Vroonar
+Vulptereen
+Vultan
+Vurk
+Vuvrian
+Weequay
+Werbol
+Weren
+Whill
+Whiphid
+Wookiee
+Woostoid
+Wroonian
+Xamster
+Xan
+Xi´dec
+Xexto
+Yagai
+Yaka
+Yahk-Tosh
+Yam'rii
+Yapi
+Yarkora
+Yevetha
+Yimi
+Yinchorri
+Yrashu
+Ysanna Nomad
+Yuzzem
+Yuzzum
+Yuuzhan Vong
+Yvarema
+Zabrak
+Zanibar
+Zarian
+ZeHethbra
+Zeltron
+Zelosian
+Zexx
+Zeylak
+Zhell
+Zisian
+Zizimaak</value>
+  </data>
+  <data name="textBox4.Text" xml:space="preserve">
+    <value>Special thanks to the amazing people who work on the Foundry Modules to bring Star Wars and Space D6 to Foundry!
+
+This project would have been a lot more difficult without their existing libraries of items and information and allowing me to use them to help populate the Holocron Designer!
+
+https://gitlab.com/vtt2/opend6-space
+https://github.com/algnc/od6s-star-wars
+</value>
+  </data>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>"I believe in creating tools and resources without putting up barriers like subscription fees, exclusive content for Patreon members, or paid roles. While I’ve explored those models in the past, I found they didn’t align with my vision or values.
+
+Instead, like with any other program I design, I’ve included a simple ‘Buy me a coffee’ link. If you’d like to leave a tip to show your appreciation for the time and effort I’ve poured into this project, it would mean the world to me—but there’s absolutely no expectation or obligation. I’m just thrilled to see people enjoying and using this program!"</value>
+  </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>If you encounter any issues, have feedback, or simply want to connect with fellow members of the Star Wars D6 community, we invite you to click the button below and join the Discord for Holocron Designer.
+
+We’d love to have you as part of our community!</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>This project has been a labor of love, and I cannot thank you enough for your interest and encouragement. 
+
+Throughout the journey, I faced numerous challenges, but your support and feedback inspired me to create something I truly love for a game that holds a special place in my heart.
+
+It’s incredible to see the community surrounding this tabletop RPG—your passion and positivity breathe new life into a classic that continues to thrive. The creativity and dedication of this community never cease to amaze me.
+
+Thank you for keeping this game alive, and thank you for your unwavering support. This wouldn’t have been possible without all of you.
+</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="printDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>114, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        BAAAAAQAgAAEAv2ABj7/4A/+
+</value>
+  </data>
+</root>
