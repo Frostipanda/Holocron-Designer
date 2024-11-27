@@ -31,54 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl = new System.Windows.Forms.TabControl();
-            this.tabVehicle = new System.Windows.Forms.TabPage();
-            this.tabCampaign = new System.Windows.Forms.TabPage();
-            this.panel23 = new System.Windows.Forms.Panel();
-            this.label83 = new System.Windows.Forms.Label();
-            this.panel22 = new System.Windows.Forms.Panel();
-            this.label85 = new System.Windows.Forms.Label();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
-            this.attAdd = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.campMech = new System.Windows.Forms.ListBox();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.racialCampList = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.campDex = new System.Windows.Forms.ListBox();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.campPer = new System.Windows.Forms.ListBox();
-            this.campKnow = new System.Windows.Forms.ListBox();
-            this.campTech = new System.Windows.Forms.ListBox();
-            this.strSkillCamp = new System.Windows.Forms.TextBox();
-            this.campStr = new System.Windows.Forms.ListBox();
-            this.perSkillCamp = new System.Windows.Forms.TextBox();
-            this.techSkillCamp = new System.Windows.Forms.TextBox();
-            this.mechSkillCamp = new System.Windows.Forms.TextBox();
-            this.knowSkillCamp = new System.Windows.Forms.TextBox();
-            this.dexSkillCamp = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.strRename = new System.Windows.Forms.TextBox();
-            this.perRename = new System.Windows.Forms.TextBox();
-            this.techRename = new System.Windows.Forms.TextBox();
-            this.mechRename = new System.Windows.Forms.TextBox();
-            this.knowRename = new System.Windows.Forms.TextBox();
-            this.dexRename = new System.Windows.Forms.TextBox();
-            this.label82 = new System.Windows.Forms.Label();
-            this.cpLog = new System.Windows.Forms.TabPage();
-            this.xpLog = new System.Windows.Forms.ListView();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.printDialog1 = new System.Windows.Forms.PrintDialog();
-            this.aboutPage = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.tabMain = new System.Windows.Forms.TabPage();
             this.perSkills = new System.Windows.Forms.ListView();
             this.foundExport = new System.Windows.Forms.Button();
@@ -199,25 +151,61 @@
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
-            this.buyCoffee = new System.Windows.Forms.Button();
-            this.discordLink = new System.Windows.Forms.Button();
+            this.tabVehicle = new System.Windows.Forms.TabPage();
+            this.tabCampaign = new System.Windows.Forms.TabPage();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label83 = new System.Windows.Forms.Label();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label85 = new System.Windows.Forms.Label();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.label25 = new System.Windows.Forms.Label();
+            this.attAdd = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.campMech = new System.Windows.Forms.ListBox();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.racialCampList = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.campDex = new System.Windows.Forms.ListBox();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.campPer = new System.Windows.Forms.ListBox();
+            this.campKnow = new System.Windows.Forms.ListBox();
+            this.campTech = new System.Windows.Forms.ListBox();
+            this.strSkillCamp = new System.Windows.Forms.TextBox();
+            this.campStr = new System.Windows.Forms.ListBox();
+            this.perSkillCamp = new System.Windows.Forms.TextBox();
+            this.techSkillCamp = new System.Windows.Forms.TextBox();
+            this.mechSkillCamp = new System.Windows.Forms.TextBox();
+            this.knowSkillCamp = new System.Windows.Forms.TextBox();
+            this.dexSkillCamp = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.strRename = new System.Windows.Forms.TextBox();
+            this.perRename = new System.Windows.Forms.TextBox();
+            this.techRename = new System.Windows.Forms.TextBox();
+            this.mechRename = new System.Windows.Forms.TextBox();
+            this.knowRename = new System.Windows.Forms.TextBox();
+            this.dexRename = new System.Windows.Forms.TextBox();
+            this.label82 = new System.Windows.Forms.Label();
+            this.cpLog = new System.Windows.Forms.TabPage();
+            this.xpLog = new System.Windows.Forms.ListView();
+            this.aboutPage = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.od6 = new System.Windows.Forms.LinkLabel();
             this.od6sw = new System.Windows.Forms.LinkLabel();
+            this.od6 = new System.Windows.Forms.LinkLabel();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.buyCoffee = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.discordLink = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.tabControl.SuspendLayout();
-            this.tabCampaign.SuspendLayout();
-            this.panel23.SuspendLayout();
-            this.panel22.SuspendLayout();
-            this.panel21.SuspendLayout();
-            this.panel20.SuspendLayout();
-            this.panel19.SuspendLayout();
-            this.panel18.SuspendLayout();
-            this.cpLog.SuspendLayout();
-            this.aboutPage.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.tabMain.SuspendLayout();
             this.mainCharPanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -235,7 +223,19 @@
             this.panel15.SuspendLayout();
             this.tabBackground.SuspendLayout();
             this.panel12.SuspendLayout();
+            this.tabCampaign.SuspendLayout();
+            this.panel23.SuspendLayout();
+            this.panel22.SuspendLayout();
+            this.panel21.SuspendLayout();
+            this.panel20.SuspendLayout();
+            this.panel19.SuspendLayout();
+            this.panel18.SuspendLayout();
+            this.cpLog.SuspendLayout();
+            this.aboutPage.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
@@ -253,577 +253,6 @@
             this.tabControl.SelectedIndex = 0;
             this.tabControl.Size = new System.Drawing.Size(875, 1222);
             this.tabControl.TabIndex = 31;
-            // 
-            // tabVehicle
-            // 
-            this.tabVehicle.Location = new System.Drawing.Point(4, 22);
-            this.tabVehicle.Name = "tabVehicle";
-            this.tabVehicle.Padding = new System.Windows.Forms.Padding(3);
-            this.tabVehicle.Size = new System.Drawing.Size(867, 1196);
-            this.tabVehicle.TabIndex = 4;
-            this.tabVehicle.Text = "Vehicle";
-            this.tabVehicle.UseVisualStyleBackColor = true;
-            // 
-            // tabCampaign
-            // 
-            this.tabCampaign.Controls.Add(this.panel23);
-            this.tabCampaign.Controls.Add(this.panel22);
-            this.tabCampaign.Controls.Add(this.panel21);
-            this.tabCampaign.Controls.Add(this.campMech);
-            this.tabCampaign.Controls.Add(this.panel20);
-            this.tabCampaign.Controls.Add(this.campDex);
-            this.tabCampaign.Controls.Add(this.panel19);
-            this.tabCampaign.Controls.Add(this.panel18);
-            this.tabCampaign.Location = new System.Drawing.Point(4, 22);
-            this.tabCampaign.Name = "tabCampaign";
-            this.tabCampaign.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCampaign.Size = new System.Drawing.Size(867, 1196);
-            this.tabCampaign.TabIndex = 5;
-            this.tabCampaign.Text = "Campaign";
-            this.tabCampaign.UseVisualStyleBackColor = true;
-            // 
-            // panel23
-            // 
-            this.panel23.BackColor = System.Drawing.Color.LightBlue;
-            this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel23.Controls.Add(this.button2);
-            this.panel23.Controls.Add(this.label83);
-            this.panel23.Location = new System.Drawing.Point(445, 500);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(416, 443);
-            this.panel23.TabIndex = 13;
-            // 
-            // label83
-            // 
-            this.label83.AutoSize = true;
-            this.label83.Location = new System.Drawing.Point(3, 0);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(102, 13);
-            this.label83.TabIndex = 0;
-            this.label83.Text = "Force Power Builder";
-            // 
-            // panel22
-            // 
-            this.panel22.BackColor = System.Drawing.Color.LightBlue;
-            this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel22.Controls.Add(this.button1);
-            this.panel22.Controls.Add(this.label85);
-            this.panel22.Location = new System.Drawing.Point(8, 500);
-            this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(416, 443);
-            this.panel22.TabIndex = 12;
-            // 
-            // label85
-            // 
-            this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(3, 0);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(61, 13);
-            this.label85.TabIndex = 0;
-            this.label85.Text = "Item builder";
-            // 
-            // panel21
-            // 
-            this.panel21.BackColor = System.Drawing.Color.LightBlue;
-            this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel21.Controls.Add(this.label25);
-            this.panel21.Controls.Add(this.attAdd);
-            this.panel21.Controls.Add(this.label24);
-            this.panel21.Location = new System.Drawing.Point(430, 6);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(205, 195);
-            this.panel21.TabIndex = 11;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(3, 26);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(155, 13);
-            this.label25.TabIndex = 2;
-            this.label25.Text = "Attribute Dice (added to Racial)";
-            // 
-            // attAdd
-            // 
-            this.attAdd.Location = new System.Drawing.Point(3, 42);
-            this.attAdd.Name = "attAdd";
-            this.attAdd.Size = new System.Drawing.Size(100, 20);
-            this.attAdd.TabIndex = 1;
-            this.attAdd.Text = "6D";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(3, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(75, 13);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "Starting Points";
-            // 
-            // campMech
-            // 
-            this.campMech.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.campMech.ColumnWidth = 1;
-            this.campMech.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.campMech.FormattingEnabled = true;
-            this.campMech.Items.AddRange(new object[] {
-            "Archaic Starship Piloting",
-            "Astrogation",
-            "Beast Riding",
-            "Capital Ship Gunnery",
-            "Capital Ship Piloting",
-            "Capital Ship Shields",
-            "Communications",
-            "Ground Vehicle Operation",
-            "Hover Vehicle Operation",
-            "Jet Pack Operation",
-            "Powersuit Operation",
-            "Repulsorlift Operation",
-            "Rocket Pack Operation",
-            "Sensors",
-            "Space Transports",
-            "Starfighter Piloting",
-            "Starship Gunnery",
-            "Starship shields",
-            "Swoop Operation",
-            "Walker Operation"});
-            this.campMech.Location = new System.Drawing.Point(277, 262);
-            this.campMech.Name = "campMech";
-            this.campMech.Size = new System.Drawing.Size(118, 225);
-            this.campMech.TabIndex = 10;
-            // 
-            // panel20
-            // 
-            this.panel20.BackColor = System.Drawing.Color.LightBlue;
-            this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel20.Controls.Add(this.racialCampList);
-            this.panel20.Controls.Add(this.label23);
-            this.panel20.Location = new System.Drawing.Point(219, 6);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(205, 195);
-            this.panel20.TabIndex = 7;
-            // 
-            // racialCampList
-            // 
-            this.racialCampList.Location = new System.Drawing.Point(3, 16);
-            this.racialCampList.Multiline = true;
-            this.racialCampList.Name = "racialCampList";
-            this.racialCampList.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.racialCampList.Size = new System.Drawing.Size(195, 172);
-            this.racialCampList.TabIndex = 1;
-            this.racialCampList.Text = resources.GetString("racialCampList.Text");
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(3, 0);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(56, 13);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "Racial List";
-            // 
-            // campDex
-            // 
-            this.campDex.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.campDex.ColumnWidth = 1;
-            this.campDex.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.campDex.FormattingEnabled = true;
-            this.campDex.Items.AddRange(new object[] {
-            "Archaic Guns",
-            "Blaster",
-            "Blaster Artillery",
-            "Bowcasters",
-            "Bows",
-            "Brawling Parry",
-            "Dodge",
-            "Firearm",
-            "Grenade",
-            "Lightsabers",
-            "Melee Combat",
-            "Melee Parry",
-            "Missile Weapon",
-            "Pick Pocket",
-            "Running",
-            "Thrown Weapon",
-            "Vehicle Blasters"});
-            this.campDex.Location = new System.Drawing.Point(13, 262);
-            this.campDex.Name = "campDex";
-            this.campDex.Size = new System.Drawing.Size(118, 225);
-            this.campDex.TabIndex = 8;
-            // 
-            // panel19
-            // 
-            this.panel19.BackColor = System.Drawing.Color.LightBlue;
-            this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel19.Controls.Add(this.campPer);
-            this.panel19.Controls.Add(this.campKnow);
-            this.panel19.Controls.Add(this.campTech);
-            this.panel19.Controls.Add(this.strSkillCamp);
-            this.panel19.Controls.Add(this.campStr);
-            this.panel19.Controls.Add(this.perSkillCamp);
-            this.panel19.Controls.Add(this.techSkillCamp);
-            this.panel19.Controls.Add(this.mechSkillCamp);
-            this.panel19.Controls.Add(this.knowSkillCamp);
-            this.panel19.Controls.Add(this.dexSkillCamp);
-            this.panel19.Controls.Add(this.label22);
-            this.panel19.Location = new System.Drawing.Point(8, 207);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(853, 287);
-            this.panel19.TabIndex = 2;
-            // 
-            // campPer
-            // 
-            this.campPer.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.campPer.ColumnWidth = 1;
-            this.campPer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.campPer.FormattingEnabled = true;
-            this.campPer.Items.AddRange(new object[] {
-            "Bargain",
-            "Command",
-            "Con",
-            "Forgery",
-            "Gambling",
-            "Hide",
-            "Investigation",
-            "Persuasion",
-            "Search",
-            "Sneak"});
-            this.campPer.Location = new System.Drawing.Point(535, 53);
-            this.campPer.Name = "campPer";
-            this.campPer.Size = new System.Drawing.Size(118, 225);
-            this.campPer.TabIndex = 12;
-            // 
-            // campKnow
-            // 
-            this.campKnow.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.campKnow.ColumnWidth = 1;
-            this.campKnow.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.campKnow.FormattingEnabled = true;
-            this.campKnow.Items.AddRange(new object[] {
-            "Alien Species",
-            "Bureaucracy",
-            "Business",
-            "Cultures",
-            "Intimidation",
-            "Languages",
-            "Law Enforcement",
-            "Planetary Systems",
-            "Scholar",
-            "Streetwise",
-            "Survival",
-            "Tactics",
-            "Value",
-            "Willpower"});
-            this.campKnow.Location = new System.Drawing.Point(136, 53);
-            this.campKnow.Name = "campKnow";
-            this.campKnow.Size = new System.Drawing.Size(118, 225);
-            this.campKnow.TabIndex = 9;
-            // 
-            // campTech
-            // 
-            this.campTech.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.campTech.ColumnWidth = 1;
-            this.campTech.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.campTech.FormattingEnabled = true;
-            this.campTech.Items.AddRange(new object[] {
-            "Armor Repair",
-            "Blaster Repair",
-            "Capital Ship Repair",
-            "Capital Ship Weapon Repair",
-            "Computer Programming/Repair",
-            "Demolitions",
-            "Droid Programming",
-            "Droid Repair",
-            "First Aid",
-            "Ground Vehicle Repair",
-            "Medicine",
-            "Repulsorlift Repair",
-            "Security",
-            "Space Transports Repair",
-            "Starfighter Repair",
-            "Starship Weapon Repair",
-            "Walker Repair"});
-            this.campTech.Location = new System.Drawing.Point(402, 53);
-            this.campTech.Name = "campTech";
-            this.campTech.Size = new System.Drawing.Size(118, 225);
-            this.campTech.TabIndex = 11;
-            // 
-            // strSkillCamp
-            // 
-            this.strSkillCamp.Location = new System.Drawing.Point(668, 27);
-            this.strSkillCamp.Name = "strSkillCamp";
-            this.strSkillCamp.ReadOnly = true;
-            this.strSkillCamp.Size = new System.Drawing.Size(100, 20);
-            this.strSkillCamp.TabIndex = 7;
-            this.strSkillCamp.Text = "Strength";
-            // 
-            // campStr
-            // 
-            this.campStr.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.campStr.ColumnWidth = 1;
-            this.campStr.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.campStr.FormattingEnabled = true;
-            this.campStr.Items.AddRange(new object[] {
-            "Brawling",
-            "Climbing/Jumping",
-            "Lifting",
-            "Stamina",
-            "Swimming"});
-            this.campStr.Location = new System.Drawing.Point(668, 53);
-            this.campStr.Name = "campStr";
-            this.campStr.Size = new System.Drawing.Size(118, 225);
-            this.campStr.TabIndex = 13;
-            // 
-            // perSkillCamp
-            // 
-            this.perSkillCamp.Location = new System.Drawing.Point(535, 27);
-            this.perSkillCamp.Name = "perSkillCamp";
-            this.perSkillCamp.ReadOnly = true;
-            this.perSkillCamp.Size = new System.Drawing.Size(100, 20);
-            this.perSkillCamp.TabIndex = 7;
-            this.perSkillCamp.Text = "Perception";
-            // 
-            // techSkillCamp
-            // 
-            this.techSkillCamp.Location = new System.Drawing.Point(402, 27);
-            this.techSkillCamp.Name = "techSkillCamp";
-            this.techSkillCamp.ReadOnly = true;
-            this.techSkillCamp.Size = new System.Drawing.Size(100, 20);
-            this.techSkillCamp.TabIndex = 7;
-            this.techSkillCamp.Text = "Technical";
-            // 
-            // mechSkillCamp
-            // 
-            this.mechSkillCamp.Location = new System.Drawing.Point(269, 27);
-            this.mechSkillCamp.Name = "mechSkillCamp";
-            this.mechSkillCamp.ReadOnly = true;
-            this.mechSkillCamp.Size = new System.Drawing.Size(100, 20);
-            this.mechSkillCamp.TabIndex = 7;
-            this.mechSkillCamp.Text = "Mechanical";
-            // 
-            // knowSkillCamp
-            // 
-            this.knowSkillCamp.Location = new System.Drawing.Point(136, 27);
-            this.knowSkillCamp.Name = "knowSkillCamp";
-            this.knowSkillCamp.ReadOnly = true;
-            this.knowSkillCamp.Size = new System.Drawing.Size(100, 20);
-            this.knowSkillCamp.TabIndex = 8;
-            this.knowSkillCamp.Text = "Knowledge";
-            // 
-            // dexSkillCamp
-            // 
-            this.dexSkillCamp.Location = new System.Drawing.Point(3, 27);
-            this.dexSkillCamp.Name = "dexSkillCamp";
-            this.dexSkillCamp.ReadOnly = true;
-            this.dexSkillCamp.Size = new System.Drawing.Size(100, 20);
-            this.dexSkillCamp.TabIndex = 2;
-            this.dexSkillCamp.Text = "Dexterity";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(3, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(31, 13);
-            this.label22.TabIndex = 0;
-            this.label22.Text = "Skills";
-            // 
-            // panel18
-            // 
-            this.panel18.BackColor = System.Drawing.Color.LightBlue;
-            this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel18.Controls.Add(this.strRename);
-            this.panel18.Controls.Add(this.perRename);
-            this.panel18.Controls.Add(this.techRename);
-            this.panel18.Controls.Add(this.mechRename);
-            this.panel18.Controls.Add(this.knowRename);
-            this.panel18.Controls.Add(this.dexRename);
-            this.panel18.Controls.Add(this.label82);
-            this.panel18.Location = new System.Drawing.Point(8, 6);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(205, 195);
-            this.panel18.TabIndex = 1;
-            // 
-            // strRename
-            // 
-            this.strRename.Location = new System.Drawing.Point(6, 146);
-            this.strRename.Name = "strRename";
-            this.strRename.Size = new System.Drawing.Size(100, 20);
-            this.strRename.TabIndex = 6;
-            this.strRename.Text = "Strength";
-            // 
-            // perRename
-            // 
-            this.perRename.Location = new System.Drawing.Point(6, 120);
-            this.perRename.Name = "perRename";
-            this.perRename.Size = new System.Drawing.Size(100, 20);
-            this.perRename.TabIndex = 5;
-            this.perRename.Text = "Perception";
-            // 
-            // techRename
-            // 
-            this.techRename.Location = new System.Drawing.Point(6, 94);
-            this.techRename.Name = "techRename";
-            this.techRename.Size = new System.Drawing.Size(100, 20);
-            this.techRename.TabIndex = 4;
-            this.techRename.Text = "Technical";
-            // 
-            // mechRename
-            // 
-            this.mechRename.Location = new System.Drawing.Point(6, 68);
-            this.mechRename.Name = "mechRename";
-            this.mechRename.Size = new System.Drawing.Size(100, 20);
-            this.mechRename.TabIndex = 3;
-            this.mechRename.Text = "Mechanical";
-            // 
-            // knowRename
-            // 
-            this.knowRename.Location = new System.Drawing.Point(6, 42);
-            this.knowRename.Name = "knowRename";
-            this.knowRename.Size = new System.Drawing.Size(100, 20);
-            this.knowRename.TabIndex = 2;
-            this.knowRename.Text = "Knowledge";
-            // 
-            // dexRename
-            // 
-            this.dexRename.Location = new System.Drawing.Point(6, 16);
-            this.dexRename.Name = "dexRename";
-            this.dexRename.Size = new System.Drawing.Size(100, 20);
-            this.dexRename.TabIndex = 1;
-            this.dexRename.Text = "Dexterity";
-            // 
-            // label82
-            // 
-            this.label82.AutoSize = true;
-            this.label82.Location = new System.Drawing.Point(3, 0);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(82, 13);
-            this.label82.TabIndex = 0;
-            this.label82.Text = "Attribute Names";
-            // 
-            // cpLog
-            // 
-            this.cpLog.Controls.Add(this.xpLog);
-            this.cpLog.Location = new System.Drawing.Point(4, 22);
-            this.cpLog.Name = "cpLog";
-            this.cpLog.Padding = new System.Windows.Forms.Padding(3);
-            this.cpLog.Size = new System.Drawing.Size(867, 1196);
-            this.cpLog.TabIndex = 6;
-            this.cpLog.Text = "Character Point Log";
-            this.cpLog.UseVisualStyleBackColor = true;
-            // 
-            // xpLog
-            // 
-            this.xpLog.HideSelection = false;
-            this.xpLog.Location = new System.Drawing.Point(6, 6);
-            this.xpLog.Name = "xpLog";
-            this.xpLog.Size = new System.Drawing.Size(855, 1182);
-            this.xpLog.TabIndex = 0;
-            this.xpLog.UseCompatibleStateImageBehavior = false;
-            // 
-            // printDialog1
-            // 
-            this.printDialog1.UseEXDialog = true;
-            // 
-            // aboutPage
-            // 
-            this.aboutPage.Controls.Add(this.groupBox4);
-            this.aboutPage.Controls.Add(this.groupBox3);
-            this.aboutPage.Controls.Add(this.groupBox2);
-            this.aboutPage.Controls.Add(this.groupBox1);
-            this.aboutPage.Location = new System.Drawing.Point(4, 22);
-            this.aboutPage.Name = "aboutPage";
-            this.aboutPage.Padding = new System.Windows.Forms.Padding(3);
-            this.aboutPage.Size = new System.Drawing.Size(867, 1196);
-            this.aboutPage.TabIndex = 7;
-            this.aboutPage.Text = "Misc.";
-            this.aboutPage.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(136, 211);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "In Development";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(154, 211);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(134, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "In Development";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(3, 31);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(466, 309);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thank You";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(6, 28);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(454, 275);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = resources.GetString("textBox1.Text");
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.discordLink);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(9, 346);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(460, 210);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Join the Community";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(6, 28);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(448, 176);
-            this.textBox2.TabIndex = 0;
-            this.textBox2.Text = resources.GetString("textBox2.Text");
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.buyCoffee);
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(475, 346);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(386, 352);
-            this.groupBox3.TabIndex = 3;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Support the Project";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(6, 28);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(374, 318);
-            this.textBox3.TabIndex = 0;
-            this.textBox3.Text = resources.GetString("textBox3.Text");
             // 
             // tabMain
             // 
@@ -2633,25 +2062,504 @@
             this.label33.TabIndex = 45;
             this.label33.Text = "Personality";
             // 
-            // buyCoffee
+            // tabVehicle
             // 
-            this.buyCoffee.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Coffee;
-            this.buyCoffee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buyCoffee.Location = new System.Drawing.Point(6, 258);
-            this.buyCoffee.Name = "buyCoffee";
-            this.buyCoffee.Size = new System.Drawing.Size(172, 50);
-            this.buyCoffee.TabIndex = 1;
-            this.buyCoffee.UseVisualStyleBackColor = true;
+            this.tabVehicle.Location = new System.Drawing.Point(4, 22);
+            this.tabVehicle.Name = "tabVehicle";
+            this.tabVehicle.Padding = new System.Windows.Forms.Padding(3);
+            this.tabVehicle.Size = new System.Drawing.Size(867, 1196);
+            this.tabVehicle.TabIndex = 4;
+            this.tabVehicle.Text = "Vehicle";
+            this.tabVehicle.UseVisualStyleBackColor = true;
             // 
-            // discordLink
+            // tabCampaign
             // 
-            this.discordLink.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Discord;
-            this.discordLink.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.discordLink.Location = new System.Drawing.Point(6, 132);
-            this.discordLink.Name = "discordLink";
-            this.discordLink.Size = new System.Drawing.Size(172, 50);
-            this.discordLink.TabIndex = 1;
-            this.discordLink.UseVisualStyleBackColor = true;
+            this.tabCampaign.Controls.Add(this.panel23);
+            this.tabCampaign.Controls.Add(this.panel22);
+            this.tabCampaign.Controls.Add(this.panel21);
+            this.tabCampaign.Controls.Add(this.campMech);
+            this.tabCampaign.Controls.Add(this.panel20);
+            this.tabCampaign.Controls.Add(this.campDex);
+            this.tabCampaign.Controls.Add(this.panel19);
+            this.tabCampaign.Controls.Add(this.panel18);
+            this.tabCampaign.Location = new System.Drawing.Point(4, 22);
+            this.tabCampaign.Name = "tabCampaign";
+            this.tabCampaign.Padding = new System.Windows.Forms.Padding(3);
+            this.tabCampaign.Size = new System.Drawing.Size(867, 1196);
+            this.tabCampaign.TabIndex = 5;
+            this.tabCampaign.Text = "Campaign";
+            this.tabCampaign.UseVisualStyleBackColor = true;
+            // 
+            // panel23
+            // 
+            this.panel23.BackColor = System.Drawing.Color.LightBlue;
+            this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel23.Controls.Add(this.button2);
+            this.panel23.Controls.Add(this.label83);
+            this.panel23.Location = new System.Drawing.Point(445, 500);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(416, 443);
+            this.panel23.TabIndex = 13;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(154, 211);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(134, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "In Development";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.Location = new System.Drawing.Point(3, 0);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(102, 13);
+            this.label83.TabIndex = 0;
+            this.label83.Text = "Force Power Builder";
+            // 
+            // panel22
+            // 
+            this.panel22.BackColor = System.Drawing.Color.LightBlue;
+            this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel22.Controls.Add(this.button1);
+            this.panel22.Controls.Add(this.label85);
+            this.panel22.Location = new System.Drawing.Point(8, 500);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(416, 443);
+            this.panel22.TabIndex = 12;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(136, 211);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(134, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "In Development";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.Location = new System.Drawing.Point(3, 0);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(61, 13);
+            this.label85.TabIndex = 0;
+            this.label85.Text = "Item builder";
+            // 
+            // panel21
+            // 
+            this.panel21.BackColor = System.Drawing.Color.LightBlue;
+            this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel21.Controls.Add(this.label25);
+            this.panel21.Controls.Add(this.attAdd);
+            this.panel21.Controls.Add(this.label24);
+            this.panel21.Location = new System.Drawing.Point(430, 6);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(205, 195);
+            this.panel21.TabIndex = 11;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(3, 26);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(155, 13);
+            this.label25.TabIndex = 2;
+            this.label25.Text = "Attribute Dice (added to Racial)";
+            // 
+            // attAdd
+            // 
+            this.attAdd.Location = new System.Drawing.Point(3, 42);
+            this.attAdd.Name = "attAdd";
+            this.attAdd.Size = new System.Drawing.Size(100, 20);
+            this.attAdd.TabIndex = 1;
+            this.attAdd.Text = "6D";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(3, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(75, 13);
+            this.label24.TabIndex = 0;
+            this.label24.Text = "Starting Points";
+            // 
+            // campMech
+            // 
+            this.campMech.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.campMech.ColumnWidth = 1;
+            this.campMech.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campMech.FormattingEnabled = true;
+            this.campMech.Items.AddRange(new object[] {
+            "Archaic Starship Piloting",
+            "Astrogation",
+            "Beast Riding",
+            "Capital Ship Gunnery",
+            "Capital Ship Piloting",
+            "Capital Ship Shields",
+            "Communications",
+            "Ground Vehicle Operation",
+            "Hover Vehicle Operation",
+            "Jet Pack Operation",
+            "Powersuit Operation",
+            "Repulsorlift Operation",
+            "Rocket Pack Operation",
+            "Sensors",
+            "Space Transports",
+            "Starfighter Piloting",
+            "Starship Gunnery",
+            "Starship shields",
+            "Swoop Operation",
+            "Walker Operation"});
+            this.campMech.Location = new System.Drawing.Point(277, 262);
+            this.campMech.Name = "campMech";
+            this.campMech.Size = new System.Drawing.Size(118, 225);
+            this.campMech.TabIndex = 10;
+            // 
+            // panel20
+            // 
+            this.panel20.BackColor = System.Drawing.Color.LightBlue;
+            this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel20.Controls.Add(this.racialCampList);
+            this.panel20.Controls.Add(this.label23);
+            this.panel20.Location = new System.Drawing.Point(219, 6);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(205, 195);
+            this.panel20.TabIndex = 7;
+            // 
+            // racialCampList
+            // 
+            this.racialCampList.Location = new System.Drawing.Point(3, 16);
+            this.racialCampList.Multiline = true;
+            this.racialCampList.Name = "racialCampList";
+            this.racialCampList.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.racialCampList.Size = new System.Drawing.Size(195, 172);
+            this.racialCampList.TabIndex = 1;
+            this.racialCampList.Text = resources.GetString("racialCampList.Text");
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(3, 0);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(56, 13);
+            this.label23.TabIndex = 0;
+            this.label23.Text = "Racial List";
+            // 
+            // campDex
+            // 
+            this.campDex.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.campDex.ColumnWidth = 1;
+            this.campDex.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campDex.FormattingEnabled = true;
+            this.campDex.Items.AddRange(new object[] {
+            "Archaic Guns",
+            "Blaster",
+            "Blaster Artillery",
+            "Bowcasters",
+            "Bows",
+            "Brawling Parry",
+            "Dodge",
+            "Firearm",
+            "Grenade",
+            "Lightsabers",
+            "Melee Combat",
+            "Melee Parry",
+            "Missile Weapon",
+            "Pick Pocket",
+            "Running",
+            "Thrown Weapon",
+            "Vehicle Blasters"});
+            this.campDex.Location = new System.Drawing.Point(13, 262);
+            this.campDex.Name = "campDex";
+            this.campDex.Size = new System.Drawing.Size(118, 225);
+            this.campDex.TabIndex = 8;
+            // 
+            // panel19
+            // 
+            this.panel19.BackColor = System.Drawing.Color.LightBlue;
+            this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel19.Controls.Add(this.campPer);
+            this.panel19.Controls.Add(this.campKnow);
+            this.panel19.Controls.Add(this.campTech);
+            this.panel19.Controls.Add(this.strSkillCamp);
+            this.panel19.Controls.Add(this.campStr);
+            this.panel19.Controls.Add(this.perSkillCamp);
+            this.panel19.Controls.Add(this.techSkillCamp);
+            this.panel19.Controls.Add(this.mechSkillCamp);
+            this.panel19.Controls.Add(this.knowSkillCamp);
+            this.panel19.Controls.Add(this.dexSkillCamp);
+            this.panel19.Controls.Add(this.label22);
+            this.panel19.Location = new System.Drawing.Point(8, 207);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(853, 287);
+            this.panel19.TabIndex = 2;
+            // 
+            // campPer
+            // 
+            this.campPer.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.campPer.ColumnWidth = 1;
+            this.campPer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campPer.FormattingEnabled = true;
+            this.campPer.Items.AddRange(new object[] {
+            "Bargain",
+            "Command",
+            "Con",
+            "Forgery",
+            "Gambling",
+            "Hide",
+            "Investigation",
+            "Persuasion",
+            "Search",
+            "Sneak"});
+            this.campPer.Location = new System.Drawing.Point(535, 53);
+            this.campPer.Name = "campPer";
+            this.campPer.Size = new System.Drawing.Size(118, 225);
+            this.campPer.TabIndex = 12;
+            // 
+            // campKnow
+            // 
+            this.campKnow.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.campKnow.ColumnWidth = 1;
+            this.campKnow.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campKnow.FormattingEnabled = true;
+            this.campKnow.Items.AddRange(new object[] {
+            "Alien Species",
+            "Bureaucracy",
+            "Business",
+            "Cultures",
+            "Intimidation",
+            "Languages",
+            "Law Enforcement",
+            "Planetary Systems",
+            "Scholar",
+            "Streetwise",
+            "Survival",
+            "Tactics",
+            "Value",
+            "Willpower"});
+            this.campKnow.Location = new System.Drawing.Point(136, 53);
+            this.campKnow.Name = "campKnow";
+            this.campKnow.Size = new System.Drawing.Size(118, 225);
+            this.campKnow.TabIndex = 9;
+            // 
+            // campTech
+            // 
+            this.campTech.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.campTech.ColumnWidth = 1;
+            this.campTech.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campTech.FormattingEnabled = true;
+            this.campTech.Items.AddRange(new object[] {
+            "Armor Repair",
+            "Blaster Repair",
+            "Capital Ship Repair",
+            "Capital Ship Weapon Repair",
+            "Computer Programming/Repair",
+            "Demolitions",
+            "Droid Programming",
+            "Droid Repair",
+            "First Aid",
+            "Ground Vehicle Repair",
+            "Medicine",
+            "Repulsorlift Repair",
+            "Security",
+            "Space Transports Repair",
+            "Starfighter Repair",
+            "Starship Weapon Repair",
+            "Walker Repair"});
+            this.campTech.Location = new System.Drawing.Point(402, 53);
+            this.campTech.Name = "campTech";
+            this.campTech.Size = new System.Drawing.Size(118, 225);
+            this.campTech.TabIndex = 11;
+            // 
+            // strSkillCamp
+            // 
+            this.strSkillCamp.Location = new System.Drawing.Point(668, 27);
+            this.strSkillCamp.Name = "strSkillCamp";
+            this.strSkillCamp.ReadOnly = true;
+            this.strSkillCamp.Size = new System.Drawing.Size(100, 20);
+            this.strSkillCamp.TabIndex = 7;
+            this.strSkillCamp.Text = "Strength";
+            // 
+            // campStr
+            // 
+            this.campStr.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.campStr.ColumnWidth = 1;
+            this.campStr.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campStr.FormattingEnabled = true;
+            this.campStr.Items.AddRange(new object[] {
+            "Brawling",
+            "Climbing/Jumping",
+            "Lifting",
+            "Stamina",
+            "Swimming"});
+            this.campStr.Location = new System.Drawing.Point(668, 53);
+            this.campStr.Name = "campStr";
+            this.campStr.Size = new System.Drawing.Size(118, 225);
+            this.campStr.TabIndex = 13;
+            // 
+            // perSkillCamp
+            // 
+            this.perSkillCamp.Location = new System.Drawing.Point(535, 27);
+            this.perSkillCamp.Name = "perSkillCamp";
+            this.perSkillCamp.ReadOnly = true;
+            this.perSkillCamp.Size = new System.Drawing.Size(100, 20);
+            this.perSkillCamp.TabIndex = 7;
+            this.perSkillCamp.Text = "Perception";
+            // 
+            // techSkillCamp
+            // 
+            this.techSkillCamp.Location = new System.Drawing.Point(402, 27);
+            this.techSkillCamp.Name = "techSkillCamp";
+            this.techSkillCamp.ReadOnly = true;
+            this.techSkillCamp.Size = new System.Drawing.Size(100, 20);
+            this.techSkillCamp.TabIndex = 7;
+            this.techSkillCamp.Text = "Technical";
+            // 
+            // mechSkillCamp
+            // 
+            this.mechSkillCamp.Location = new System.Drawing.Point(269, 27);
+            this.mechSkillCamp.Name = "mechSkillCamp";
+            this.mechSkillCamp.ReadOnly = true;
+            this.mechSkillCamp.Size = new System.Drawing.Size(100, 20);
+            this.mechSkillCamp.TabIndex = 7;
+            this.mechSkillCamp.Text = "Mechanical";
+            // 
+            // knowSkillCamp
+            // 
+            this.knowSkillCamp.Location = new System.Drawing.Point(136, 27);
+            this.knowSkillCamp.Name = "knowSkillCamp";
+            this.knowSkillCamp.ReadOnly = true;
+            this.knowSkillCamp.Size = new System.Drawing.Size(100, 20);
+            this.knowSkillCamp.TabIndex = 8;
+            this.knowSkillCamp.Text = "Knowledge";
+            // 
+            // dexSkillCamp
+            // 
+            this.dexSkillCamp.Location = new System.Drawing.Point(3, 27);
+            this.dexSkillCamp.Name = "dexSkillCamp";
+            this.dexSkillCamp.ReadOnly = true;
+            this.dexSkillCamp.Size = new System.Drawing.Size(100, 20);
+            this.dexSkillCamp.TabIndex = 2;
+            this.dexSkillCamp.Text = "Dexterity";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(3, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(31, 13);
+            this.label22.TabIndex = 0;
+            this.label22.Text = "Skills";
+            // 
+            // panel18
+            // 
+            this.panel18.BackColor = System.Drawing.Color.LightBlue;
+            this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel18.Controls.Add(this.strRename);
+            this.panel18.Controls.Add(this.perRename);
+            this.panel18.Controls.Add(this.techRename);
+            this.panel18.Controls.Add(this.mechRename);
+            this.panel18.Controls.Add(this.knowRename);
+            this.panel18.Controls.Add(this.dexRename);
+            this.panel18.Controls.Add(this.label82);
+            this.panel18.Location = new System.Drawing.Point(8, 6);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(205, 195);
+            this.panel18.TabIndex = 1;
+            // 
+            // strRename
+            // 
+            this.strRename.Location = new System.Drawing.Point(6, 146);
+            this.strRename.Name = "strRename";
+            this.strRename.Size = new System.Drawing.Size(100, 20);
+            this.strRename.TabIndex = 6;
+            this.strRename.Text = "Strength";
+            // 
+            // perRename
+            // 
+            this.perRename.Location = new System.Drawing.Point(6, 120);
+            this.perRename.Name = "perRename";
+            this.perRename.Size = new System.Drawing.Size(100, 20);
+            this.perRename.TabIndex = 5;
+            this.perRename.Text = "Perception";
+            // 
+            // techRename
+            // 
+            this.techRename.Location = new System.Drawing.Point(6, 94);
+            this.techRename.Name = "techRename";
+            this.techRename.Size = new System.Drawing.Size(100, 20);
+            this.techRename.TabIndex = 4;
+            this.techRename.Text = "Technical";
+            // 
+            // mechRename
+            // 
+            this.mechRename.Location = new System.Drawing.Point(6, 68);
+            this.mechRename.Name = "mechRename";
+            this.mechRename.Size = new System.Drawing.Size(100, 20);
+            this.mechRename.TabIndex = 3;
+            this.mechRename.Text = "Mechanical";
+            // 
+            // knowRename
+            // 
+            this.knowRename.Location = new System.Drawing.Point(6, 42);
+            this.knowRename.Name = "knowRename";
+            this.knowRename.Size = new System.Drawing.Size(100, 20);
+            this.knowRename.TabIndex = 2;
+            this.knowRename.Text = "Knowledge";
+            // 
+            // dexRename
+            // 
+            this.dexRename.Location = new System.Drawing.Point(6, 16);
+            this.dexRename.Name = "dexRename";
+            this.dexRename.Size = new System.Drawing.Size(100, 20);
+            this.dexRename.TabIndex = 1;
+            this.dexRename.Text = "Dexterity";
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Location = new System.Drawing.Point(3, 0);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(82, 13);
+            this.label82.TabIndex = 0;
+            this.label82.Text = "Attribute Names";
+            // 
+            // cpLog
+            // 
+            this.cpLog.Controls.Add(this.xpLog);
+            this.cpLog.Location = new System.Drawing.Point(4, 22);
+            this.cpLog.Name = "cpLog";
+            this.cpLog.Padding = new System.Windows.Forms.Padding(3);
+            this.cpLog.Size = new System.Drawing.Size(867, 1196);
+            this.cpLog.TabIndex = 6;
+            this.cpLog.Text = "Character Point Log";
+            this.cpLog.UseVisualStyleBackColor = true;
+            // 
+            // xpLog
+            // 
+            this.xpLog.HideSelection = false;
+            this.xpLog.Location = new System.Drawing.Point(6, 6);
+            this.xpLog.Name = "xpLog";
+            this.xpLog.Size = new System.Drawing.Size(855, 1182);
+            this.xpLog.TabIndex = 0;
+            this.xpLog.UseCompatibleStateImageBehavior = false;
+            // 
+            // aboutPage
+            // 
+            this.aboutPage.Controls.Add(this.groupBox4);
+            this.aboutPage.Controls.Add(this.groupBox3);
+            this.aboutPage.Controls.Add(this.groupBox2);
+            this.aboutPage.Controls.Add(this.groupBox1);
+            this.aboutPage.Location = new System.Drawing.Point(4, 22);
+            this.aboutPage.Name = "aboutPage";
+            this.aboutPage.Padding = new System.Windows.Forms.Padding(3);
+            this.aboutPage.Size = new System.Drawing.Size(867, 1196);
+            this.aboutPage.TabIndex = 7;
+            this.aboutPage.Text = "Misc.";
+            this.aboutPage.UseVisualStyleBackColor = true;
             // 
             // groupBox4
             // 
@@ -2666,16 +2574,15 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Special Thanks";
             // 
-            // textBox4
+            // od6sw
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(6, 28);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(374, 275);
-            this.textBox4.TabIndex = 0;
-            this.textBox4.Text = resources.GetString("textBox4.Text");
+            this.od6sw.AutoSize = true;
+            this.od6sw.Location = new System.Drawing.Point(6, 251);
+            this.od6sw.Name = "od6sw";
+            this.od6sw.Size = new System.Drawing.Size(136, 24);
+            this.od6sw.TabIndex = 2;
+            this.od6sw.TabStop = true;
+            this.od6sw.Text = "od6s Star Wars";
             // 
             // od6
             // 
@@ -2687,15 +2594,108 @@
             this.od6.TabStop = true;
             this.od6.Text = "Open Space D6";
             // 
-            // od6sw
+            // textBox4
             // 
-            this.od6sw.AutoSize = true;
-            this.od6sw.Location = new System.Drawing.Point(6, 251);
-            this.od6sw.Name = "od6sw";
-            this.od6sw.Size = new System.Drawing.Size(136, 24);
-            this.od6sw.TabIndex = 2;
-            this.od6sw.TabStop = true;
-            this.od6sw.Text = "od6s Star Wars";
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(6, 28);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(374, 275);
+            this.textBox4.TabIndex = 0;
+            this.textBox4.Text = resources.GetString("textBox4.Text");
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.buyCoffee);
+            this.groupBox3.Controls.Add(this.textBox3);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Location = new System.Drawing.Point(475, 346);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(386, 352);
+            this.groupBox3.TabIndex = 3;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Support the Project";
+            // 
+            // buyCoffee
+            // 
+            this.buyCoffee.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Coffee;
+            this.buyCoffee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buyCoffee.Location = new System.Drawing.Point(6, 258);
+            this.buyCoffee.Name = "buyCoffee";
+            this.buyCoffee.Size = new System.Drawing.Size(172, 50);
+            this.buyCoffee.TabIndex = 1;
+            this.buyCoffee.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(6, 28);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(374, 318);
+            this.textBox3.TabIndex = 0;
+            this.textBox3.Text = resources.GetString("textBox3.Text");
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.discordLink);
+            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(9, 346);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(460, 210);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Join the Community";
+            // 
+            // discordLink
+            // 
+            this.discordLink.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Discord;
+            this.discordLink.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.discordLink.Location = new System.Drawing.Point(6, 132);
+            this.discordLink.Name = "discordLink";
+            this.discordLink.Size = new System.Drawing.Size(172, 50);
+            this.discordLink.TabIndex = 1;
+            this.discordLink.UseVisualStyleBackColor = true;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(6, 28);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(448, 176);
+            this.textBox2.TabIndex = 0;
+            this.textBox2.Text = resources.GetString("textBox2.Text");
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(3, 31);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(466, 309);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Thank You";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(6, 28);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(454, 275);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = resources.GetString("textBox1.Text");
+            // 
+            // printDialog1
+            // 
+            this.printDialog1.UseEXDialog = true;
             // 
             // Form1
             // 
@@ -2703,7 +2703,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(994, 971);
+            this.ClientSize = new System.Drawing.Size(894, 971);
             this.Controls.Add(this.tabControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -2714,27 +2714,6 @@
             this.Text = "Holocron Designer";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl.ResumeLayout(false);
-            this.tabCampaign.ResumeLayout(false);
-            this.panel23.ResumeLayout(false);
-            this.panel23.PerformLayout();
-            this.panel22.ResumeLayout(false);
-            this.panel22.PerformLayout();
-            this.panel21.ResumeLayout(false);
-            this.panel21.PerformLayout();
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
-            this.cpLog.ResumeLayout(false);
-            this.aboutPage.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.tabMain.ResumeLayout(false);
             this.mainCharPanel.ResumeLayout(false);
             this.mainCharPanel.PerformLayout();
@@ -2767,8 +2746,29 @@
             this.tabBackground.PerformLayout();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
+            this.tabCampaign.ResumeLayout(false);
+            this.panel23.ResumeLayout(false);
+            this.panel23.PerformLayout();
+            this.panel22.ResumeLayout(false);
+            this.panel22.PerformLayout();
+            this.panel21.ResumeLayout(false);
+            this.panel21.PerformLayout();
+            this.panel20.ResumeLayout(false);
+            this.panel20.PerformLayout();
+            this.panel19.ResumeLayout(false);
+            this.panel19.PerformLayout();
+            this.panel18.ResumeLayout(false);
+            this.panel18.PerformLayout();
+            this.cpLog.ResumeLayout(false);
+            this.aboutPage.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
