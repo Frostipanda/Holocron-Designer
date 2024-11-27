@@ -1,6 +1,6 @@
 # Holocron Designer
 
-**Version:** 0.9.0  
+**Version:** 0.9.0.1
 A passion project for fans of the **Star Wars D6 WEG RPG**, Holocron Designer is a free character creation and management tool designed to keep the spirit of this classic tabletop RPG alive. Whether you're creating a Jedi, smuggler, or droid, Holocron Designer makes it easy to bring your vision to life.
 
 ---
