@@ -117,9 +117,41 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="textBox15.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
   </metadata>
+  <metadata name="printDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>114, 17</value>
+  </metadata>
+  <data name="textBox4.Text" xml:space="preserve">
+    <value>Special thanks to the amazing people who work on the Foundry Modules to bring Star Wars and Space D6 to Foundry!
+
+This project would have been a lot more difficult without their existing libraries of items and information and allowing me to use them to help populate the Holocron Designer!
+
+https://gitlab.com/vtt2/opend6-space
+https://github.com/algnc/od6s-star-wars
+</value>
+  </data>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>"I believe in creating tools and resources without putting up barriers like subscription fees, exclusive content for Patreon members, or paid roles. While I’ve explored those models in the past, I found they didn’t align with my vision or values.
+
+Instead, like with any other program I design, I’ve included a simple ‘Buy me a coffee’ link. If you’d like to leave a tip to show your appreciation for the time and effort I’ve poured into this project, it would mean the world to me—but there’s absolutely no expectation or obligation. I’m just thrilled to see people enjoying and using this program!"</value>
+  </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>If you encounter any issues, have feedback, or simply want to connect with fellow members of the Star Wars D6 community, we invite you to click the button below and join the Discord for Holocron Designer.
+
+We’d love to have you as part of our community!</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>This project has been a labor of love, and I cannot thank you enough for your interest and encouragement. 
+
+Throughout the journey, I faced numerous challenges, but your support and feedback inspired me to create something I truly love for a game that holds a special place in my heart.
+
+It’s incredible to see the community surrounding this tabletop RPG—your passion and positivity breathe new life into a classic that continues to thrive. The creativity and dedication of this community never cease to amaze me.
+
+Thank you for keeping this game alive, and thank you for your unwavering support. This wouldn’t have been possible without all of you.
+</value>
+  </data>
   <data name="racialCampList.Text" xml:space="preserve">
     <value>Aar'aa
 Abinyshi
@@ -710,40 +742,8 @@ Zhell
 Zisian
 Zizimaak</value>
   </data>
-  <data name="textBox4.Text" xml:space="preserve">
-    <value>Special thanks to the amazing people who work on the Foundry Modules to bring Star Wars and Space D6 to Foundry!
-
-This project would have been a lot more difficult without their existing libraries of items and information and allowing me to use them to help populate the Holocron Designer!
-
-https://gitlab.com/vtt2/opend6-space
-https://github.com/algnc/od6s-star-wars
-</value>
-  </data>
-  <data name="textBox3.Text" xml:space="preserve">
-    <value>"I believe in creating tools and resources without putting up barriers like subscription fees, exclusive content for Patreon members, or paid roles. While I’ve explored those models in the past, I found they didn’t align with my vision or values.
-
-Instead, like with any other program I design, I’ve included a simple ‘Buy me a coffee’ link. If you’d like to leave a tip to show your appreciation for the time and effort I’ve poured into this project, it would mean the world to me—but there’s absolutely no expectation or obligation. I’m just thrilled to see people enjoying and using this program!"</value>
-  </data>
-  <data name="textBox2.Text" xml:space="preserve">
-    <value>If you encounter any issues, have feedback, or simply want to connect with fellow members of the Star Wars D6 community, we invite you to click the button below and join the Discord for Holocron Designer.
-
-We’d love to have you as part of our community!</value>
-  </data>
-  <data name="textBox1.Text" xml:space="preserve">
-    <value>This project has been a labor of love, and I cannot thank you enough for your interest and encouragement. 
-
-Throughout the journey, I faced numerous challenges, but your support and feedback inspired me to create something I truly love for a game that holds a special place in my heart.
-
-It’s incredible to see the community surrounding this tabletop RPG—your passion and positivity breathe new life into a classic that continues to thrive. The creativity and dedication of this community never cease to amaze me.
-
-Thank you for keeping this game alive, and thank you for your unwavering support. This wouldn’t have been possible without all of you.
-</value>
-  </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="printDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>114, 17</value>
+  <metadata name="textBox15.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>25</value>

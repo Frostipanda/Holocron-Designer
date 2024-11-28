@@ -796,7 +796,7 @@ namespace Star_Wars_D6
             return System.Text.RegularExpressions.Regex.IsMatch(value, @"^(\d+D(\+\d)?|\+\d)$");
         }
 
-        private void specialConvert_CheckedChanged(object sender, EventArgs e)
+        public void specialConvert_CheckedChanged(object sender, EventArgs e)
         {
             // Only allow this method to work if character creation is set to false
             if (characterCreation)
@@ -1126,12 +1126,18 @@ namespace Star_Wars_D6
             if (result != DialogResult.Yes) return;
 
             // Ensure enough Character Points are available
-            int characterPoints = int.Parse(charPoints.Text.Trim());
+            int characterPoints = 0; // Default to 0 if parsing fails
+            if (!int.TryParse(charPoints.Text.Trim(), out characterPoints))
+            {
+                characterPoints = 0; // Handle invalid or empty input by defaulting to 0
+            }
+
             if (characterPoints < cost)
             {
                 MessageBox.Show("Not enough Character Points.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+
 
             // Deduct the cost and update the Character Points
             characterPoints -= cost;
@@ -1394,30 +1400,154 @@ namespace Star_Wars_D6
 
         private void forceEditButton_Click(object sender, EventArgs e)
         {
-            // Step 1: Ask the user which Force Skill to increase
+            // Step 1: Ask the user which Force Skill to modify
             string[] forceSkills = { "Control", "Sense", "Alter" };
-            string selectedForceSkill = ShowOptionPopup("What Force Skill would you like to increase?", forceSkills);
+            string selectedForceSkill = ShowOptionPopup("What Force Skill would you like to modify?", forceSkills);
             if (string.IsNullOrEmpty(selectedForceSkill)) return; // User canceled
 
-            // Step 2: Ask how to increase the Force Skill
-            string[] increaseMethods = { "Attribute Dice", "Skill Dice", "Character Points" };
-            string selectedMethod = ShowOptionPopup("How are we increasing this skill?", increaseMethods);
+            // Step 2: Ask how to modify the Force Skill
+            string[] modificationMethods = { "Attribute Dice", "Skill Dice", "Character Points" };
+            string selectedMethod = ShowOptionPopup("How are we modifying this skill?", modificationMethods);
             if (string.IsNullOrEmpty(selectedMethod)) return; // User canceled
+
+            // Step 3: If Attribute or Skill Dice is selected, ask to increase or decrease
+            string modificationType = null;
+            if (selectedMethod == "Attribute Dice" || selectedMethod == "Skill Dice")
+            {
+                string[] increaseOrDecrease = { "Increase", "Decrease" };
+                modificationType = ShowOptionPopup("Would you like to increase or decrease this skill?", increaseOrDecrease);
+                if (string.IsNullOrEmpty(modificationType)) return; // User canceled
+            }
 
             // Handle the selected method
             if (selectedMethod == "Attribute Dice")
             {
-                IncreaseForceSkillByAttributeDice(selectedForceSkill);
+                if (modificationType == "Increase")
+                {
+                    IncreaseForceSkillByAttributeDice(selectedForceSkill);
+                }
+                else if (modificationType == "Decrease")
+                {
+                    DecreaseForceSkillByAttributeDice(selectedForceSkill);
+                }
             }
             else if (selectedMethod == "Skill Dice")
             {
-                IncreaseForceSkillBySkillDice(selectedForceSkill);
+                if (modificationType == "Increase")
+                {
+                    IncreaseForceSkillBySkillDice(selectedForceSkill);
+                }
+                else if (modificationType == "Decrease")
+                {
+                    DecreaseForceSkillBySkillDice(selectedForceSkill);
+                }
             }
             else if (selectedMethod == "Character Points")
             {
                 IncreaseForceSkillByCharacterPoints(selectedForceSkill);
             }
         }
+
+        private void DecreaseForceSkillByAttributeDice(string forceSkill)
+        {
+            // Prompt the user for a dice value to decrease
+            string input = ShowDiceInputPopup($"Enter the dice value to decrease from {forceSkill}:");
+            if (string.IsNullOrWhiteSpace(input)) return; // User canceled
+
+            if (!IsValidDiceValue(input)) return;
+
+            // Parse the input dice value
+            int inputDice, inputPips;
+            ParseDiceValue(input, out inputDice, out inputPips);
+            int inputTotalPips = (inputDice * 3) + inputPips;
+
+            // Get the corresponding Force skill textbox
+            TextBox forceSkillBox = GetForceSkillBox(forceSkill);
+            if (forceSkillBox == null) return;
+
+            // Get the current value of the Force skill
+            string currentValue = forceSkillBox.Text.Trim();
+            int currentDice, currentPips;
+            ParseDiceValue(currentValue, out currentDice, out currentPips);
+            int currentTotalPips = (currentDice * 3) + currentPips;
+
+            // Ensure the Force skill has enough dice to decrease
+            if (inputTotalPips > currentTotalPips)
+            {
+                MessageBox.Show("Not enough dice in the Force skill to decrease.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Calculate the new total pips for the Force skill
+            int newTotalPips = currentTotalPips - inputTotalPips;
+
+            // Add the difference back to the currentAttribute
+            string currentAttributeValue = currentAttribute.Text.Trim();
+            int attributeDice, attributePips;
+            ParseDiceValue(currentAttributeValue, out attributeDice, out attributePips);
+            int attributeTotalPips = (attributeDice * 3) + attributePips + inputTotalPips;
+
+            // Update currentAttribute
+            int newAttributeDice = attributeTotalPips / 3;
+            int newAttributePips = attributeTotalPips % 3;
+            currentAttribute.Text = newAttributePips > 0 ? $"{newAttributeDice}D+{newAttributePips}" : $"{newAttributeDice}D";
+
+            // Update the Force skill value
+            int newForceDice = newTotalPips / 3;
+            int newForcePips = newTotalPips % 3;
+            forceSkillBox.Text = newForcePips > 0 ? $"{newForceDice}D+{newForcePips}" : $"{newForceDice}D";
+        }
+
+        private void DecreaseForceSkillBySkillDice(string forceSkill)
+        {
+            // Prompt the user for a dice value to decrease
+            string input = ShowDiceInputPopup($"Enter the dice value to decrease from {forceSkill}:");
+            if (string.IsNullOrWhiteSpace(input)) return; // User canceled
+
+            if (!IsValidDiceValue(input)) return;
+
+            // Parse the input dice value
+            int inputDice, inputPips;
+            ParseDiceValue(input, out inputDice, out inputPips);
+            int inputTotalPips = (inputDice * 3) + inputPips;
+
+            // Get the corresponding Force skill textbox
+            TextBox forceSkillBox = GetForceSkillBox(forceSkill);
+            if (forceSkillBox == null) return;
+
+            // Get the current value of the Force skill
+            string currentValue = forceSkillBox.Text.Trim();
+            int currentDice, currentPips;
+            ParseDiceValue(currentValue, out currentDice, out currentPips);
+            int currentTotalPips = (currentDice * 3) + currentPips;
+
+            // Ensure the Force skill has enough dice to decrease
+            if (inputTotalPips > currentTotalPips)
+            {
+                MessageBox.Show("Not enough dice in the Force skill to decrease.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Calculate the new total pips for the Force skill
+            int newTotalPips = currentTotalPips - inputTotalPips;
+
+            // Add the difference back to the skillDice pool
+            string skillDiceValue = skillDice.Text.Trim();
+            int skillDiceRemaining, skillPipsRemaining;
+            ParseDiceValue(skillDiceValue, out skillDiceRemaining, out skillPipsRemaining);
+            int skillTotalPips = (skillDiceRemaining * 3) + skillPipsRemaining + inputTotalPips;
+
+            // Update skillDice
+            int newSkillDice = skillTotalPips / 3;
+            int newSkillPips = skillTotalPips % 3;
+            skillDice.Text = newSkillPips > 0 ? $"{newSkillDice}D+{newSkillPips}" : $"{newSkillDice}D";
+
+            // Update the Force skill value
+            int newForceDice = newTotalPips / 3;
+            int newForcePips = newTotalPips % 3;
+            forceSkillBox.Text = newForcePips > 0 ? $"{newForceDice}D+{newForcePips}" : $"{newForceDice}D";
+        }
+
 
         private void IncreaseForceSkillByCharacterPoints(string forceSkill)
         {
@@ -1527,7 +1657,7 @@ namespace Star_Wars_D6
         private void IncreaseForceSkillByAttributeDice(string forceSkill)
         {
             // Prompt the user for a dice value
-            string input = ShowDiceInputPopup($"Enter the dice value to assign to {forceSkill}:");
+            string input = ShowDiceInputPopup($"Enter the dice value to add to {forceSkill}:");
             if (string.IsNullOrWhiteSpace(input)) return; // User canceled
 
             if (!IsValidDiceValue(input)) return;
@@ -1547,37 +1677,40 @@ namespace Star_Wars_D6
             ParseDiceValue(currentValue, out currentDice, out currentPips);
             int currentTotalPips = (currentDice * 3) + currentPips;
 
-            // Calculate the difference
-            int difference = inputTotalPips - currentTotalPips;
+            // Calculate the new total pips for the Force skill
+            int newTotalPips = currentTotalPips + inputTotalPips;
 
-            // Adjust the currentAttribute based on the difference
+            // Adjust the currentAttribute based on the input value
             string currentAttributeValue = currentAttribute.Text.Trim();
             int attributeDice, attributePips;
             ParseDiceValue(currentAttributeValue, out attributeDice, out attributePips);
             int attributeTotalPips = (attributeDice * 3) + attributePips;
 
             // Check if there are enough attribute dice
-            if (difference > 0 && difference > attributeTotalPips)
+            if (inputTotalPips > attributeTotalPips)
             {
                 MessageBox.Show("Not enough Attribute Dice available.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // Update the currentAttribute and Force skill value
-            attributeTotalPips -= difference;
+            // Deduct the input pips from the currentAttribute
+            attributeTotalPips -= inputTotalPips;
             int newAttributeDice = attributeTotalPips / 3;
             int newAttributePips = attributeTotalPips % 3;
             currentAttribute.Text = newAttributePips > 0 ? $"{newAttributeDice}D+{newAttributePips}" : $"{newAttributeDice}D";
 
             // Update the Force skill value
-            forceSkillBox.Text = input;
+            int newForceDice = newTotalPips / 3;
+            int newForcePips = newTotalPips % 3;
+            forceSkillBox.Text = newForcePips > 0 ? $"{newForceDice}D+{newForcePips}" : $"{newForceDice}D";
         }
+
 
 
         private void IncreaseForceSkillBySkillDice(string forceSkill)
         {
             // Prompt the user for a dice value
-            string input = ShowDiceInputPopup($"Enter the dice value to assign to {forceSkill}:");
+            string input = ShowDiceInputPopup($"Enter the dice value to add to {forceSkill}:");
             if (string.IsNullOrWhiteSpace(input)) return; // User canceled
 
             if (!IsValidDiceValue(input)) return;
@@ -1597,31 +1730,34 @@ namespace Star_Wars_D6
             ParseDiceValue(currentValue, out currentDice, out currentPips);
             int currentTotalPips = (currentDice * 3) + currentPips;
 
-            // Calculate the difference
-            int difference = inputTotalPips - currentTotalPips;
+            // Calculate the new total pips for the Force skill
+            int newTotalPips = currentTotalPips + inputTotalPips;
 
-            // Adjust the skillDice based on the difference
+            // Adjust the skillDice based on the input value
             string skillDiceValue = skillDice.Text.Trim();
             int skillDiceRemaining, skillPipsRemaining;
             ParseDiceValue(skillDiceValue, out skillDiceRemaining, out skillPipsRemaining);
             int skillTotalPips = (skillDiceRemaining * 3) + skillPipsRemaining;
 
             // Check if there are enough skill dice
-            if (difference > 0 && difference > skillTotalPips)
+            if (inputTotalPips > skillTotalPips)
             {
                 MessageBox.Show("Not enough Skill Dice available.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // Update the skillDice and Force skill value
-            skillTotalPips -= difference;
+            // Deduct the input pips from the skillDice pool
+            skillTotalPips -= inputTotalPips;
             int newSkillDice = skillTotalPips / 3;
             int newSkillPips = skillTotalPips % 3;
             skillDice.Text = newSkillPips > 0 ? $"{newSkillDice}D+{newSkillPips}" : $"{newSkillDice}D";
 
             // Update the Force skill value
-            forceSkillBox.Text = input;
+            int newForceDice = newTotalPips / 3;
+            int newForcePips = newTotalPips % 3;
+            forceSkillBox.Text = newForcePips > 0 ? $"{newForceDice}D+{newForcePips}" : $"{newForceDice}D";
         }
+
 
         private TextBox GetForceSkillBox(string forceSkill)
         {
@@ -2082,8 +2218,13 @@ namespace Star_Wars_D6
 
 
 
+        public bool isLoading = false; // Flag to indicate loading state
+
         private void UpdateCurrentAttribute()
         {
+            // Skip execution if loading state is active
+            if (isLoading) return;
+
             // Get the values from the textboxes
             string baseValue = racialBase.Text.Trim();
             string addValue = attAdd.Text.Trim();
@@ -2095,13 +2236,18 @@ namespace Star_Wars_D6
             currentAttribute.Text = totalValue;
         }
 
+
         private void racialBase_TextChanged(object sender, EventArgs e)
         {
+            if (isLoading) return;
+
             UpdateCurrentAttribute();
         }
 
         private void attAdd_TextChanged(object sender, EventArgs e)
         {
+            if (isLoading) return;
+
             UpdateCurrentAttribute();
         }
 
@@ -2111,13 +2257,53 @@ namespace Star_Wars_D6
 
         //////////////////////////////////////////////////////////// Force Powers Code Below //////////////////////////////////////////////////////////////////////////
 
+
+        private List<Panel> forcePowerPanels = new List<Panel>();
+        private int currentPanelIndex = 0;
+
+        private void InitializeForcePanels()
+        {
+            // Add the initial panel to the list
+            forcePowerPanels.Add(forcePowersPanel);
+        }
+
+        private void DebugInitialSetup()
+        {
+            Console.WriteLine("Checking initial setup...");
+
+            // Check if forcePowersPanel is part of tabForce
+            if (forcePowersPanel.Parent != null && forcePowersPanel.Parent == tabForce)
+            {
+                Console.WriteLine("forcePowersPanel is correctly placed inside tabForce.");
+            }
+            else
+            {
+                Console.WriteLine("forcePowersPanel is not correctly placed inside tabForce.");
+            }
+
+            // Check if tabForce is part of a TabControl
+            if (tabForce.Parent is TabControl parentTabControl)
+            {
+                Console.WriteLine("tabForce is correctly placed inside a TabControl.");
+                tabControl = parentTabControl; // Ensure tabControl is correctly referenced
+            }
+            else
+            {
+                Console.WriteLine("tabForce is not correctly placed inside a TabControl.");
+            }
+        }
+
+
+
         // Add a Force Power to the Panel
         public void AddForcePower(string powerName, string descriptionHtml)
         {
-            // Parse a short description from the HTML
+            Console.WriteLine($"Adding Force Power: {powerName}");
+
+            // Parse a short description
             string shortDescription = ExtractShortDescription(descriptionHtml);
 
-            // Create the GroupBox for the force power
+            // Create GroupBox
             var groupBox = new GroupBox
             {
                 Text = powerName,
@@ -2125,44 +2311,110 @@ namespace Star_Wars_D6
                 AutoSizeMode = AutoSizeMode.GrowAndShrink,
                 Padding = new Padding(10),
                 Margin = new Padding(10),
-                Font = new Font("Arial", 9, FontStyle.Bold),
-                Dock = DockStyle.Top // Stack vertically
+                Font = new Font("Arial", 9, FontStyle.Bold)
             };
 
-            // Create a Label for the short description
+            // Create Label
             var descriptionLabel = new Label
             {
                 Text = shortDescription,
                 AutoSize = true,
                 Font = new Font("Arial", 8, FontStyle.Regular),
-                MaximumSize = new Size(forcePowersPanel.Width - 40, 0), // Word wrap within the panel's width
-                Dock = DockStyle.Top
+                MaximumSize = new Size(forcePowersPanel.Width - 40, 0)
             };
-
-            // Add the Label to the GroupBox
             groupBox.Controls.Add(descriptionLabel);
 
-            // Add a ContextMenuStrip to the GroupBox for additional options
-            var contextMenu = new ContextMenuStrip();
-            var removeMenuItem = new ToolStripMenuItem("Remove Force Power");
-            removeMenuItem.Click += (s, e) =>
-            {
-                forcePowersPanel.Controls.Remove(groupBox); // Remove the GroupBox when the option is clicked
-                forcePowersPanel.PerformLayout(); // Refresh the layout to adjust for the removed item
-            };
-
-            contextMenu.Items.Add(removeMenuItem);
-            groupBox.ContextMenuStrip = contextMenu;
-
-            // Add the GroupBox to the forcePowersPanel
-            forcePowersPanel.Controls.Add(groupBox);
-
-            // Refresh the panel layout to ensure proper display
-            forcePowersPanel.Controls.SetChildIndex(groupBox, 0); // Ensures the latest item appears at the top
-            forcePowersPanel.PerformLayout();
+            Console.WriteLine("Created GroupBox. Adding to current panel...");
+            AddGroupBoxToCurrentPanel(groupBox);
         }
 
-        
+
+
+
+        /// <summary>
+        /// Adds the group box to the current panel or creates a new tab if needed.
+        /// </summary>
+        private void CreateNewTabAndPanel()
+        {
+            // Increment the current panel index
+            currentPanelIndex++;
+
+            // Create a new TabPage
+            var newTab = new TabPage($"Force Page {currentPanelIndex + 1}");
+
+            // Create a new panel for the new tab
+            var newPanel = new Panel
+            {
+                Name = $"forcePowersPanel{currentPanelIndex + 1}",
+                Dock = DockStyle.Fill,
+                AutoScroll = true,
+                Size = forcePowersPanel.Size // Match the size of the original panel
+            };
+
+            // Add the panel to the new TabPage
+            newTab.Controls.Add(newPanel);
+
+            // Add the TabPage to the TabControl
+            tabControl.TabPages.Add(newTab);
+
+            // Add the new panel to the list of panels
+            forcePowerPanels.Add(newPanel);
+
+            Console.WriteLine($"Created new tab and panel: {newTab.Text}");
+        }
+
+
+
+        private void AddGroupBoxToCurrentPanel(GroupBox groupBox)
+        {
+            // Ensure we have at least one panel
+            if (forcePowerPanels.Count == 0)
+            {
+                Console.WriteLine("No panels found. Adding the initial panel.");
+                forcePowerPanels.Add(forcePowersPanel); // Add the initial panel
+                currentPanelIndex = 0;
+            }
+
+            // Get the current panel
+            var currentPanel = forcePowerPanels[currentPanelIndex];
+
+            // Add the GroupBox to the current panel
+            currentPanel.Controls.Add(groupBox);
+
+            // Measure total height of all controls
+            int totalHeight = currentPanel.Controls.Cast<Control>().Sum(c => c.Height + c.Margin.Vertical);
+
+            Console.WriteLine($"Adding GroupBox. Total Height: {totalHeight}, Panel Height: {currentPanel.Height}");
+
+            // Check if adding this group box exceeds the current panel's height
+            if (totalHeight > currentPanel.Height)
+            {
+                Console.WriteLine($"Overflow detected. Creating a new panel and moving group box to Force Page {currentPanelIndex + 2}.");
+
+                // Remove the overflowing GroupBox
+                currentPanel.Controls.Remove(groupBox);
+
+                // Create a new panel and tab
+                CreateNewTabAndPanel();
+
+                // Add the GroupBox to the new panel
+                forcePowerPanels[currentPanelIndex].Controls.Add(groupBox);
+
+                Console.WriteLine($"GroupBox moved to new panel: Force Page {currentPanelIndex + 2}");
+            }
+
+            // Refresh the layout
+            currentPanel.PerformLayout();
+        }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2170,67 +2422,31 @@ namespace Star_Wars_D6
         // Extract a short description from the HTML
         private string ExtractShortDescription(string htmlDescription)
         {
-            if (string.IsNullOrEmpty(htmlDescription))
+            // Use the HTMLConversion class to extract difficulties
+            var difficulties = HTMLConversion.ExtractDifficulties(htmlDescription);
+
+            // Combine extracted difficulties into a short description
+            if (difficulties.ContainsKey("Error"))
             {
-                return "No description available.";
+                return difficulties["Error"];
             }
 
-            try
-            {
-                // Use a Regex to extract the control, sense, and alter difficulty details
-                var matches = Regex.Matches(
-                    htmlDescription,
-                    @"<strong>(Control Difficulty|Sense Difficulty|Alter Difficulty):\s*</strong>\s*([^<]+)",
-                    RegexOptions.IgnoreCase);
-
-                if (matches.Count > 0)
-                {
-                    List<string> difficultyDetails = new List<string>();
-
-                    foreach (Match match in matches)
-                    {
-                        string label = match.Groups[1].Value; // "Control Difficulty", etc.
-                        string value = match.Groups[2].Value.Trim(); // The actual difficulty value
-                        difficultyDetails.Add($"{label}: {value}");
-                    }
-
-                    return string.Join(Environment.NewLine, difficultyDetails); // Combine results into a short description
-                }
-                else
-                {
-                    // If no matches, return a generic fallback
-                    return "Short description not available.";
-                }
-            }
-            catch (Exception ex)
-            {
-                // Log error or return fallback text if parsing fails
-                return $"Error extracting description: {ex.Message}";
-            }
+            return string.Join(Environment.NewLine, difficulties.Select(kvp => $"{kvp.Key}: {kvp.Value}"));
         }
 
-        
-
-
-        // Helper to extract HTML value
-        private string ExtractHtmlValue(string html, string key)
-        {
-            int startIndex = html.IndexOf($"{key}: </strong>") + key.Length + 12;
-            int endIndex = html.IndexOf("</p>", startIndex);
-            return startIndex > 0 && endIndex > startIndex
-                ? html.Substring(startIndex, endIndex - startIndex).Trim()
-                : "N/A";
-        }
 
         public void AddForcePowerToPanel(string powerName)
         {
             // Check if the forcePowersPanel already has this power
-            foreach (Control existingControl in forcePowersPanel.Controls)
+            foreach (var panel in forcePowerPanels)
             {
-                if (existingControl is GroupBox existingGroupBox && existingGroupBox.Text == powerName)
+                foreach (Control existingControl in panel.Controls)
                 {
-                    MessageBox.Show("This Force Power is already added.", "Duplicate Power", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    return;
+                    if (existingControl is GroupBox existingGroupBox && existingGroupBox.Text == powerName)
+                    {
+                        MessageBox.Show("This Force Power is already added.", "Duplicate Power", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
                 }
             }
 
@@ -2243,7 +2459,6 @@ namespace Star_Wars_D6
                 return;
             }
 
-            // Find the Force Power in the JSON file
             string description = "No description available.";
             try
             {
@@ -2266,7 +2481,7 @@ namespace Star_Wars_D6
             // Create the GroupBox for the force power
             var groupBox = new GroupBox
             {
-                Text = powerName,
+                Text = powerName, // Set the Force Power name as the GroupBox title
                 AutoSize = true,
                 AutoSizeMode = AutoSizeMode.GrowAndShrink,
                 Padding = new Padding(10),
@@ -2281,6 +2496,7 @@ namespace Star_Wars_D6
                 Text = description,
                 AutoSize = true,
                 Font = new Font("Arial", 8, FontStyle.Regular),
+                MaximumSize = new Size(forcePowersPanel.Width - 40, 0), // Word wrap within the panel's width
                 Dock = DockStyle.Top
             };
             groupBox.Controls.Add(descriptionLabel);
@@ -2290,20 +2506,25 @@ namespace Star_Wars_D6
             var removeMenuItem = new ToolStripMenuItem("Remove Force Power");
             removeMenuItem.Click += (s, e) =>
             {
-                forcePowersPanel.Controls.Remove(groupBox); // Remove the GroupBox when the option is clicked
-                forcePowersPanel.PerformLayout(); // Refresh the layout
+                foreach (var panel in forcePowerPanels)
+                {
+                    if (panel.Controls.Contains(groupBox))
+                    {
+                        panel.Controls.Remove(groupBox); // Remove the GroupBox from the panel
+                        panel.PerformLayout(); // Refresh the layout
+                        break;
+                    }
+                }
             };
 
             contextMenu.Items.Add(removeMenuItem);
             groupBox.ContextMenuStrip = contextMenu;
 
-            // Add the GroupBox to the forcePowersPanel
-            forcePowersPanel.Controls.Add(groupBox);
-
-            // Refresh the panel layout
-            forcePowersPanel.Controls.SetChildIndex(groupBox, 0); // Ensures the latest item appears at the top
-            forcePowersPanel.PerformLayout();
+            // Add the GroupBox to the current panel
+            AddGroupBoxToCurrentPanel(groupBox);
         }
+
+
 
 
 

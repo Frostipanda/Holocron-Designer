@@ -59,9 +59,11 @@ namespace Star_Wars_D6
             jsonObject["system"]["fatepoints"]["value"] = ParseIntOrDefault(fatepoints);
             jsonObject["system"]["custom1"]["value"] = ParseIntOrDefault(custom1);
             jsonObject["system"]["characterpoints"]["value"] = ParseIntOrDefault(characterpoints);
+            jsonObject["prototypeToken"]["name"] = characterName;
+            
 
-            // Export fatepointeffect based on the checkbox in the form
-            jsonObject["system"]["fatepointeffect"] = fatepointeffect;
+                // Export fatepointeffect based on the checkbox in the form
+                jsonObject["system"]["fatepointeffect"] = fatepointeffect;
 
             // Update metaphysics extranormal logic
             UpdateMetaphysicsExtranormal(jsonObject, mainForm);
@@ -298,17 +300,16 @@ namespace Star_Wars_D6
             string baseDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data");
             string[] jsonFiles = { "Equipment.json", "force_powers.json", "General_Goods.json", "Weapons.json" };
 
-            // Panels and their respective items
-            var panels = new Dictionary<string, Panel>
+            // Panels for equipment, armor, gear, and weapons
+            var fixedPanels = new Dictionary<string, Panel>
     {
-        { "Force Powers", mainForm.forcePowersPanel },
         { "Weapons", mainForm.weapInv },
         { "Armor", mainForm.armorInv },
         { "Gear", mainForm.gearInv }
     };
 
-            // Loop through each panel
-            foreach (var panelEntry in panels)
+            // Process fixed panels
+            foreach (var panelEntry in fixedPanels)
             {
                 string panelName = panelEntry.Key;
                 Panel panel = panelEntry.Value;
@@ -337,7 +338,49 @@ namespace Star_Wars_D6
                     }
                 }
             }
+
+            // Dynamically find all panels that contain Force Powers
+            List<Panel> forcePanels = new List<Panel>();
+            foreach (TabPage tabPage in mainForm.tabControl.TabPages)
+            {
+                foreach (Control control in tabPage.Controls)
+                {
+                    if (control is Panel panel && panel.Name.StartsWith("forcePowersPanel"))
+                    {
+                        forcePanels.Add(panel);
+                    }
+                }
+            }
+
+            // Process all Force Power panels
+            foreach (var panel in forcePanels)
+            {
+                foreach (GroupBox groupBox in panel.Controls.OfType<GroupBox>())
+                {
+                    string itemName = groupBox.Text;
+
+                    // Search for the item in the JSON files
+                    JObject matchingItem = FindItemInJsonFiles(itemName, jsonFiles, baseDirectory);
+
+                    if (matchingItem != null)
+                    {
+                        // Extract the quantity from the GroupBox details
+                        int quantity = ExtractQuantityFromGroupBox(groupBox);
+
+                        // Update the item's quantity field
+                        matchingItem["system"]["quantity"] = quantity;
+
+                        // Add the found item to the export's items array
+                        ((JArray)jsonObject["items"]).Add(matchingItem);
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Force Power '{itemName}' not found in the data files.", "Item Not Found", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+            }
         }
+
 
         // Helper: Extract the quantity value from a GroupBox
         private static int ExtractQuantityFromGroupBox(GroupBox groupBox)

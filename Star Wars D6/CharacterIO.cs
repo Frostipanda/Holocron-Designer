@@ -39,6 +39,7 @@ public class CharacterIO
             Strength = form.strAtt.Text,
             Technical = form.techAtt.Text,
             RacialBase = form.racialBase.Text,
+            GenderBase = form.genderBox.Text,
             Quote = form.charQuote.Text,
             MoveAttribute = form.moveAtt.Text,
             RacialAbilities = form.raceAbil.Text,
@@ -114,114 +115,134 @@ public class CharacterIO
     {
         if (!File.Exists(filePath)) return;
 
+        form.isLoading = true;
+
         string json = File.ReadAllText(filePath);
         dynamic characterData = JsonConvert.DeserializeObject(json);
 
-        form.characterName.Text = characterData.Name;
-        form.charAge.Text = characterData.Age;
-        form.charHeight.Text = characterData.Height;
-        form.charWeight.Text = characterData.Weight;
-        form.charPoints.Text = characterData.CharPoints;
-        form.forcePoints.Text = characterData.ForcePoints;
-        form.dsPoints.Text = characterData.DSPoints;
-        form.currentAttribute.Text = characterData.CurrentAttribute;
-        form.skillDice.Text = characterData.SkillDice;
-        form.specialDice.Text = characterData.SpecialDice;
-        form.dexAtt.Text = characterData.Dexterity;
-        form.knowAtt.Text = characterData.Knowledge;
-        form.mechAtt.Text = characterData.Mechanical;
-        form.perAtt.Text = characterData.Perception;
-        form.strAtt.Text = characterData.Strength;
-        form.techAtt.Text = characterData.Technical;
-        form.racialBase.Text = characterData.RacialBase;
-        form.charQuote.Text = characterData.Quote;
-        form.moveAtt.Text = characterData.MoveAttribute;
-        form.raceAbil.Text = characterData.RacialAbilities;
-        form.racialAbil.Text = characterData.RacialAbilitiesLong;
-        form.perBack.Text = characterData.PerBack;
-        form.phyBack.Text = characterData.PhyBack;
-        form.alliesBack.Text = characterData.AlliesBack;
-        form.enemiesBack.Text = characterData.EnemiesBack;
-        form.backgroundBack.Text = characterData.BackgroundBack;
-        form.equipNotes.Text = characterData.EquipNotes;
-        form.playerCreditsTextBox.Text = characterData.PlayerCredits;
-        form.fateBox.Checked = characterData.FateBox;
-        form.checkBoxCharacterCreation.Checked = characterData.CheckBoxCharacterCreation;
-        form.specialConvert.Checked = characterData.SpecialConvert;
-        form.typeBox.Text = characterData.Type;
+        // Temporarily disconnect the event handler for specialConvert
+        form.specialConvert.CheckedChanged -= form.specialConvert_CheckedChanged;
 
-        string species = characterData.Species?.ToString();
-        if (!string.IsNullOrEmpty(species) && form.speciesBox.Items.Contains(species))
-        {
-            form.speciesBox.SelectedItem = species;
-        }
-        else
-        {
-            form.speciesBox.SelectedIndex = -1;
-        }
+        
 
-        if (characterData.Image != null)
+        try
         {
-            byte[] imageBytes = Convert.FromBase64String(characterData.Image.ToString());
-            using (MemoryStream ms = new MemoryStream(imageBytes))
+            // Load all data
+            form.characterName.Text = characterData.Name;
+            form.charAge.Text = characterData.Age;
+            form.charHeight.Text = characterData.Height;
+            form.charWeight.Text = characterData.Weight;
+            form.charPoints.Text = characterData.CharPoints;
+            form.forcePoints.Text = characterData.ForcePoints;
+            form.dsPoints.Text = characterData.DSPoints;
+            form.currentAttribute.Text = characterData.CurrentAttribute;
+            form.skillDice.Text = characterData.SkillDice;
+            form.specialDice.Text = characterData.SpecialDice;
+            form.dexAtt.Text = characterData.Dexterity;
+            form.knowAtt.Text = characterData.Knowledge;
+            form.mechAtt.Text = characterData.Mechanical;
+            form.perAtt.Text = characterData.Perception;
+            form.strAtt.Text = characterData.Strength;
+            form.techAtt.Text = characterData.Technical;
+            form.racialBase.Text = characterData.RacialBase;
+            form.charQuote.Text = characterData.Quote;
+            form.moveAtt.Text = characterData.MoveAttribute;
+            form.raceAbil.Text = characterData.RacialAbilities;
+            form.racialAbil.Text = characterData.RacialAbilitiesLong;
+            form.perBack.Text = characterData.PerBack;
+            form.genderBox.Text = characterData.GenderBase;
+            form.phyBack.Text = characterData.PhyBack;
+            form.alliesBack.Text = characterData.AlliesBack;
+            form.enemiesBack.Text = characterData.EnemiesBack;
+            form.backgroundBack.Text = characterData.BackgroundBack;
+            form.equipNotes.Text = characterData.EquipNotes;
+            form.playerCreditsTextBox.Text = characterData.PlayerCredits;
+            form.fateBox.Checked = characterData.FateBox;
+            form.checkBoxCharacterCreation.Checked = characterData.CheckBoxCharacterCreation;
+            form.specialConvert.Checked = characterData.SpecialConvert; // Set the checkbox state
+            form.typeBox.Text = characterData.Type;
+
+            string species = characterData.Species?.ToString();
+            if (!string.IsNullOrEmpty(species) && form.speciesBox.Items.Contains(species))
             {
-                form.imageDisplay.Image = Image.FromStream(ms);
-                form.imageDisplay.SizeMode = PictureBoxSizeMode.Zoom;
+                form.speciesBox.SelectedItem = species;
+            }
+            else
+            {
+                form.speciesBox.SelectedIndex = -1;
+            }
+
+            if (characterData.Image != null)
+            {
+                byte[] imageBytes = Convert.FromBase64String(characterData.Image.ToString());
+                using (MemoryStream ms = new MemoryStream(imageBytes))
+                {
+                    form.imageDisplay.Image = Image.FromStream(ms);
+                    form.imageDisplay.SizeMode = PictureBoxSizeMode.Zoom;
+                }
+            }
+            else
+            {
+                form.imageDisplay.Image = null;
+                form.imageDisplay.SizeMode = PictureBoxSizeMode.Normal;
+            }
+
+            PopulateSkillData(form.dexSkills, characterData.DexSkills);
+            PopulateSkillData(form.knowSkills, characterData.KnowSkills);
+            PopulateSkillData(form.mechSkills, characterData.MechSkills);
+            PopulateSkillData(form.techSkills, characterData.TechSkills);
+            PopulateSkillData(form.perSkills, characterData.PerSkills);
+            PopulateSkillData(form.strSkills, characterData.StrSkills);
+
+            form.forceCon.Text = characterData.ForceCon;
+            form.forceSense.Text = characterData.ForceSense;
+            form.forceAlter.Text = characterData.ForceAlter;
+
+            form.forcePowersPanel.Controls.Clear();
+            if (characterData.ForcePowers != null)
+            {
+                foreach (var powerName in characterData.ForcePowers)
+                {
+                    form.AddForcePowerToPanel((string)powerName);
+                }
+            }
+
+            form.weapInv.Controls.Clear();
+            if (characterData.Weapons != null)
+            {
+                foreach (var weaponName in characterData.Weapons)
+                {
+                    form.AddToInventory(new EquipmentItem { Name = (string)weaponName, Type = "weapon" }, 1);
+                }
+            }
+
+            form.armorInv.Controls.Clear();
+            if (characterData.Armor != null)
+            {
+                foreach (var armorName in characterData.Armor)
+                {
+                    form.AddToInventory(new EquipmentItem { Name = (string)armorName, Type = "armor" }, 1);
+                }
+            }
+
+            form.gearInv.Controls.Clear();
+            if (characterData.Gear != null)
+            {
+                foreach (var gearName in characterData.Gear)
+                {
+                    form.AddToInventory(new EquipmentItem { Name = (string)gearName, Type = "gear" }, 1);
+                }
             }
         }
-        else
+        finally
         {
-            form.imageDisplay.Image = null;
-            form.imageDisplay.SizeMode = PictureBoxSizeMode.Normal;
-        }
+            // Reattach the event handler for specialConvert
+            form.specialConvert.CheckedChanged += form.specialConvert_CheckedChanged;
+            form.isLoading = false;
 
-        PopulateSkillData(form.dexSkills, characterData.DexSkills);
-        PopulateSkillData(form.knowSkills, characterData.KnowSkills);
-        PopulateSkillData(form.mechSkills, characterData.MechSkills);
-        PopulateSkillData(form.techSkills, characterData.TechSkills);
-        PopulateSkillData(form.perSkills, characterData.PerSkills);
-        PopulateSkillData(form.strSkills, characterData.StrSkills);
-
-        form.forceCon.Text = characterData.ForceCon;
-        form.forceSense.Text = characterData.ForceSense;
-        form.forceAlter.Text = characterData.ForceAlter;
-
-        form.forcePowersPanel.Controls.Clear();
-        if (characterData.ForcePowers != null)
-        {
-            foreach (var powerName in characterData.ForcePowers)
-            {
-                form.AddForcePowerToPanel((string)powerName);
-            }
-        }
-
-        form.weapInv.Controls.Clear();
-        if (characterData.Weapons != null)
-        {
-            foreach (var weaponName in characterData.Weapons)
-            {
-                form.AddToInventory(new EquipmentItem { Name = (string)weaponName, Type = "weapon" }, 1);
-            }
-        }
-
-        form.armorInv.Controls.Clear();
-        if (characterData.Armor != null)
-        {
-            foreach (var armorName in characterData.Armor)
-            {
-                form.AddToInventory(new EquipmentItem { Name = (string)armorName, Type = "armor" }, 1);
-            }
-        }
-
-        form.gearInv.Controls.Clear();
-        if (characterData.Gear != null)
-        {
-            foreach (var gearName in characterData.Gear)
-            {
-                form.AddToInventory(new EquipmentItem { Name = (string)gearName, Type = "gear" }, 1);
-            }
         }
     }
+
 
 
 
