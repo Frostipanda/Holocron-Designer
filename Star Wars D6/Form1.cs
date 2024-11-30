@@ -73,6 +73,7 @@ namespace Star_Wars_D6
             this.od6.LinkClicked += new LinkLabelLinkClickedEventHandler(this.od6_LinkClicked);
             this.od6sw.LinkClicked += new LinkLabelLinkClickedEventHandler(this.od6sw_LinkClicked);
             UpdateChecker.CheckForUpdates();
+            ConfigureContextMenus();
 
 
 
@@ -1983,7 +1984,83 @@ namespace Star_Wars_D6
 
 
 
+        private void ConfigureContextMenus()
+        {
+            // List of all ListBoxes
+            var listBoxes = new[] { campStr, campPer, campTech, campMech, campKnow, campDex };
 
+            foreach (var listBox in listBoxes)
+            {
+                // Create a ContextMenuStrip
+                var contextMenu = new ContextMenuStrip();
+
+                // Create the "Add Skill" menu item
+                var addSkillMenuItem = new ToolStripMenuItem("Add Skill");
+                addSkillMenuItem.Click += (sender, e) => AddSkillToListBox(listBox);
+
+                // Add the menu item to the ContextMenuStrip
+                contextMenu.Items.Add(addSkillMenuItem);
+
+                // Attach the ContextMenuStrip to the ListBox
+                listBox.ContextMenuStrip = contextMenu;
+            }
+        }
+
+        private void AddSkillToListBox(ListBox listBox)
+        {
+            // Prompt the user to enter a skill name
+            using (var inputForm = new Form())
+            {
+                inputForm.Text = "Add Skill";
+                inputForm.Width = 300;
+                inputForm.Height = 150;
+                inputForm.StartPosition = FormStartPosition.CenterParent;
+
+                var label = new Label
+                {
+                    Text = "Name the skill you would like to add:",
+                    AutoSize = true,
+                    Top = 20,
+                    Left = 10
+                };
+
+                var textBox = new TextBox
+                {
+                    Top = 50,
+                    Left = 10,
+                    Width = 260
+                };
+
+                var confirmButton = new Button
+                {
+                    Text = "Confirm",
+                    DialogResult = DialogResult.OK,
+                    Top = 80,
+                    Left = 10
+                };
+
+                inputForm.Controls.Add(label);
+                inputForm.Controls.Add(textBox);
+                inputForm.Controls.Add(confirmButton);
+
+                inputForm.AcceptButton = confirmButton;
+
+                if (inputForm.ShowDialog() == DialogResult.OK)
+                {
+                    string skillName = textBox.Text.Trim();
+
+                    // Validate the input
+                    if (!string.IsNullOrEmpty(skillName))
+                    {
+                        listBox.Items.Add(skillName);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Skill name cannot be empty.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+            }
+        }
 
 
 

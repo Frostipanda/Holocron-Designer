@@ -33,209 +33,214 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.aboutPage = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.od6sw = new System.Windows.Forms.LinkLabel();
+            this.od6 = new System.Windows.Forms.LinkLabel();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.buyCoffee = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.discordLink = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.discordLink = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.buyCoffee = new System.Windows.Forms.Button();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.od6 = new System.Windows.Forms.LinkLabel();
-            this.od6sw = new System.Windows.Forms.LinkLabel();
             this.cpLog = new System.Windows.Forms.TabPage();
             this.xpLog = new System.Windows.Forms.ListView();
             this.tabCampaign = new System.Windows.Forms.TabPage();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.label82 = new System.Windows.Forms.Label();
-            this.dexRename = new System.Windows.Forms.TextBox();
-            this.knowRename = new System.Windows.Forms.TextBox();
-            this.mechRename = new System.Windows.Forms.TextBox();
-            this.techRename = new System.Windows.Forms.TextBox();
-            this.perRename = new System.Windows.Forms.TextBox();
-            this.strRename = new System.Windows.Forms.TextBox();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.label22 = new System.Windows.Forms.Label();
-            this.dexSkillCamp = new System.Windows.Forms.TextBox();
-            this.knowSkillCamp = new System.Windows.Forms.TextBox();
-            this.mechSkillCamp = new System.Windows.Forms.TextBox();
-            this.techSkillCamp = new System.Windows.Forms.TextBox();
-            this.perSkillCamp = new System.Windows.Forms.TextBox();
-            this.campStr = new System.Windows.Forms.ListBox();
-            this.strSkillCamp = new System.Windows.Forms.TextBox();
-            this.campTech = new System.Windows.Forms.ListBox();
-            this.campKnow = new System.Windows.Forms.ListBox();
-            this.campPer = new System.Windows.Forms.ListBox();
-            this.campDex = new System.Windows.Forms.ListBox();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.label23 = new System.Windows.Forms.Label();
-            this.racialCampList = new System.Windows.Forms.TextBox();
-            this.campMech = new System.Windows.Forms.ListBox();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.label24 = new System.Windows.Forms.Label();
-            this.attAdd = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.panel22 = new System.Windows.Forms.Panel();
-            this.label85 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel23 = new System.Windows.Forms.Panel();
-            this.label83 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.label83 = new System.Windows.Forms.Label();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label85 = new System.Windows.Forms.Label();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.label25 = new System.Windows.Forms.Label();
+            this.attAdd = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.campMech = new System.Windows.Forms.ListBox();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.racialCampList = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.campDex = new System.Windows.Forms.ListBox();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.campPer = new System.Windows.Forms.ListBox();
+            this.campKnow = new System.Windows.Forms.ListBox();
+            this.campTech = new System.Windows.Forms.ListBox();
+            this.strSkillCamp = new System.Windows.Forms.TextBox();
+            this.campStr = new System.Windows.Forms.ListBox();
+            this.perSkillCamp = new System.Windows.Forms.TextBox();
+            this.techSkillCamp = new System.Windows.Forms.TextBox();
+            this.mechSkillCamp = new System.Windows.Forms.TextBox();
+            this.knowSkillCamp = new System.Windows.Forms.TextBox();
+            this.dexSkillCamp = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.strRename = new System.Windows.Forms.TextBox();
+            this.perRename = new System.Windows.Forms.TextBox();
+            this.techRename = new System.Windows.Forms.TextBox();
+            this.mechRename = new System.Windows.Forms.TextBox();
+            this.knowRename = new System.Windows.Forms.TextBox();
+            this.dexRename = new System.Windows.Forms.TextBox();
+            this.label82 = new System.Windows.Forms.Label();
             this.tabVehicle = new System.Windows.Forms.TabPage();
             this.tabBackground = new System.Windows.Forms.TabPage();
-            this.label33 = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.label46 = new System.Windows.Forms.Label();
-            this.racialAbil = new System.Windows.Forms.TextBox();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.perBack = new System.Windows.Forms.TextBox();
-            this.label49 = new System.Windows.Forms.Label();
-            this.phyBack = new System.Windows.Forms.TextBox();
-            this.label50 = new System.Windows.Forms.Label();
-            this.backgroundBack = new System.Windows.Forms.TextBox();
-            this.label51 = new System.Windows.Forms.Label();
-            this.alliesBack = new System.Windows.Forms.TextBox();
+            this.panel14 = new System.Windows.Forms.Panel();
             this.label52 = new System.Windows.Forms.Label();
             this.enemiesBack = new System.Windows.Forms.TextBox();
+            this.alliesBack = new System.Windows.Forms.TextBox();
+            this.backgroundBack = new System.Windows.Forms.TextBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.perBack = new System.Windows.Forms.TextBox();
+            this.phyBack = new System.Windows.Forms.TextBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.racialAbil = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
             this.tabEquipment = new System.Windows.Forms.TabPage();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.gearInv = new System.Windows.Forms.Panel();
-            this.armorInv = new System.Windows.Forms.Panel();
-            this.weapInv = new System.Windows.Forms.Panel();
-            this.panel14 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.Credits = new System.Windows.Forms.Label();
-            this.playerCreditsTextBox = new System.Windows.Forms.TextBox();
-            this.openShop = new System.Windows.Forms.Button();
-            this.equipNotes = new System.Windows.Forms.TextBox();
             this.label66 = new System.Windows.Forms.Label();
+            this.equipNotes = new System.Windows.Forms.TextBox();
+            this.openShop = new System.Windows.Forms.Button();
+            this.playerCreditsTextBox = new System.Windows.Forms.TextBox();
+            this.Credits = new System.Windows.Forms.Label();
+            this.weapInv = new System.Windows.Forms.Panel();
+            this.armorInv = new System.Windows.Forms.Panel();
+            this.gearInv = new System.Windows.Forms.Panel();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.tabForce = new System.Windows.Forms.TabPage();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.forceSense = new System.Windows.Forms.TextBox();
-            this.forceCon = new System.Windows.Forms.TextBox();
-            this.forceAlter = new System.Windows.Forms.TextBox();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.forceEditButton = new System.Windows.Forms.Button();
+            this.openLearning = new System.Windows.Forms.Button();
             this.label32 = new System.Windows.Forms.Label();
             this.forcePowersPanel = new System.Windows.Forms.Panel();
-            this.openLearning = new System.Windows.Forms.Button();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.forceEditButton = new System.Windows.Forms.Button();
+            this.forceAlter = new System.Windows.Forms.TextBox();
+            this.forceCon = new System.Windows.Forms.TextBox();
+            this.forceSense = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
             this.tabMain = new System.Windows.Forms.TabPage();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.techLabel = new System.Windows.Forms.Label();
-            this.techAtt = new System.Windows.Forms.TextBox();
-            this.techSkills = new System.Windows.Forms.ListView();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.strLabel = new System.Windows.Forms.Label();
-            this.strAtt = new System.Windows.Forms.TextBox();
-            this.strSkills = new System.Windows.Forms.ListView();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.perLabel = new System.Windows.Forms.Label();
-            this.perAtt = new System.Windows.Forms.TextBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.mechLabel = new System.Windows.Forms.Label();
-            this.mechAtt = new System.Windows.Forms.TextBox();
-            this.mechSkills = new System.Windows.Forms.ListView();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.knowLabel = new System.Windows.Forms.Label();
-            this.knowAtt = new System.Windows.Forms.TextBox();
-            this.knowSkills = new System.Windows.Forms.ListView();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.dexLabel = new System.Windows.Forms.Label();
-            this.dexAtt = new System.Windows.Forms.TextBox();
-            this.dexSkills = new System.Windows.Forms.ListView();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.currentAttribute = new System.Windows.Forms.TextBox();
-            this.charPoints = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.specialDice = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.skillDice = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.specialConvert = new System.Windows.Forms.CheckBox();
-            this.checkBoxCharacterCreation = new System.Windows.Forms.CheckBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.racialBase = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.raceAbil = new System.Windows.Forms.TextBox();
-            this.imageSelect = new System.Windows.Forms.Button();
-            this.imageDisplay = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.moveAtt = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.forcePoints = new System.Windows.Forms.TextBox();
-            this.dsPoints = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.fateBox = new System.Windows.Forms.CheckBox();
-            this.loadCharacter = new System.Windows.Forms.Button();
-            this.mainCharPanel = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.characterName = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.charAge = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.charHeight = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.charWeight = new System.Windows.Forms.TextBox();
-            this.speciesBox = new System.Windows.Forms.ComboBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.charQuote = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.typeBox = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.genderBox = new System.Windows.Forms.TextBox();
-            this.saveCharacter = new System.Windows.Forms.Button();
-            this.printCharacter = new System.Windows.Forms.Button();
-            this.foundExport = new System.Windows.Forms.Button();
             this.perSkills = new System.Windows.Forms.ListView();
+            this.foundExport = new System.Windows.Forms.Button();
+            this.printCharacter = new System.Windows.Forms.Button();
+            this.saveCharacter = new System.Windows.Forms.Button();
+            this.mainCharPanel = new System.Windows.Forms.Panel();
+            this.genderBox = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.typeBox = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.charQuote = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.speciesBox = new System.Windows.Forms.ComboBox();
+            this.charWeight = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.charHeight = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.charAge = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.characterName = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.loadCharacter = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.fateBox = new System.Windows.Forms.CheckBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.dsPoints = new System.Windows.Forms.TextBox();
+            this.forcePoints = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.moveAtt = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.imageDisplay = new System.Windows.Forms.PictureBox();
+            this.imageSelect = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.raceAbil = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.racialBase = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.checkBoxCharacterCreation = new System.Windows.Forms.CheckBox();
+            this.specialConvert = new System.Windows.Forms.CheckBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.skillDice = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.specialDice = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.charPoints = new System.Windows.Forms.TextBox();
+            this.currentAttribute = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.dexSkills = new System.Windows.Forms.ListView();
+            this.dexAtt = new System.Windows.Forms.TextBox();
+            this.dexLabel = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.knowSkills = new System.Windows.Forms.ListView();
+            this.knowAtt = new System.Windows.Forms.TextBox();
+            this.knowLabel = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.mechSkills = new System.Windows.Forms.ListView();
+            this.mechAtt = new System.Windows.Forms.TextBox();
+            this.mechLabel = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.perAtt = new System.Windows.Forms.TextBox();
+            this.perLabel = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.strSkills = new System.Windows.Forms.ListView();
+            this.strAtt = new System.Windows.Forms.TextBox();
+            this.strLabel = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.techSkills = new System.Windows.Forms.ListView();
+            this.techAtt = new System.Windows.Forms.TextBox();
+            this.techLabel = new System.Windows.Forms.Label();
             this.tabControl = new System.Windows.Forms.TabControl();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.aboutPage.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.cpLog.SuspendLayout();
             this.tabCampaign.SuspendLayout();
-            this.panel18.SuspendLayout();
-            this.panel19.SuspendLayout();
-            this.panel20.SuspendLayout();
-            this.panel21.SuspendLayout();
-            this.panel22.SuspendLayout();
             this.panel23.SuspendLayout();
+            this.panel22.SuspendLayout();
+            this.panel21.SuspendLayout();
+            this.panel20.SuspendLayout();
+            this.panel19.SuspendLayout();
+            this.panel18.SuspendLayout();
             this.tabBackground.SuspendLayout();
+            this.panel14.SuspendLayout();
             this.panel12.SuspendLayout();
             this.tabEquipment.SuspendLayout();
             this.panel15.SuspendLayout();
             this.tabForce.SuspendLayout();
             this.tabMain.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imageDisplay)).BeginInit();
-            this.panel1.SuspendLayout();
             this.mainCharPanel.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imageDisplay)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel9.SuspendLayout();
             this.tabControl.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // printDialog1
@@ -244,6 +249,7 @@
             // 
             // aboutPage
             // 
+            this.aboutPage.Controls.Add(this.groupBox5);
             this.aboutPage.Controls.Add(this.groupBox4);
             this.aboutPage.Controls.Add(this.groupBox3);
             this.aboutPage.Controls.Add(this.groupBox2);
@@ -255,6 +261,116 @@
             this.aboutPage.TabIndex = 7;
             this.aboutPage.Text = "Misc.";
             this.aboutPage.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.od6sw);
+            this.groupBox4.Controls.Add(this.od6);
+            this.groupBox4.Controls.Add(this.textBox4);
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Location = new System.Drawing.Point(475, 31);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(386, 309);
+            this.groupBox4.TabIndex = 4;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Special Thanks";
+            // 
+            // od6sw
+            // 
+            this.od6sw.AutoSize = true;
+            this.od6sw.Location = new System.Drawing.Point(6, 251);
+            this.od6sw.Name = "od6sw";
+            this.od6sw.Size = new System.Drawing.Size(136, 24);
+            this.od6sw.TabIndex = 2;
+            this.od6sw.TabStop = true;
+            this.od6sw.Text = "od6s Star Wars";
+            // 
+            // od6
+            // 
+            this.od6.AutoSize = true;
+            this.od6.Location = new System.Drawing.Point(6, 227);
+            this.od6.Name = "od6";
+            this.od6.Size = new System.Drawing.Size(145, 24);
+            this.od6.TabIndex = 1;
+            this.od6.TabStop = true;
+            this.od6.Text = "Open Space D6";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(6, 28);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ReadOnly = true;
+            this.textBox4.Size = new System.Drawing.Size(374, 275);
+            this.textBox4.TabIndex = 0;
+            this.textBox4.Text = resources.GetString("textBox4.Text");
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.buyCoffee);
+            this.groupBox3.Controls.Add(this.textBox3);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Location = new System.Drawing.Point(475, 346);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(386, 352);
+            this.groupBox3.TabIndex = 3;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Support the Project";
+            // 
+            // buyCoffee
+            // 
+            this.buyCoffee.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Coffee;
+            this.buyCoffee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buyCoffee.Location = new System.Drawing.Point(6, 258);
+            this.buyCoffee.Name = "buyCoffee";
+            this.buyCoffee.Size = new System.Drawing.Size(172, 50);
+            this.buyCoffee.TabIndex = 1;
+            this.buyCoffee.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(6, 28);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(374, 318);
+            this.textBox3.TabIndex = 0;
+            this.textBox3.Text = resources.GetString("textBox3.Text");
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.discordLink);
+            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(9, 346);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(460, 210);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Join the Community";
+            // 
+            // discordLink
+            // 
+            this.discordLink.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Discord;
+            this.discordLink.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.discordLink.Location = new System.Drawing.Point(6, 132);
+            this.discordLink.Name = "discordLink";
+            this.discordLink.Size = new System.Drawing.Size(172, 50);
+            this.discordLink.TabIndex = 1;
+            this.discordLink.UseVisualStyleBackColor = true;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(6, 28);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(448, 176);
+            this.textBox2.TabIndex = 0;
+            this.textBox2.Text = resources.GetString("textBox2.Text");
             // 
             // groupBox1
             // 
@@ -278,116 +394,6 @@
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.discordLink);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(9, 346);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(460, 210);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Join the Community";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(6, 28);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(448, 176);
-            this.textBox2.TabIndex = 0;
-            this.textBox2.Text = resources.GetString("textBox2.Text");
-            // 
-            // discordLink
-            // 
-            this.discordLink.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Discord;
-            this.discordLink.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.discordLink.Location = new System.Drawing.Point(6, 132);
-            this.discordLink.Name = "discordLink";
-            this.discordLink.Size = new System.Drawing.Size(172, 50);
-            this.discordLink.TabIndex = 1;
-            this.discordLink.UseVisualStyleBackColor = true;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.buyCoffee);
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(475, 346);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(386, 352);
-            this.groupBox3.TabIndex = 3;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Support the Project";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(6, 28);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(374, 318);
-            this.textBox3.TabIndex = 0;
-            this.textBox3.Text = resources.GetString("textBox3.Text");
-            // 
-            // buyCoffee
-            // 
-            this.buyCoffee.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Coffee;
-            this.buyCoffee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buyCoffee.Location = new System.Drawing.Point(6, 258);
-            this.buyCoffee.Name = "buyCoffee";
-            this.buyCoffee.Size = new System.Drawing.Size(172, 50);
-            this.buyCoffee.TabIndex = 1;
-            this.buyCoffee.UseVisualStyleBackColor = true;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.od6sw);
-            this.groupBox4.Controls.Add(this.od6);
-            this.groupBox4.Controls.Add(this.textBox4);
-            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(475, 31);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(386, 309);
-            this.groupBox4.TabIndex = 4;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Special Thanks";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(6, 28);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(374, 275);
-            this.textBox4.TabIndex = 0;
-            this.textBox4.Text = resources.GetString("textBox4.Text");
-            // 
-            // od6
-            // 
-            this.od6.AutoSize = true;
-            this.od6.Location = new System.Drawing.Point(6, 227);
-            this.od6.Name = "od6";
-            this.od6.Size = new System.Drawing.Size(145, 24);
-            this.od6.TabIndex = 1;
-            this.od6.TabStop = true;
-            this.od6.Text = "Open Space D6";
-            // 
-            // od6sw
-            // 
-            this.od6sw.AutoSize = true;
-            this.od6sw.Location = new System.Drawing.Point(6, 251);
-            this.od6sw.Name = "od6sw";
-            this.od6sw.Size = new System.Drawing.Size(136, 24);
-            this.od6sw.TabIndex = 2;
-            this.od6sw.TabStop = true;
-            this.od6sw.Text = "od6s Star Wars";
-            // 
             // cpLog
             // 
             this.cpLog.Controls.Add(this.xpLog);
@@ -410,6 +416,7 @@
             // 
             // tabCampaign
             // 
+            this.tabCampaign.BackgroundImage = global::Star_Wars_D6.Properties.Resources.vector_feb_2021_74_generated;
             this.tabCampaign.Controls.Add(this.panel23);
             this.tabCampaign.Controls.Add(this.panel22);
             this.tabCampaign.Controls.Add(this.panel21);
@@ -426,314 +433,101 @@
             this.tabCampaign.Text = "Campaign";
             this.tabCampaign.UseVisualStyleBackColor = true;
             // 
-            // panel18
+            // panel23
             // 
-            this.panel18.BackColor = System.Drawing.Color.LightBlue;
-            this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel18.Controls.Add(this.strRename);
-            this.panel18.Controls.Add(this.perRename);
-            this.panel18.Controls.Add(this.techRename);
-            this.panel18.Controls.Add(this.mechRename);
-            this.panel18.Controls.Add(this.knowRename);
-            this.panel18.Controls.Add(this.dexRename);
-            this.panel18.Controls.Add(this.label82);
-            this.panel18.Location = new System.Drawing.Point(8, 6);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(205, 195);
-            this.panel18.TabIndex = 1;
+            this.panel23.BackColor = System.Drawing.Color.LightBlue;
+            this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel23.Controls.Add(this.button2);
+            this.panel23.Controls.Add(this.label83);
+            this.panel23.Location = new System.Drawing.Point(445, 500);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(416, 443);
+            this.panel23.TabIndex = 13;
             // 
-            // label82
+            // button2
             // 
-            this.label82.AutoSize = true;
-            this.label82.Location = new System.Drawing.Point(3, 0);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(82, 13);
-            this.label82.TabIndex = 0;
-            this.label82.Text = "Attribute Names";
+            this.button2.Location = new System.Drawing.Point(153, 209);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(134, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "In Development";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // dexRename
+            // label83
             // 
-            this.dexRename.Location = new System.Drawing.Point(6, 16);
-            this.dexRename.Name = "dexRename";
-            this.dexRename.Size = new System.Drawing.Size(100, 20);
-            this.dexRename.TabIndex = 1;
-            this.dexRename.Text = "Dexterity";
+            this.label83.AutoSize = true;
+            this.label83.Location = new System.Drawing.Point(3, 0);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(102, 13);
+            this.label83.TabIndex = 0;
+            this.label83.Text = "Force Power Builder";
             // 
-            // knowRename
+            // panel22
             // 
-            this.knowRename.Location = new System.Drawing.Point(6, 42);
-            this.knowRename.Name = "knowRename";
-            this.knowRename.Size = new System.Drawing.Size(100, 20);
-            this.knowRename.TabIndex = 2;
-            this.knowRename.Text = "Knowledge";
+            this.panel22.BackColor = System.Drawing.Color.LightBlue;
+            this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel22.Controls.Add(this.label85);
+            this.panel22.Controls.Add(this.button1);
+            this.panel22.Location = new System.Drawing.Point(8, 500);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(416, 443);
+            this.panel22.TabIndex = 12;
             // 
-            // mechRename
+            // button1
             // 
-            this.mechRename.Location = new System.Drawing.Point(6, 68);
-            this.mechRename.Name = "mechRename";
-            this.mechRename.Size = new System.Drawing.Size(100, 20);
-            this.mechRename.TabIndex = 3;
-            this.mechRename.Text = "Mechanical";
+            this.button1.Location = new System.Drawing.Point(120, 209);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(134, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "In Development";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // techRename
+            // label85
             // 
-            this.techRename.Location = new System.Drawing.Point(6, 94);
-            this.techRename.Name = "techRename";
-            this.techRename.Size = new System.Drawing.Size(100, 20);
-            this.techRename.TabIndex = 4;
-            this.techRename.Text = "Technical";
+            this.label85.AutoSize = true;
+            this.label85.Location = new System.Drawing.Point(3, 0);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(61, 13);
+            this.label85.TabIndex = 0;
+            this.label85.Text = "Item builder";
             // 
-            // perRename
+            // panel21
             // 
-            this.perRename.Location = new System.Drawing.Point(6, 120);
-            this.perRename.Name = "perRename";
-            this.perRename.Size = new System.Drawing.Size(100, 20);
-            this.perRename.TabIndex = 5;
-            this.perRename.Text = "Perception";
+            this.panel21.BackColor = System.Drawing.Color.LightBlue;
+            this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel21.Controls.Add(this.label25);
+            this.panel21.Controls.Add(this.attAdd);
+            this.panel21.Controls.Add(this.label24);
+            this.panel21.Location = new System.Drawing.Point(430, 6);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(205, 195);
+            this.panel21.TabIndex = 11;
             // 
-            // strRename
+            // label25
             // 
-            this.strRename.Location = new System.Drawing.Point(6, 146);
-            this.strRename.Name = "strRename";
-            this.strRename.Size = new System.Drawing.Size(100, 20);
-            this.strRename.TabIndex = 6;
-            this.strRename.Text = "Strength";
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(3, 26);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(155, 13);
+            this.label25.TabIndex = 2;
+            this.label25.Text = "Attribute Dice (added to Racial)";
             // 
-            // panel19
+            // attAdd
             // 
-            this.panel19.BackColor = System.Drawing.Color.LightBlue;
-            this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel19.Controls.Add(this.campPer);
-            this.panel19.Controls.Add(this.campKnow);
-            this.panel19.Controls.Add(this.campTech);
-            this.panel19.Controls.Add(this.strSkillCamp);
-            this.panel19.Controls.Add(this.campStr);
-            this.panel19.Controls.Add(this.perSkillCamp);
-            this.panel19.Controls.Add(this.techSkillCamp);
-            this.panel19.Controls.Add(this.mechSkillCamp);
-            this.panel19.Controls.Add(this.knowSkillCamp);
-            this.panel19.Controls.Add(this.dexSkillCamp);
-            this.panel19.Controls.Add(this.label22);
-            this.panel19.Location = new System.Drawing.Point(8, 207);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(853, 287);
-            this.panel19.TabIndex = 2;
+            this.attAdd.Location = new System.Drawing.Point(3, 42);
+            this.attAdd.Name = "attAdd";
+            this.attAdd.Size = new System.Drawing.Size(100, 20);
+            this.attAdd.TabIndex = 1;
+            this.attAdd.Text = "6D";
             // 
-            // label22
+            // label24
             // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(3, 0);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(31, 13);
-            this.label22.TabIndex = 0;
-            this.label22.Text = "Skills";
-            // 
-            // dexSkillCamp
-            // 
-            this.dexSkillCamp.Location = new System.Drawing.Point(3, 27);
-            this.dexSkillCamp.Name = "dexSkillCamp";
-            this.dexSkillCamp.ReadOnly = true;
-            this.dexSkillCamp.Size = new System.Drawing.Size(100, 20);
-            this.dexSkillCamp.TabIndex = 2;
-            this.dexSkillCamp.Text = "Dexterity";
-            // 
-            // knowSkillCamp
-            // 
-            this.knowSkillCamp.Location = new System.Drawing.Point(136, 27);
-            this.knowSkillCamp.Name = "knowSkillCamp";
-            this.knowSkillCamp.ReadOnly = true;
-            this.knowSkillCamp.Size = new System.Drawing.Size(100, 20);
-            this.knowSkillCamp.TabIndex = 8;
-            this.knowSkillCamp.Text = "Knowledge";
-            // 
-            // mechSkillCamp
-            // 
-            this.mechSkillCamp.Location = new System.Drawing.Point(269, 27);
-            this.mechSkillCamp.Name = "mechSkillCamp";
-            this.mechSkillCamp.ReadOnly = true;
-            this.mechSkillCamp.Size = new System.Drawing.Size(100, 20);
-            this.mechSkillCamp.TabIndex = 7;
-            this.mechSkillCamp.Text = "Mechanical";
-            // 
-            // techSkillCamp
-            // 
-            this.techSkillCamp.Location = new System.Drawing.Point(402, 27);
-            this.techSkillCamp.Name = "techSkillCamp";
-            this.techSkillCamp.ReadOnly = true;
-            this.techSkillCamp.Size = new System.Drawing.Size(100, 20);
-            this.techSkillCamp.TabIndex = 7;
-            this.techSkillCamp.Text = "Technical";
-            // 
-            // perSkillCamp
-            // 
-            this.perSkillCamp.Location = new System.Drawing.Point(535, 27);
-            this.perSkillCamp.Name = "perSkillCamp";
-            this.perSkillCamp.ReadOnly = true;
-            this.perSkillCamp.Size = new System.Drawing.Size(100, 20);
-            this.perSkillCamp.TabIndex = 7;
-            this.perSkillCamp.Text = "Perception";
-            // 
-            // campStr
-            // 
-            this.campStr.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.campStr.ColumnWidth = 1;
-            this.campStr.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.campStr.FormattingEnabled = true;
-            this.campStr.Items.AddRange(new object[] {
-            "Brawling",
-            "Climbing/Jumping",
-            "Lifting",
-            "Stamina",
-            "Swimming"});
-            this.campStr.Location = new System.Drawing.Point(668, 53);
-            this.campStr.Name = "campStr";
-            this.campStr.Size = new System.Drawing.Size(118, 225);
-            this.campStr.TabIndex = 13;
-            // 
-            // strSkillCamp
-            // 
-            this.strSkillCamp.Location = new System.Drawing.Point(668, 27);
-            this.strSkillCamp.Name = "strSkillCamp";
-            this.strSkillCamp.ReadOnly = true;
-            this.strSkillCamp.Size = new System.Drawing.Size(100, 20);
-            this.strSkillCamp.TabIndex = 7;
-            this.strSkillCamp.Text = "Strength";
-            // 
-            // campTech
-            // 
-            this.campTech.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.campTech.ColumnWidth = 1;
-            this.campTech.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.campTech.FormattingEnabled = true;
-            this.campTech.Items.AddRange(new object[] {
-            "Armor Repair",
-            "Blaster Repair",
-            "Capital Ship Repair",
-            "Capital Ship Weapon Repair",
-            "Computer Programming/Repair",
-            "Demolitions",
-            "Droid Programming",
-            "Droid Repair",
-            "First Aid",
-            "Ground Vehicle Repair",
-            "Medicine",
-            "Repulsorlift Repair",
-            "Security",
-            "Space Transports Repair",
-            "Starfighter Repair",
-            "Starship Weapon Repair",
-            "Walker Repair"});
-            this.campTech.Location = new System.Drawing.Point(402, 53);
-            this.campTech.Name = "campTech";
-            this.campTech.Size = new System.Drawing.Size(118, 225);
-            this.campTech.TabIndex = 11;
-            // 
-            // campKnow
-            // 
-            this.campKnow.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.campKnow.ColumnWidth = 1;
-            this.campKnow.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.campKnow.FormattingEnabled = true;
-            this.campKnow.Items.AddRange(new object[] {
-            "Alien Species",
-            "Bureaucracy",
-            "Business",
-            "Cultures",
-            "Intimidation",
-            "Languages",
-            "Law Enforcement",
-            "Planetary Systems",
-            "Scholar",
-            "Streetwise",
-            "Survival",
-            "Tactics",
-            "Value",
-            "Willpower"});
-            this.campKnow.Location = new System.Drawing.Point(136, 53);
-            this.campKnow.Name = "campKnow";
-            this.campKnow.Size = new System.Drawing.Size(118, 225);
-            this.campKnow.TabIndex = 9;
-            // 
-            // campPer
-            // 
-            this.campPer.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.campPer.ColumnWidth = 1;
-            this.campPer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.campPer.FormattingEnabled = true;
-            this.campPer.Items.AddRange(new object[] {
-            "Bargain",
-            "Command",
-            "Con",
-            "Forgery",
-            "Gambling",
-            "Hide",
-            "Investigation",
-            "Persuasion",
-            "Search",
-            "Sneak"});
-            this.campPer.Location = new System.Drawing.Point(535, 53);
-            this.campPer.Name = "campPer";
-            this.campPer.Size = new System.Drawing.Size(118, 225);
-            this.campPer.TabIndex = 12;
-            // 
-            // campDex
-            // 
-            this.campDex.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.campDex.ColumnWidth = 1;
-            this.campDex.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.campDex.FormattingEnabled = true;
-            this.campDex.Items.AddRange(new object[] {
-            "Archaic Guns",
-            "Blaster",
-            "Blaster Artillery",
-            "Bowcasters",
-            "Bows",
-            "Brawling Parry",
-            "Dodge",
-            "Firearm",
-            "Grenade",
-            "Lightsabers",
-            "Melee Combat",
-            "Melee Parry",
-            "Missile Weapon",
-            "Pick Pocket",
-            "Running",
-            "Thrown Weapon",
-            "Vehicle Blasters"});
-            this.campDex.Location = new System.Drawing.Point(13, 262);
-            this.campDex.Name = "campDex";
-            this.campDex.Size = new System.Drawing.Size(118, 225);
-            this.campDex.TabIndex = 8;
-            // 
-            // panel20
-            // 
-            this.panel20.BackColor = System.Drawing.Color.LightBlue;
-            this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel20.Controls.Add(this.racialCampList);
-            this.panel20.Controls.Add(this.label23);
-            this.panel20.Location = new System.Drawing.Point(219, 6);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(205, 195);
-            this.panel20.TabIndex = 7;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(3, 0);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(56, 13);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "Racial List";
-            // 
-            // racialCampList
-            // 
-            this.racialCampList.Location = new System.Drawing.Point(3, 16);
-            this.racialCampList.Multiline = true;
-            this.racialCampList.Name = "racialCampList";
-            this.racialCampList.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.racialCampList.Size = new System.Drawing.Size(195, 172);
-            this.racialCampList.TabIndex = 1;
-            this.racialCampList.Text = resources.GetString("racialCampList.Text");
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(3, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(75, 13);
+            this.label24.TabIndex = 0;
+            this.label24.Text = "Starting Points";
             // 
             // campMech
             // 
@@ -767,101 +561,314 @@
             this.campMech.Size = new System.Drawing.Size(118, 225);
             this.campMech.TabIndex = 10;
             // 
-            // panel21
+            // panel20
             // 
-            this.panel21.BackColor = System.Drawing.Color.LightBlue;
-            this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel21.Controls.Add(this.label25);
-            this.panel21.Controls.Add(this.attAdd);
-            this.panel21.Controls.Add(this.label24);
-            this.panel21.Location = new System.Drawing.Point(430, 6);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(205, 195);
-            this.panel21.TabIndex = 11;
+            this.panel20.BackColor = System.Drawing.Color.LightBlue;
+            this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel20.Controls.Add(this.racialCampList);
+            this.panel20.Controls.Add(this.label23);
+            this.panel20.Location = new System.Drawing.Point(219, 6);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(205, 195);
+            this.panel20.TabIndex = 7;
             // 
-            // label24
+            // racialCampList
             // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(3, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(75, 13);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "Starting Points";
+            this.racialCampList.Location = new System.Drawing.Point(3, 16);
+            this.racialCampList.Multiline = true;
+            this.racialCampList.Name = "racialCampList";
+            this.racialCampList.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.racialCampList.Size = new System.Drawing.Size(195, 172);
+            this.racialCampList.TabIndex = 1;
+            this.racialCampList.Text = resources.GetString("racialCampList.Text");
             // 
-            // attAdd
+            // label23
             // 
-            this.attAdd.Location = new System.Drawing.Point(3, 42);
-            this.attAdd.Name = "attAdd";
-            this.attAdd.Size = new System.Drawing.Size(100, 20);
-            this.attAdd.TabIndex = 1;
-            this.attAdd.Text = "6D";
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(3, 0);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(56, 13);
+            this.label23.TabIndex = 0;
+            this.label23.Text = "Racial List";
             // 
-            // label25
+            // campDex
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(3, 26);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(155, 13);
-            this.label25.TabIndex = 2;
-            this.label25.Text = "Attribute Dice (added to Racial)";
+            this.campDex.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.campDex.ColumnWidth = 1;
+            this.campDex.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campDex.FormattingEnabled = true;
+            this.campDex.Items.AddRange(new object[] {
+            "Archaic Guns",
+            "Blaster",
+            "Blaster Artillery",
+            "Bowcasters",
+            "Bows",
+            "Brawling Parry",
+            "Dodge",
+            "Firearm",
+            "Grenade",
+            "Lightsabers",
+            "Melee Combat",
+            "Melee Parry",
+            "Missile Weapon",
+            "Pick Pocket",
+            "Running",
+            "Thrown Weapon",
+            "Vehicle Blasters"});
+            this.campDex.Location = new System.Drawing.Point(13, 262);
+            this.campDex.Name = "campDex";
+            this.campDex.Size = new System.Drawing.Size(118, 225);
+            this.campDex.TabIndex = 8;
             // 
-            // panel22
+            // panel19
             // 
-            this.panel22.BackColor = System.Drawing.Color.LightBlue;
-            this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel22.Controls.Add(this.button1);
-            this.panel22.Controls.Add(this.label85);
-            this.panel22.Location = new System.Drawing.Point(8, 500);
-            this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(416, 443);
-            this.panel22.TabIndex = 12;
+            this.panel19.BackColor = System.Drawing.Color.LightBlue;
+            this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel19.Controls.Add(this.campPer);
+            this.panel19.Controls.Add(this.campKnow);
+            this.panel19.Controls.Add(this.campTech);
+            this.panel19.Controls.Add(this.strSkillCamp);
+            this.panel19.Controls.Add(this.campStr);
+            this.panel19.Controls.Add(this.perSkillCamp);
+            this.panel19.Controls.Add(this.techSkillCamp);
+            this.panel19.Controls.Add(this.mechSkillCamp);
+            this.panel19.Controls.Add(this.knowSkillCamp);
+            this.panel19.Controls.Add(this.dexSkillCamp);
+            this.panel19.Controls.Add(this.label22);
+            this.panel19.Location = new System.Drawing.Point(8, 207);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(853, 287);
+            this.panel19.TabIndex = 2;
             // 
-            // label85
+            // campPer
             // 
-            this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(3, 0);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(61, 13);
-            this.label85.TabIndex = 0;
-            this.label85.Text = "Item builder";
+            this.campPer.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.campPer.ColumnWidth = 1;
+            this.campPer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campPer.FormattingEnabled = true;
+            this.campPer.Items.AddRange(new object[] {
+            "Bargain",
+            "Command",
+            "Con",
+            "Forgery",
+            "Gambling",
+            "Hide",
+            "Investigation",
+            "Persuasion",
+            "Search",
+            "Sneak"});
+            this.campPer.Location = new System.Drawing.Point(535, 53);
+            this.campPer.Name = "campPer";
+            this.campPer.Size = new System.Drawing.Size(118, 225);
+            this.campPer.TabIndex = 12;
             // 
-            // button1
+            // campKnow
             // 
-            this.button1.Location = new System.Drawing.Point(136, 211);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "In Development";
-            this.button1.UseVisualStyleBackColor = true;
+            this.campKnow.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.campKnow.ColumnWidth = 1;
+            this.campKnow.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campKnow.FormattingEnabled = true;
+            this.campKnow.Items.AddRange(new object[] {
+            "Alien Species",
+            "Bureaucracy",
+            "Business",
+            "Cultures",
+            "Intimidation",
+            "Languages",
+            "Law Enforcement",
+            "Planetary Systems",
+            "Scholar",
+            "Streetwise",
+            "Survival",
+            "Tactics",
+            "Value",
+            "Willpower"});
+            this.campKnow.Location = new System.Drawing.Point(136, 53);
+            this.campKnow.Name = "campKnow";
+            this.campKnow.Size = new System.Drawing.Size(118, 225);
+            this.campKnow.TabIndex = 9;
             // 
-            // panel23
+            // campTech
             // 
-            this.panel23.BackColor = System.Drawing.Color.LightBlue;
-            this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel23.Controls.Add(this.button2);
-            this.panel23.Controls.Add(this.label83);
-            this.panel23.Location = new System.Drawing.Point(445, 500);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(416, 443);
-            this.panel23.TabIndex = 13;
+            this.campTech.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.campTech.ColumnWidth = 1;
+            this.campTech.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campTech.FormattingEnabled = true;
+            this.campTech.Items.AddRange(new object[] {
+            "Armor Repair",
+            "Blaster Repair",
+            "Capital Ship Repair",
+            "Capital Ship Weapon Repair",
+            "Computer Programming/Repair",
+            "Demolitions",
+            "Droid Programming",
+            "Droid Repair",
+            "First Aid",
+            "Ground Vehicle Repair",
+            "Medicine",
+            "Repulsorlift Repair",
+            "Security",
+            "Space Transports Repair",
+            "Starfighter Repair",
+            "Starship Weapon Repair",
+            "Walker Repair"});
+            this.campTech.Location = new System.Drawing.Point(402, 53);
+            this.campTech.Name = "campTech";
+            this.campTech.Size = new System.Drawing.Size(118, 225);
+            this.campTech.TabIndex = 11;
             // 
-            // label83
+            // strSkillCamp
             // 
-            this.label83.AutoSize = true;
-            this.label83.Location = new System.Drawing.Point(3, 0);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(102, 13);
-            this.label83.TabIndex = 0;
-            this.label83.Text = "Force Power Builder";
+            this.strSkillCamp.Location = new System.Drawing.Point(668, 27);
+            this.strSkillCamp.Name = "strSkillCamp";
+            this.strSkillCamp.ReadOnly = true;
+            this.strSkillCamp.Size = new System.Drawing.Size(100, 20);
+            this.strSkillCamp.TabIndex = 7;
+            this.strSkillCamp.Text = "Strength";
             // 
-            // button2
+            // campStr
             // 
-            this.button2.Location = new System.Drawing.Point(154, 211);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(134, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "In Development";
-            this.button2.UseVisualStyleBackColor = true;
+            this.campStr.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.campStr.ColumnWidth = 1;
+            this.campStr.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.campStr.FormattingEnabled = true;
+            this.campStr.Items.AddRange(new object[] {
+            "Brawling",
+            "Climbing/Jumping",
+            "Lifting",
+            "Stamina",
+            "Swimming"});
+            this.campStr.Location = new System.Drawing.Point(668, 53);
+            this.campStr.Name = "campStr";
+            this.campStr.Size = new System.Drawing.Size(118, 225);
+            this.campStr.TabIndex = 13;
+            // 
+            // perSkillCamp
+            // 
+            this.perSkillCamp.Location = new System.Drawing.Point(535, 27);
+            this.perSkillCamp.Name = "perSkillCamp";
+            this.perSkillCamp.ReadOnly = true;
+            this.perSkillCamp.Size = new System.Drawing.Size(100, 20);
+            this.perSkillCamp.TabIndex = 7;
+            this.perSkillCamp.Text = "Perception";
+            // 
+            // techSkillCamp
+            // 
+            this.techSkillCamp.Location = new System.Drawing.Point(402, 27);
+            this.techSkillCamp.Name = "techSkillCamp";
+            this.techSkillCamp.ReadOnly = true;
+            this.techSkillCamp.Size = new System.Drawing.Size(100, 20);
+            this.techSkillCamp.TabIndex = 7;
+            this.techSkillCamp.Text = "Technical";
+            // 
+            // mechSkillCamp
+            // 
+            this.mechSkillCamp.Location = new System.Drawing.Point(269, 27);
+            this.mechSkillCamp.Name = "mechSkillCamp";
+            this.mechSkillCamp.ReadOnly = true;
+            this.mechSkillCamp.Size = new System.Drawing.Size(100, 20);
+            this.mechSkillCamp.TabIndex = 7;
+            this.mechSkillCamp.Text = "Mechanical";
+            // 
+            // knowSkillCamp
+            // 
+            this.knowSkillCamp.Location = new System.Drawing.Point(136, 27);
+            this.knowSkillCamp.Name = "knowSkillCamp";
+            this.knowSkillCamp.ReadOnly = true;
+            this.knowSkillCamp.Size = new System.Drawing.Size(100, 20);
+            this.knowSkillCamp.TabIndex = 8;
+            this.knowSkillCamp.Text = "Knowledge";
+            // 
+            // dexSkillCamp
+            // 
+            this.dexSkillCamp.Location = new System.Drawing.Point(3, 27);
+            this.dexSkillCamp.Name = "dexSkillCamp";
+            this.dexSkillCamp.ReadOnly = true;
+            this.dexSkillCamp.Size = new System.Drawing.Size(100, 20);
+            this.dexSkillCamp.TabIndex = 2;
+            this.dexSkillCamp.Text = "Dexterity";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(3, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(31, 13);
+            this.label22.TabIndex = 0;
+            this.label22.Text = "Skills";
+            // 
+            // panel18
+            // 
+            this.panel18.BackColor = System.Drawing.Color.LightBlue;
+            this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel18.Controls.Add(this.strRename);
+            this.panel18.Controls.Add(this.perRename);
+            this.panel18.Controls.Add(this.techRename);
+            this.panel18.Controls.Add(this.mechRename);
+            this.panel18.Controls.Add(this.knowRename);
+            this.panel18.Controls.Add(this.dexRename);
+            this.panel18.Controls.Add(this.label82);
+            this.panel18.Location = new System.Drawing.Point(8, 6);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(205, 195);
+            this.panel18.TabIndex = 1;
+            // 
+            // strRename
+            // 
+            this.strRename.Location = new System.Drawing.Point(6, 146);
+            this.strRename.Name = "strRename";
+            this.strRename.Size = new System.Drawing.Size(100, 20);
+            this.strRename.TabIndex = 6;
+            this.strRename.Text = "Strength";
+            // 
+            // perRename
+            // 
+            this.perRename.Location = new System.Drawing.Point(6, 120);
+            this.perRename.Name = "perRename";
+            this.perRename.Size = new System.Drawing.Size(100, 20);
+            this.perRename.TabIndex = 5;
+            this.perRename.Text = "Perception";
+            // 
+            // techRename
+            // 
+            this.techRename.Location = new System.Drawing.Point(6, 94);
+            this.techRename.Name = "techRename";
+            this.techRename.Size = new System.Drawing.Size(100, 20);
+            this.techRename.TabIndex = 4;
+            this.techRename.Text = "Technical";
+            // 
+            // mechRename
+            // 
+            this.mechRename.Location = new System.Drawing.Point(6, 68);
+            this.mechRename.Name = "mechRename";
+            this.mechRename.Size = new System.Drawing.Size(100, 20);
+            this.mechRename.TabIndex = 3;
+            this.mechRename.Text = "Mechanical";
+            // 
+            // knowRename
+            // 
+            this.knowRename.Location = new System.Drawing.Point(6, 42);
+            this.knowRename.Name = "knowRename";
+            this.knowRename.Size = new System.Drawing.Size(100, 20);
+            this.knowRename.TabIndex = 2;
+            this.knowRename.Text = "Knowledge";
+            // 
+            // dexRename
+            // 
+            this.dexRename.Location = new System.Drawing.Point(6, 16);
+            this.dexRename.Name = "dexRename";
+            this.dexRename.Size = new System.Drawing.Size(100, 20);
+            this.dexRename.TabIndex = 1;
+            this.dexRename.Text = "Dexterity";
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Location = new System.Drawing.Point(3, 0);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(82, 13);
+            this.label82.TabIndex = 0;
+            this.label82.Text = "Attribute Names";
             // 
             // tabVehicle
             // 
@@ -876,18 +883,9 @@
             // tabBackground
             // 
             this.tabBackground.BackgroundImage = global::Star_Wars_D6.Properties.Resources.vector_feb_2021_74_generated;
-            this.tabBackground.Controls.Add(this.enemiesBack);
-            this.tabBackground.Controls.Add(this.alliesBack);
-            this.tabBackground.Controls.Add(this.backgroundBack);
-            this.tabBackground.Controls.Add(this.phyBack);
-            this.tabBackground.Controls.Add(this.perBack);
-            this.tabBackground.Controls.Add(this.label52);
-            this.tabBackground.Controls.Add(this.label51);
-            this.tabBackground.Controls.Add(this.label50);
-            this.tabBackground.Controls.Add(this.label49);
-            this.tabBackground.Controls.Add(this.panel11);
+            this.tabBackground.Controls.Add(this.panel14);
+            this.tabBackground.Controls.Add(this.panel10);
             this.tabBackground.Controls.Add(this.panel12);
-            this.tabBackground.Controls.Add(this.label33);
             this.tabBackground.Location = new System.Drawing.Point(4, 22);
             this.tabBackground.Name = "tabBackground";
             this.tabBackground.Padding = new System.Windows.Forms.Padding(3);
@@ -896,21 +894,153 @@
             this.tabBackground.Text = "Background";
             this.tabBackground.UseVisualStyleBackColor = true;
             // 
+            // panel14
+            // 
+            this.panel14.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Border_Frame;
+            this.panel14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel14.Controls.Add(this.label52);
+            this.panel14.Controls.Add(this.enemiesBack);
+            this.panel14.Controls.Add(this.alliesBack);
+            this.panel14.Controls.Add(this.backgroundBack);
+            this.panel14.Controls.Add(this.label51);
+            this.panel14.Controls.Add(this.label50);
+            this.panel14.Controls.Add(this.perBack);
+            this.panel14.Controls.Add(this.phyBack);
+            this.panel14.Controls.Add(this.label49);
+            this.panel14.Controls.Add(this.label33);
+            this.panel14.Location = new System.Drawing.Point(6, 198);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(855, 990);
+            this.panel14.TabIndex = 60;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label52.Location = new System.Drawing.Point(643, 276);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(85, 24);
+            this.label52.TabIndex = 57;
+            this.label52.Text = "Enemies";
+            // 
+            // enemiesBack
+            // 
+            this.enemiesBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.enemiesBack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.enemiesBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.enemiesBack.Location = new System.Drawing.Point(647, 303);
+            this.enemiesBack.Multiline = true;
+            this.enemiesBack.Name = "enemiesBack";
+            this.enemiesBack.Size = new System.Drawing.Size(208, 207);
+            this.enemiesBack.TabIndex = 58;
+            // 
+            // alliesBack
+            // 
+            this.alliesBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.alliesBack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.alliesBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.alliesBack.Location = new System.Drawing.Point(326, 303);
+            this.alliesBack.Multiline = true;
+            this.alliesBack.Name = "alliesBack";
+            this.alliesBack.Size = new System.Drawing.Size(208, 207);
+            this.alliesBack.TabIndex = 55;
+            // 
+            // backgroundBack
+            // 
+            this.backgroundBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.backgroundBack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.backgroundBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backgroundBack.Location = new System.Drawing.Point(0, 582);
+            this.backgroundBack.Multiline = true;
+            this.backgroundBack.Name = "backgroundBack";
+            this.backgroundBack.Size = new System.Drawing.Size(855, 388);
+            this.backgroundBack.TabIndex = 53;
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label51.Location = new System.Drawing.Point(322, 276);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(55, 24);
+            this.label51.TabIndex = 54;
+            this.label51.Text = "Allies";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label50.Location = new System.Drawing.Point(3, 555);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(112, 24);
+            this.label50.TabIndex = 52;
+            this.label50.Text = "Background";
+            // 
+            // perBack
+            // 
+            this.perBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.perBack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.perBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.perBack.Location = new System.Drawing.Point(0, 32);
+            this.perBack.Multiline = true;
+            this.perBack.Name = "perBack";
+            this.perBack.Size = new System.Drawing.Size(855, 207);
+            this.perBack.TabIndex = 49;
+            // 
+            // phyBack
+            // 
+            this.phyBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.phyBack.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.phyBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phyBack.Location = new System.Drawing.Point(0, 303);
+            this.phyBack.Multiline = true;
+            this.phyBack.Name = "phyBack";
+            this.phyBack.Size = new System.Drawing.Size(221, 207);
+            this.phyBack.TabIndex = 51;
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label49.Location = new System.Drawing.Point(3, 276);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(178, 24);
+            this.label49.TabIndex = 50;
+            this.label49.Text = "Physical Description";
+            // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.BackColor = System.Drawing.Color.Transparent;
+            this.label33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label33.Location = new System.Drawing.Point(2, 211);
+            this.label33.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label33.Location = new System.Drawing.Point(3, 5);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(101, 24);
             this.label33.TabIndex = 45;
             this.label33.Text = "Personality";
             // 
+            // panel10
+            // 
+            this.panel10.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Background1;
+            this.panel10.Location = new System.Drawing.Point(6, 6);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(524, 165);
+            this.panel10.TabIndex = 59;
+            // 
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.LightBlue;
+            this.panel12.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Border_Frame;
+            this.panel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel12.Controls.Add(this.racialAbil);
             this.panel12.Controls.Add(this.label46);
@@ -922,157 +1052,64 @@
             this.panel12.Size = new System.Drawing.Size(325, 165);
             this.panel12.TabIndex = 48;
             // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(77, 0);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(92, 13);
-            this.label48.TabIndex = 1;
-            this.label48.Text = "Racial Information";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(3, 24);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(71, 13);
-            this.label47.TabIndex = 3;
-            this.label47.Text = "Attribute Dice";
-            // 
-            // textBox15
-            // 
-            this.textBox15.Enabled = false;
-            this.textBox15.Location = new System.Drawing.Point(71, 21);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(35, 20);
-            this.textBox15.TabIndex = 4;
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(3, 50);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(42, 13);
-            this.label46.TabIndex = 5;
-            this.label46.Text = "Abilities";
-            // 
             // racialAbil
             // 
+            this.racialAbil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.racialAbil.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.racialAbil.Location = new System.Drawing.Point(3, 66);
             this.racialAbil.Multiline = true;
             this.racialAbil.Name = "racialAbil";
             this.racialAbil.Size = new System.Drawing.Size(315, 92);
             this.racialAbil.TabIndex = 6;
             // 
-            // panel11
+            // label46
             // 
-            this.panel11.BackColor = System.Drawing.Color.LightBlue;
-            this.panel11.BackgroundImage = global::Star_Wars_D6.Properties.Resources.background;
-            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel11.Location = new System.Drawing.Point(8, 6);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(522, 165);
-            this.panel11.TabIndex = 47;
+            this.label46.AutoSize = true;
+            this.label46.BackColor = System.Drawing.Color.Transparent;
+            this.label46.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label46.Location = new System.Drawing.Point(3, 50);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(42, 13);
+            this.label46.TabIndex = 5;
+            this.label46.Text = "Abilities";
             // 
-            // perBack
+            // textBox15
             // 
-            this.perBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.perBack.Location = new System.Drawing.Point(6, 238);
-            this.perBack.Multiline = true;
-            this.perBack.Name = "perBack";
-            this.perBack.Size = new System.Drawing.Size(855, 207);
-            this.perBack.TabIndex = 49;
+            this.textBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox15.Enabled = false;
+            this.textBox15.Location = new System.Drawing.Point(71, 21);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(35, 20);
+            this.textBox15.TabIndex = 4;
             // 
-            // label49
+            // label47
             // 
-            this.label49.AutoSize = true;
-            this.label49.BackColor = System.Drawing.Color.Transparent;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label49.Location = new System.Drawing.Point(2, 474);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(178, 24);
-            this.label49.TabIndex = 50;
-            this.label49.Text = "Physical Description";
+            this.label47.AutoSize = true;
+            this.label47.BackColor = System.Drawing.Color.Transparent;
+            this.label47.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label47.Location = new System.Drawing.Point(3, 24);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(71, 13);
+            this.label47.TabIndex = 3;
+            this.label47.Text = "Attribute Dice";
             // 
-            // phyBack
+            // label48
             // 
-            this.phyBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phyBack.Location = new System.Drawing.Point(6, 501);
-            this.phyBack.Multiline = true;
-            this.phyBack.Name = "phyBack";
-            this.phyBack.Size = new System.Drawing.Size(208, 207);
-            this.phyBack.TabIndex = 51;
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.BackColor = System.Drawing.Color.Transparent;
-            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label50.Location = new System.Drawing.Point(2, 761);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(112, 24);
-            this.label50.TabIndex = 52;
-            this.label50.Text = "Background";
-            // 
-            // backgroundBack
-            // 
-            this.backgroundBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backgroundBack.Location = new System.Drawing.Point(6, 788);
-            this.backgroundBack.Multiline = true;
-            this.backgroundBack.Name = "backgroundBack";
-            this.backgroundBack.Size = new System.Drawing.Size(855, 388);
-            this.backgroundBack.TabIndex = 53;
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.BackColor = System.Drawing.Color.Transparent;
-            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label51.Location = new System.Drawing.Point(269, 474);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(55, 24);
-            this.label51.TabIndex = 54;
-            this.label51.Text = "Allies";
-            // 
-            // alliesBack
-            // 
-            this.alliesBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.alliesBack.Location = new System.Drawing.Point(273, 501);
-            this.alliesBack.Multiline = true;
-            this.alliesBack.Name = "alliesBack";
-            this.alliesBack.Size = new System.Drawing.Size(208, 207);
-            this.alliesBack.TabIndex = 55;
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.BackColor = System.Drawing.Color.Transparent;
-            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label52.Location = new System.Drawing.Point(536, 474);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(85, 24);
-            this.label52.TabIndex = 57;
-            this.label52.Text = "Enemies";
-            // 
-            // enemiesBack
-            // 
-            this.enemiesBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.enemiesBack.Location = new System.Drawing.Point(540, 501);
-            this.enemiesBack.Multiline = true;
-            this.enemiesBack.Name = "enemiesBack";
-            this.enemiesBack.Size = new System.Drawing.Size(208, 207);
-            this.enemiesBack.TabIndex = 58;
+            this.label48.AutoSize = true;
+            this.label48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.label48.Location = new System.Drawing.Point(77, 0);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(92, 13);
+            this.label48.TabIndex = 1;
+            this.label48.Text = "Racial Information";
             // 
             // tabEquipment
             // 
             this.tabEquipment.BackgroundImage = global::Star_Wars_D6.Properties.Resources.vector_feb_2021_74_generated;
+            this.tabEquipment.Controls.Add(this.panel11);
             this.tabEquipment.Controls.Add(this.panel15);
-            this.tabEquipment.Controls.Add(this.panel14);
+            this.tabEquipment.Controls.Add(this.openShop);
             this.tabEquipment.Controls.Add(this.weapInv);
             this.tabEquipment.Controls.Add(this.armorInv);
             this.tabEquipment.Controls.Add(this.gearInv);
@@ -1087,29 +1124,105 @@
             this.tabEquipment.Text = "Equipment";
             this.tabEquipment.UseVisualStyleBackColor = true;
             // 
-            // label6
+            // panel11
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(17, 211);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 24);
-            this.label6.TabIndex = 53;
-            this.label6.Text = "Weapons";
+            this.panel11.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Force;
+            this.panel11.Location = new System.Drawing.Point(8, 11);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(524, 165);
+            this.panel11.TabIndex = 60;
             // 
-            // label28
+            // panel15
             // 
-            this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.Color.Transparent;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label28.Location = new System.Drawing.Point(612, 211);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(51, 24);
-            this.label28.TabIndex = 55;
-            this.label28.Text = "Gear";
+            this.panel15.BackColor = System.Drawing.Color.LightBlue;
+            this.panel15.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Border_Frame;
+            this.panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel15.Controls.Add(this.label66);
+            this.panel15.Controls.Add(this.equipNotes);
+            this.panel15.Controls.Add(this.playerCreditsTextBox);
+            this.panel15.Controls.Add(this.Credits);
+            this.panel15.Location = new System.Drawing.Point(538, 6);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(297, 194);
+            this.panel15.TabIndex = 66;
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.BackColor = System.Drawing.Color.Transparent;
+            this.label66.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label66.Location = new System.Drawing.Point(3, 62);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(35, 13);
+            this.label66.TabIndex = 68;
+            this.label66.Text = "Notes";
+            // 
+            // equipNotes
+            // 
+            this.equipNotes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.equipNotes.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.equipNotes.Location = new System.Drawing.Point(-2, 78);
+            this.equipNotes.Multiline = true;
+            this.equipNotes.Name = "equipNotes";
+            this.equipNotes.Size = new System.Drawing.Size(297, 114);
+            this.equipNotes.TabIndex = 67;
+            // 
+            // openShop
+            // 
+            this.openShop.Location = new System.Drawing.Point(730, 206);
+            this.openShop.Name = "openShop";
+            this.openShop.Size = new System.Drawing.Size(105, 23);
+            this.openShop.TabIndex = 63;
+            this.openShop.Text = "Add Equipment";
+            this.openShop.UseVisualStyleBackColor = true;
+            // 
+            // playerCreditsTextBox
+            // 
+            this.playerCreditsTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.playerCreditsTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.playerCreditsTextBox.Location = new System.Drawing.Point(-2, 16);
+            this.playerCreditsTextBox.Name = "playerCreditsTextBox";
+            this.playerCreditsTextBox.Size = new System.Drawing.Size(105, 20);
+            this.playerCreditsTextBox.TabIndex = 42;
+            // 
+            // Credits
+            // 
+            this.Credits.AutoSize = true;
+            this.Credits.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.Credits.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Credits.Location = new System.Drawing.Point(0, 1);
+            this.Credits.Name = "Credits";
+            this.Credits.Size = new System.Drawing.Size(39, 13);
+            this.Credits.TabIndex = 43;
+            this.Credits.Text = "Credits";
+            // 
+            // weapInv
+            // 
+            this.weapInv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.weapInv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.weapInv.Location = new System.Drawing.Point(21, 238);
+            this.weapInv.Name = "weapInv";
+            this.weapInv.Size = new System.Drawing.Size(232, 950);
+            this.weapInv.TabIndex = 62;
+            // 
+            // armorInv
+            // 
+            this.armorInv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.armorInv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.armorInv.Location = new System.Drawing.Point(311, 238);
+            this.armorInv.Name = "armorInv";
+            this.armorInv.Size = new System.Drawing.Size(232, 950);
+            this.armorInv.TabIndex = 61;
+            // 
+            // gearInv
+            // 
+            this.gearInv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.gearInv.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.gearInv.Location = new System.Drawing.Point(616, 238);
+            this.gearInv.Name = "gearInv";
+            this.gearInv.Size = new System.Drawing.Size(232, 950);
+            this.gearInv.TabIndex = 60;
             // 
             // label53
             // 
@@ -1123,107 +1236,37 @@
             this.label53.TabIndex = 57;
             this.label53.Text = "Armor";
             // 
-            // gearInv
+            // label28
             // 
-            this.gearInv.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.gearInv.Location = new System.Drawing.Point(616, 238);
-            this.gearInv.Name = "gearInv";
-            this.gearInv.Size = new System.Drawing.Size(232, 950);
-            this.gearInv.TabIndex = 60;
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.Transparent;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label28.Location = new System.Drawing.Point(612, 211);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(51, 24);
+            this.label28.TabIndex = 55;
+            this.label28.Text = "Gear";
             // 
-            // armorInv
+            // label6
             // 
-            this.armorInv.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.armorInv.Location = new System.Drawing.Point(311, 238);
-            this.armorInv.Name = "armorInv";
-            this.armorInv.Size = new System.Drawing.Size(232, 950);
-            this.armorInv.TabIndex = 61;
-            // 
-            // weapInv
-            // 
-            this.weapInv.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.weapInv.Location = new System.Drawing.Point(21, 238);
-            this.weapInv.Name = "weapInv";
-            this.weapInv.Size = new System.Drawing.Size(232, 950);
-            this.weapInv.TabIndex = 62;
-            // 
-            // panel14
-            // 
-            this.panel14.BackColor = System.Drawing.Color.LightBlue;
-            this.panel14.BackgroundImage = global::Star_Wars_D6.Properties.Resources.equipment;
-            this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel14.Location = new System.Drawing.Point(8, 6);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(524, 194);
-            this.panel14.TabIndex = 65;
-            // 
-            // panel15
-            // 
-            this.panel15.BackColor = System.Drawing.Color.LightBlue;
-            this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel15.Controls.Add(this.label66);
-            this.panel15.Controls.Add(this.equipNotes);
-            this.panel15.Controls.Add(this.openShop);
-            this.panel15.Controls.Add(this.playerCreditsTextBox);
-            this.panel15.Controls.Add(this.Credits);
-            this.panel15.Location = new System.Drawing.Point(538, 6);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(297, 194);
-            this.panel15.TabIndex = 66;
-            // 
-            // Credits
-            // 
-            this.Credits.AutoSize = true;
-            this.Credits.BackColor = System.Drawing.Color.Transparent;
-            this.Credits.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Credits.Location = new System.Drawing.Point(0, 1);
-            this.Credits.Name = "Credits";
-            this.Credits.Size = new System.Drawing.Size(39, 13);
-            this.Credits.TabIndex = 43;
-            this.Credits.Text = "Credits";
-            // 
-            // playerCreditsTextBox
-            // 
-            this.playerCreditsTextBox.Location = new System.Drawing.Point(3, 16);
-            this.playerCreditsTextBox.Name = "playerCreditsTextBox";
-            this.playerCreditsTextBox.Size = new System.Drawing.Size(100, 20);
-            this.playerCreditsTextBox.TabIndex = 42;
-            // 
-            // openShop
-            // 
-            this.openShop.Location = new System.Drawing.Point(215, 3);
-            this.openShop.Name = "openShop";
-            this.openShop.Size = new System.Drawing.Size(75, 23);
-            this.openShop.TabIndex = 63;
-            this.openShop.Text = "Equipment";
-            this.openShop.UseVisualStyleBackColor = true;
-            // 
-            // equipNotes
-            // 
-            this.equipNotes.Location = new System.Drawing.Point(3, 78);
-            this.equipNotes.Multiline = true;
-            this.equipNotes.Name = "equipNotes";
-            this.equipNotes.Size = new System.Drawing.Size(287, 106);
-            this.equipNotes.TabIndex = 67;
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.BackColor = System.Drawing.Color.Transparent;
-            this.label66.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label66.Location = new System.Drawing.Point(3, 62);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(35, 13);
-            this.label66.TabIndex = 68;
-            this.label66.Text = "Notes";
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.Location = new System.Drawing.Point(17, 211);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(91, 24);
+            this.label6.TabIndex = 53;
+            this.label6.Text = "Weapons";
             // 
             // tabForce
             // 
             this.tabForce.BackgroundImage = global::Star_Wars_D6.Properties.Resources.vector_feb_2021_74_generated;
+            this.tabForce.Controls.Add(this.panel13);
             this.tabForce.Controls.Add(this.forceEditButton);
             this.tabForce.Controls.Add(this.openLearning);
             this.tabForce.Controls.Add(this.label32);
-            this.tabForce.Controls.Add(this.panel17);
             this.tabForce.Controls.Add(this.forcePowersPanel);
             this.tabForce.Controls.Add(this.forceAlter);
             this.tabForce.Controls.Add(this.forceCon);
@@ -1239,68 +1282,32 @@
             this.tabForce.Text = "Force";
             this.tabForce.UseVisualStyleBackColor = true;
             // 
-            // label29
+            // panel13
             // 
-            this.label29.AutoSize = true;
-            this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label29.Location = new System.Drawing.Point(591, 20);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(70, 24);
-            this.label29.TabIndex = 45;
-            this.label29.Text = "Control";
+            this.panel13.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Background1;
+            this.panel13.ForeColor = System.Drawing.Color.Transparent;
+            this.panel13.Location = new System.Drawing.Point(8, 6);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(524, 165);
+            this.panel13.TabIndex = 69;
             // 
-            // label30
+            // forceEditButton
             // 
-            this.label30.AutoSize = true;
-            this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label30.Location = new System.Drawing.Point(690, 20);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(64, 24);
-            this.label30.TabIndex = 46;
-            this.label30.Text = "Sense";
+            this.forceEditButton.Location = new System.Drawing.Point(625, 88);
+            this.forceEditButton.Name = "forceEditButton";
+            this.forceEditButton.Size = new System.Drawing.Size(200, 23);
+            this.forceEditButton.TabIndex = 68;
+            this.forceEditButton.Text = "Edit Force Skills";
+            this.forceEditButton.UseVisualStyleBackColor = true;
             // 
-            // label31
+            // openLearning
             // 
-            this.label31.AutoSize = true;
-            this.label31.BackColor = System.Drawing.Color.Transparent;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label31.Location = new System.Drawing.Point(798, 20);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(48, 24);
-            this.label31.TabIndex = 47;
-            this.label31.Text = "Alter";
-            // 
-            // forceSense
-            // 
-            this.forceSense.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.forceSense.Location = new System.Drawing.Point(681, 47);
-            this.forceSense.Name = "forceSense";
-            this.forceSense.Size = new System.Drawing.Size(82, 35);
-            this.forceSense.TabIndex = 48;
-            this.forceSense.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // forceCon
-            // 
-            this.forceCon.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.forceCon.Location = new System.Drawing.Point(584, 47);
-            this.forceCon.Name = "forceCon";
-            this.forceCon.Size = new System.Drawing.Size(82, 35);
-            this.forceCon.TabIndex = 49;
-            this.forceCon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // forceAlter
-            // 
-            this.forceAlter.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.forceAlter.Location = new System.Drawing.Point(779, 47);
-            this.forceAlter.Name = "forceAlter";
-            this.forceAlter.Size = new System.Drawing.Size(82, 35);
-            this.forceAlter.TabIndex = 50;
-            this.forceAlter.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.openLearning.Location = new System.Drawing.Point(757, 208);
+            this.openLearning.Name = "openLearning";
+            this.openLearning.Size = new System.Drawing.Size(104, 23);
+            this.openLearning.TabIndex = 54;
+            this.openLearning.Text = "Force Powers List";
+            this.openLearning.UseVisualStyleBackColor = true;
             // 
             // label32
             // 
@@ -1316,7 +1323,7 @@
             // 
             // forcePowersPanel
             // 
-            this.forcePowersPanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.forcePowersPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
             this.forcePowersPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.forcePowersPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.forcePowersPanel.Location = new System.Drawing.Point(8, 237);
@@ -1324,33 +1331,68 @@
             this.forcePowersPanel.Size = new System.Drawing.Size(853, 951);
             this.forcePowersPanel.TabIndex = 53;
             // 
-            // openLearning
+            // forceAlter
             // 
-            this.openLearning.Location = new System.Drawing.Point(757, 208);
-            this.openLearning.Name = "openLearning";
-            this.openLearning.Size = new System.Drawing.Size(104, 23);
-            this.openLearning.TabIndex = 54;
-            this.openLearning.Text = "Force Powers List";
-            this.openLearning.UseVisualStyleBackColor = true;
+            this.forceAlter.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.forceAlter.Location = new System.Drawing.Point(779, 47);
+            this.forceAlter.Name = "forceAlter";
+            this.forceAlter.Size = new System.Drawing.Size(82, 35);
+            this.forceAlter.TabIndex = 50;
+            this.forceAlter.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // panel17
+            // forceCon
             // 
-            this.panel17.BackColor = System.Drawing.Color.LightBlue;
-            this.panel17.BackgroundImage = global::Star_Wars_D6.Properties.Resources.The_Force;
-            this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel17.Location = new System.Drawing.Point(8, 6);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(570, 194);
-            this.panel17.TabIndex = 67;
+            this.forceCon.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.forceCon.Location = new System.Drawing.Point(584, 47);
+            this.forceCon.Name = "forceCon";
+            this.forceCon.Size = new System.Drawing.Size(82, 35);
+            this.forceCon.TabIndex = 49;
+            this.forceCon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // forceEditButton
+            // forceSense
             // 
-            this.forceEditButton.Location = new System.Drawing.Point(625, 88);
-            this.forceEditButton.Name = "forceEditButton";
-            this.forceEditButton.Size = new System.Drawing.Size(200, 23);
-            this.forceEditButton.TabIndex = 68;
-            this.forceEditButton.Text = "Edit Force Skills";
-            this.forceEditButton.UseVisualStyleBackColor = true;
+            this.forceSense.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.forceSense.Location = new System.Drawing.Point(681, 47);
+            this.forceSense.Name = "forceSense";
+            this.forceSense.Size = new System.Drawing.Size(82, 35);
+            this.forceSense.TabIndex = 48;
+            this.forceSense.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.Transparent;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label31.Location = new System.Drawing.Point(798, 20);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(48, 24);
+            this.label31.TabIndex = 47;
+            this.label31.Text = "Alter";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label30.Location = new System.Drawing.Point(690, 20);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(64, 24);
+            this.label30.TabIndex = 46;
+            this.label30.Text = "Sense";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label29.Location = new System.Drawing.Point(591, 20);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(70, 24);
+            this.label29.TabIndex = 45;
+            this.label29.Text = "Control";
             // 
             // tabMain
             // 
@@ -1381,524 +1423,50 @@
             this.tabMain.Text = "Main";
             this.tabMain.UseVisualStyleBackColor = true;
             // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.LightBlue;
-            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel9.Controls.Add(this.techSkills);
-            this.panel9.Controls.Add(this.techAtt);
-            this.panel9.Controls.Add(this.techLabel);
-            this.panel9.Location = new System.Drawing.Point(624, 322);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(200, 463);
-            this.panel9.TabIndex = 10;
-            // 
-            // techLabel
-            // 
-            this.techLabel.AutoSize = true;
-            this.techLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.techLabel.Location = new System.Drawing.Point(3, 9);
-            this.techLabel.Name = "techLabel";
-            this.techLabel.Size = new System.Drawing.Size(76, 20);
-            this.techLabel.TabIndex = 3;
-            this.techLabel.Text = "Technical";
-            // 
-            // techAtt
-            // 
-            this.techAtt.Location = new System.Drawing.Point(147, 9);
-            this.techAtt.Name = "techAtt";
-            this.techAtt.ReadOnly = true;
-            this.techAtt.Size = new System.Drawing.Size(46, 20);
-            this.techAtt.TabIndex = 5;
-            // 
-            // techSkills
-            // 
-            this.techSkills.HideSelection = false;
-            this.techSkills.Location = new System.Drawing.Point(3, 32);
-            this.techSkills.Name = "techSkills";
-            this.techSkills.Size = new System.Drawing.Size(190, 424);
-            this.techSkills.TabIndex = 7;
-            this.techSkills.UseCompatibleStateImageBehavior = false;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.LightBlue;
-            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel8.Controls.Add(this.strSkills);
-            this.panel8.Controls.Add(this.strAtt);
-            this.panel8.Controls.Add(this.strLabel);
-            this.panel8.Location = new System.Drawing.Point(212, 791);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(200, 383);
-            this.panel8.TabIndex = 8;
-            // 
-            // strLabel
-            // 
-            this.strLabel.AutoSize = true;
-            this.strLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.strLabel.Location = new System.Drawing.Point(3, 9);
-            this.strLabel.Name = "strLabel";
-            this.strLabel.Size = new System.Drawing.Size(71, 20);
-            this.strLabel.TabIndex = 3;
-            this.strLabel.Text = "Strength";
-            // 
-            // strAtt
-            // 
-            this.strAtt.Location = new System.Drawing.Point(147, 9);
-            this.strAtt.Name = "strAtt";
-            this.strAtt.ReadOnly = true;
-            this.strAtt.Size = new System.Drawing.Size(46, 20);
-            this.strAtt.TabIndex = 5;
-            // 
-            // strSkills
-            // 
-            this.strSkills.HideSelection = false;
-            this.strSkills.Location = new System.Drawing.Point(3, 32);
-            this.strSkills.Name = "strSkills";
-            this.strSkills.Size = new System.Drawing.Size(190, 344);
-            this.strSkills.TabIndex = 16;
-            this.strSkills.UseCompatibleStateImageBehavior = false;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.LightBlue;
-            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel7.Controls.Add(this.perAtt);
-            this.panel7.Controls.Add(this.perLabel);
-            this.panel7.Location = new System.Drawing.Point(6, 791);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(200, 383);
-            this.panel7.TabIndex = 8;
-            // 
-            // perLabel
-            // 
-            this.perLabel.AutoSize = true;
-            this.perLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.perLabel.Location = new System.Drawing.Point(3, 9);
-            this.perLabel.Name = "perLabel";
-            this.perLabel.Size = new System.Drawing.Size(85, 20);
-            this.perLabel.TabIndex = 3;
-            this.perLabel.Text = "Perception";
-            // 
-            // perAtt
-            // 
-            this.perAtt.Location = new System.Drawing.Point(147, 9);
-            this.perAtt.Name = "perAtt";
-            this.perAtt.ReadOnly = true;
-            this.perAtt.Size = new System.Drawing.Size(46, 20);
-            this.perAtt.TabIndex = 5;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.LightBlue;
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel6.Controls.Add(this.mechSkills);
-            this.panel6.Controls.Add(this.mechAtt);
-            this.panel6.Controls.Add(this.mechLabel);
-            this.panel6.Location = new System.Drawing.Point(418, 322);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(200, 463);
-            this.panel6.TabIndex = 9;
-            // 
-            // mechLabel
-            // 
-            this.mechLabel.AutoSize = true;
-            this.mechLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mechLabel.Location = new System.Drawing.Point(3, 9);
-            this.mechLabel.Name = "mechLabel";
-            this.mechLabel.Size = new System.Drawing.Size(89, 20);
-            this.mechLabel.TabIndex = 3;
-            this.mechLabel.Text = "Mechanical";
-            // 
-            // mechAtt
-            // 
-            this.mechAtt.Location = new System.Drawing.Point(147, 9);
-            this.mechAtt.Name = "mechAtt";
-            this.mechAtt.ReadOnly = true;
-            this.mechAtt.Size = new System.Drawing.Size(46, 20);
-            this.mechAtt.TabIndex = 5;
-            // 
-            // mechSkills
-            // 
-            this.mechSkills.HideSelection = false;
-            this.mechSkills.Location = new System.Drawing.Point(3, 32);
-            this.mechSkills.Name = "mechSkills";
-            this.mechSkills.Size = new System.Drawing.Size(190, 424);
-            this.mechSkills.TabIndex = 7;
-            this.mechSkills.UseCompatibleStateImageBehavior = false;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.LightBlue;
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel5.Controls.Add(this.knowSkills);
-            this.panel5.Controls.Add(this.knowAtt);
-            this.panel5.Controls.Add(this.knowLabel);
-            this.panel5.Location = new System.Drawing.Point(212, 322);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 463);
-            this.panel5.TabIndex = 8;
-            // 
-            // knowLabel
-            // 
-            this.knowLabel.AutoSize = true;
-            this.knowLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.knowLabel.Location = new System.Drawing.Point(3, 9);
-            this.knowLabel.Name = "knowLabel";
-            this.knowLabel.Size = new System.Drawing.Size(87, 20);
-            this.knowLabel.TabIndex = 3;
-            this.knowLabel.Text = "Knowledge";
-            // 
-            // knowAtt
-            // 
-            this.knowAtt.Location = new System.Drawing.Point(147, 6);
-            this.knowAtt.Name = "knowAtt";
-            this.knowAtt.ReadOnly = true;
-            this.knowAtt.Size = new System.Drawing.Size(46, 20);
-            this.knowAtt.TabIndex = 5;
-            // 
-            // knowSkills
-            // 
-            this.knowSkills.HideSelection = false;
-            this.knowSkills.Location = new System.Drawing.Point(3, 32);
-            this.knowSkills.Name = "knowSkills";
-            this.knowSkills.Size = new System.Drawing.Size(190, 424);
-            this.knowSkills.TabIndex = 7;
-            this.knowSkills.UseCompatibleStateImageBehavior = false;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.LightBlue;
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel4.Controls.Add(this.dexSkills);
-            this.panel4.Controls.Add(this.dexAtt);
-            this.panel4.Controls.Add(this.dexLabel);
-            this.panel4.Location = new System.Drawing.Point(6, 322);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 463);
-            this.panel4.TabIndex = 7;
-            // 
-            // dexLabel
-            // 
-            this.dexLabel.AutoSize = true;
-            this.dexLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dexLabel.Location = new System.Drawing.Point(3, 9);
-            this.dexLabel.Name = "dexLabel";
-            this.dexLabel.Size = new System.Drawing.Size(71, 20);
-            this.dexLabel.TabIndex = 3;
-            this.dexLabel.Text = "Dexterity";
-            // 
-            // dexAtt
-            // 
-            this.dexAtt.Location = new System.Drawing.Point(147, 9);
-            this.dexAtt.Name = "dexAtt";
-            this.dexAtt.ReadOnly = true;
-            this.dexAtt.Size = new System.Drawing.Size(46, 20);
-            this.dexAtt.TabIndex = 5;
-            // 
-            // dexSkills
-            // 
-            this.dexSkills.HideSelection = false;
-            this.dexSkills.Location = new System.Drawing.Point(3, 32);
-            this.dexSkills.Name = "dexSkills";
-            this.dexSkills.Size = new System.Drawing.Size(190, 424);
-            this.dexSkills.TabIndex = 6;
-            this.dexSkills.UseCompatibleStateImageBehavior = false;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.LightBlue;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.checkBoxCharacterCreation);
-            this.panel3.Controls.Add(this.specialConvert);
-            this.panel3.Controls.Add(this.label21);
-            this.panel3.Controls.Add(this.skillDice);
-            this.panel3.Controls.Add(this.label19);
-            this.panel3.Controls.Add(this.specialDice);
-            this.panel3.Controls.Add(this.label10);
-            this.panel3.Controls.Add(this.label18);
-            this.panel3.Controls.Add(this.charPoints);
-            this.panel3.Controls.Add(this.currentAttribute);
-            this.panel3.Controls.Add(this.label17);
-            this.panel3.Controls.Add(this.label16);
-            this.panel3.Location = new System.Drawing.Point(296, 177);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(234, 139);
-            this.panel3.TabIndex = 6;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(81, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(73, 13);
-            this.label16.TabIndex = 2;
-            this.label16.Text = "Current Points";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(3, 21);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(71, 13);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "Attribute Dice";
-            // 
-            // currentAttribute
-            // 
-            this.currentAttribute.Location = new System.Drawing.Point(94, 16);
-            this.currentAttribute.Name = "currentAttribute";
-            this.currentAttribute.Size = new System.Drawing.Size(45, 20);
-            this.currentAttribute.TabIndex = 5;
-            // 
-            // charPoints
-            // 
-            this.charPoints.Location = new System.Drawing.Point(6, 111);
-            this.charPoints.Name = "charPoints";
-            this.charPoints.Size = new System.Drawing.Size(86, 20);
-            this.charPoints.TabIndex = 15;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(3, 43);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(51, 13);
-            this.label18.TabIndex = 6;
-            this.label18.Text = "Skill Dice";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(6, 95);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(85, 13);
-            this.label10.TabIndex = 16;
-            this.label10.Text = "Character Points";
-            // 
-            // specialDice
-            // 
-            this.specialDice.Location = new System.Drawing.Point(94, 63);
-            this.specialDice.Name = "specialDice";
-            this.specialDice.ReadOnly = true;
-            this.specialDice.Size = new System.Drawing.Size(45, 20);
-            this.specialDice.TabIndex = 7;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(3, 66);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(77, 13);
-            this.label19.TabIndex = 8;
-            this.label19.Text = "Specializations";
-            // 
-            // skillDice
-            // 
-            this.skillDice.Location = new System.Drawing.Point(94, 40);
-            this.skillDice.Name = "skillDice";
-            this.skillDice.Size = new System.Drawing.Size(45, 20);
-            this.skillDice.TabIndex = 9;
-            this.skillDice.Text = "7D";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(108, 95);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(122, 13);
-            this.label21.TabIndex = 14;
-            this.label21.Text = "Character Advancement";
-            // 
-            // specialConvert
-            // 
-            this.specialConvert.AutoSize = true;
-            this.specialConvert.Location = new System.Drawing.Point(146, 66);
-            this.specialConvert.Name = "specialConvert";
-            this.specialConvert.Size = new System.Drawing.Size(15, 14);
-            this.specialConvert.TabIndex = 12;
-            this.specialConvert.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxCharacterCreation
-            // 
-            this.checkBoxCharacterCreation.AutoSize = true;
-            this.checkBoxCharacterCreation.Location = new System.Drawing.Point(160, 114);
-            this.checkBoxCharacterCreation.Name = "checkBoxCharacterCreation";
-            this.checkBoxCharacterCreation.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxCharacterCreation.TabIndex = 13;
-            this.checkBoxCharacterCreation.UseVisualStyleBackColor = true;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.LightBlue;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.raceAbil);
-            this.panel2.Controls.Add(this.label14);
-            this.panel2.Controls.Add(this.racialBase);
-            this.panel2.Controls.Add(this.label13);
-            this.panel2.Controls.Add(this.label12);
-            this.panel2.Location = new System.Drawing.Point(6, 206);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(282, 110);
-            this.panel2.TabIndex = 5;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(77, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(92, 13);
-            this.label12.TabIndex = 1;
-            this.label12.Text = "Racial Information";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(3, 24);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(71, 13);
-            this.label13.TabIndex = 3;
-            this.label13.Text = "Attribute Dice";
-            // 
-            // racialBase
-            // 
-            this.racialBase.Location = new System.Drawing.Point(71, 21);
-            this.racialBase.Name = "racialBase";
-            this.racialBase.Size = new System.Drawing.Size(35, 20);
-            this.racialBase.TabIndex = 4;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(3, 50);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(42, 13);
-            this.label14.TabIndex = 5;
-            this.label14.Text = "Abilities";
-            // 
-            // raceAbil
-            // 
-            this.raceAbil.Location = new System.Drawing.Point(3, 66);
-            this.raceAbil.Multiline = true;
-            this.raceAbil.Name = "raceAbil";
-            this.raceAbil.Size = new System.Drawing.Size(232, 36);
-            this.raceAbil.TabIndex = 6;
-            // 
-            // imageSelect
-            // 
-            this.imageSelect.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.imageSelect.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.imageSelect.Location = new System.Drawing.Point(536, 293);
-            this.imageSelect.Name = "imageSelect";
-            this.imageSelect.Size = new System.Drawing.Size(288, 23);
-            this.imageSelect.TabIndex = 4;
-            this.imageSelect.Text = "Select Image";
-            this.imageSelect.UseVisualStyleBackColor = false;
-            // 
-            // imageDisplay
-            // 
-            this.imageDisplay.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.imageDisplay.Location = new System.Drawing.Point(536, 6);
-            this.imageDisplay.Name = "imageDisplay";
-            this.imageDisplay.Size = new System.Drawing.Size(288, 283);
-            this.imageDisplay.TabIndex = 3;
-            this.imageDisplay.TabStop = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.LightBlue;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.fateBox);
-            this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.dsPoints);
-            this.panel1.Controls.Add(this.forcePoints);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.moveAtt);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Location = new System.Drawing.Point(296, 6);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(234, 165);
-            this.panel1.TabIndex = 2;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 13);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Move";
-            // 
-            // moveAtt
-            // 
-            this.moveAtt.Location = new System.Drawing.Point(3, 16);
-            this.moveAtt.Name = "moveAtt";
-            this.moveAtt.Size = new System.Drawing.Size(45, 20);
-            this.moveAtt.TabIndex = 10;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(3, 39);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(66, 13);
-            this.label8.TabIndex = 11;
-            this.label8.Text = "Force Points";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(3, 78);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(86, 13);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "Dark Side Points";
-            // 
-            // forcePoints
-            // 
-            this.forcePoints.Location = new System.Drawing.Point(3, 55);
-            this.forcePoints.Name = "forcePoints";
-            this.forcePoints.Size = new System.Drawing.Size(84, 20);
-            this.forcePoints.TabIndex = 13;
-            // 
-            // dsPoints
-            // 
-            this.dsPoints.Location = new System.Drawing.Point(3, 94);
-            this.dsPoints.Name = "dsPoints";
-            this.dsPoints.Size = new System.Drawing.Size(84, 20);
-            this.dsPoints.TabIndex = 14;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(125, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(86, 13);
-            this.label11.TabIndex = 17;
-            this.label11.Text = "Force Sensitive?";
-            // 
-            // fateBox
-            // 
-            this.fateBox.AutoSize = true;
-            this.fateBox.Location = new System.Drawing.Point(157, 16);
-            this.fateBox.Name = "fateBox";
-            this.fateBox.Size = new System.Drawing.Size(15, 14);
-            this.fateBox.TabIndex = 19;
-            this.fateBox.UseVisualStyleBackColor = true;
-            // 
-            // loadCharacter
-            // 
-            this.loadCharacter.Location = new System.Drawing.Point(560, 828);
-            this.loadCharacter.Name = "loadCharacter";
-            this.loadCharacter.Size = new System.Drawing.Size(129, 23);
-            this.loadCharacter.TabIndex = 13;
-            this.loadCharacter.Text = "Load";
-            this.loadCharacter.UseVisualStyleBackColor = true;
+            // perSkills
+            // 
+            this.perSkills.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.perSkills.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.perSkills.HideSelection = false;
+            this.perSkills.Location = new System.Drawing.Point(6, 825);
+            this.perSkills.Name = "perSkills";
+            this.perSkills.Size = new System.Drawing.Size(200, 349);
+            this.perSkills.TabIndex = 15;
+            this.perSkills.UseCompatibleStateImageBehavior = false;
+            // 
+            // foundExport
+            // 
+            this.foundExport.Location = new System.Drawing.Point(695, 799);
+            this.foundExport.Name = "foundExport";
+            this.foundExport.Size = new System.Drawing.Size(129, 23);
+            this.foundExport.TabIndex = 11;
+            this.foundExport.Text = "Foundry Export";
+            this.foundExport.UseVisualStyleBackColor = true;
+            // 
+            // printCharacter
+            // 
+            this.printCharacter.Location = new System.Drawing.Point(695, 828);
+            this.printCharacter.Name = "printCharacter";
+            this.printCharacter.Size = new System.Drawing.Size(129, 23);
+            this.printCharacter.TabIndex = 14;
+            this.printCharacter.Text = "Print";
+            this.printCharacter.UseVisualStyleBackColor = true;
+            this.printCharacter.Click += new System.EventHandler(this.PrintCharacter_Click);
+            // 
+            // saveCharacter
+            // 
+            this.saveCharacter.Location = new System.Drawing.Point(560, 799);
+            this.saveCharacter.Name = "saveCharacter";
+            this.saveCharacter.Size = new System.Drawing.Size(129, 23);
+            this.saveCharacter.TabIndex = 12;
+            this.saveCharacter.Text = "Save";
+            this.saveCharacter.UseVisualStyleBackColor = true;
             // 
             // mainCharPanel
             // 
             this.mainCharPanel.BackColor = System.Drawing.Color.LightBlue;
+            this.mainCharPanel.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Border_Frame;
+            this.mainCharPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.mainCharPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.mainCharPanel.Controls.Add(this.genderBox);
             this.mainCharPanel.Controls.Add(this.label20);
@@ -1921,81 +1489,70 @@
             this.mainCharPanel.Size = new System.Drawing.Size(282, 194);
             this.mainCharPanel.TabIndex = 0;
             // 
-            // label1
+            // genderBox
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Character Name";
+            this.genderBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.genderBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.genderBox.Location = new System.Drawing.Point(178, 16);
+            this.genderBox.Name = "genderBox";
+            this.genderBox.Size = new System.Drawing.Size(102, 20);
+            this.genderBox.TabIndex = 15;
             // 
-            // characterName
+            // label20
             // 
-            this.characterName.Location = new System.Drawing.Point(3, 16);
-            this.characterName.Name = "characterName";
-            this.characterName.Size = new System.Drawing.Size(166, 20);
-            this.characterName.TabIndex = 1;
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label20.Location = new System.Drawing.Point(175, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(42, 13);
+            this.label20.TabIndex = 14;
+            this.label20.Text = "Gender";
             // 
-            // label2
+            // typeBox
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(0, 39);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Species";
+            this.typeBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.typeBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.typeBox.Location = new System.Drawing.Point(178, 55);
+            this.typeBox.Name = "typeBox";
+            this.typeBox.Size = new System.Drawing.Size(102, 20);
+            this.typeBox.TabIndex = 13;
             // 
-            // label3
+            // label27
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(3, 94);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(26, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Age";
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.Transparent;
+            this.label27.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label27.Location = new System.Drawing.Point(175, 39);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(31, 13);
+            this.label27.TabIndex = 12;
+            this.label27.Text = "Type";
             // 
-            // charAge
+            // charQuote
             // 
-            this.charAge.Location = new System.Drawing.Point(32, 91);
-            this.charAge.Name = "charAge";
-            this.charAge.Size = new System.Drawing.Size(30, 20);
-            this.charAge.TabIndex = 5;
+            this.charQuote.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.charQuote.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.charQuote.Location = new System.Drawing.Point(-2, 133);
+            this.charQuote.Multiline = true;
+            this.charQuote.Name = "charQuote";
+            this.charQuote.Size = new System.Drawing.Size(282, 59);
+            this.charQuote.TabIndex = 11;
             // 
-            // label4
+            // label15
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(68, 94);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Height";
-            // 
-            // charHeight
-            // 
-            this.charHeight.Location = new System.Drawing.Point(112, 91);
-            this.charHeight.Name = "charHeight";
-            this.charHeight.Size = new System.Drawing.Size(30, 20);
-            this.charHeight.TabIndex = 7;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(148, 94);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Weight";
-            // 
-            // charWeight
-            // 
-            this.charWeight.Location = new System.Drawing.Point(195, 91);
-            this.charWeight.Name = "charWeight";
-            this.charWeight.Size = new System.Drawing.Size(30, 20);
-            this.charWeight.TabIndex = 9;
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label15.Location = new System.Drawing.Point(3, 117);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(36, 13);
+            this.label15.TabIndex = 10;
+            this.label15.Text = "Quote";
             // 
             // speciesBox
             // 
+            this.speciesBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
             this.speciesBox.FormattingEnabled = true;
             this.speciesBox.Items.AddRange(new object[] {
             "Aar\'aa",
@@ -2586,96 +2143,707 @@
             "Zhell",
             "Zisian",
             "Zizimaak"});
-            this.speciesBox.Location = new System.Drawing.Point(3, 54);
+            this.speciesBox.Location = new System.Drawing.Point(-2, 54);
             this.speciesBox.Name = "speciesBox";
-            this.speciesBox.Size = new System.Drawing.Size(166, 21);
+            this.speciesBox.Size = new System.Drawing.Size(171, 21);
             this.speciesBox.TabIndex = 5;
             // 
-            // label15
+            // charWeight
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(3, 117);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(36, 13);
-            this.label15.TabIndex = 10;
-            this.label15.Text = "Quote";
+            this.charWeight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.charWeight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.charWeight.Location = new System.Drawing.Point(195, 91);
+            this.charWeight.Name = "charWeight";
+            this.charWeight.Size = new System.Drawing.Size(30, 20);
+            this.charWeight.TabIndex = 9;
             // 
-            // charQuote
+            // label5
             // 
-            this.charQuote.Location = new System.Drawing.Point(3, 133);
-            this.charQuote.Multiline = true;
-            this.charQuote.Name = "charQuote";
-            this.charQuote.Size = new System.Drawing.Size(272, 51);
-            this.charQuote.TabIndex = 11;
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Location = new System.Drawing.Point(148, 94);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(41, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Weight";
             // 
-            // label27
+            // charHeight
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(175, 39);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(31, 13);
-            this.label27.TabIndex = 12;
-            this.label27.Text = "Type";
+            this.charHeight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.charHeight.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.charHeight.Location = new System.Drawing.Point(112, 91);
+            this.charHeight.Name = "charHeight";
+            this.charHeight.Size = new System.Drawing.Size(30, 20);
+            this.charHeight.TabIndex = 7;
             // 
-            // typeBox
+            // label4
             // 
-            this.typeBox.Location = new System.Drawing.Point(178, 55);
-            this.typeBox.Name = "typeBox";
-            this.typeBox.Size = new System.Drawing.Size(97, 20);
-            this.typeBox.TabIndex = 13;
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(68, 94);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(38, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Height";
             // 
-            // label20
+            // charAge
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(175, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(42, 13);
-            this.label20.TabIndex = 14;
-            this.label20.Text = "Gender";
+            this.charAge.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.charAge.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.charAge.Location = new System.Drawing.Point(32, 91);
+            this.charAge.Name = "charAge";
+            this.charAge.Size = new System.Drawing.Size(30, 20);
+            this.charAge.TabIndex = 5;
             // 
-            // genderBox
+            // label3
             // 
-            this.genderBox.Location = new System.Drawing.Point(178, 16);
-            this.genderBox.Name = "genderBox";
-            this.genderBox.Size = new System.Drawing.Size(97, 20);
-            this.genderBox.TabIndex = 15;
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(3, 94);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(26, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Age";
             // 
-            // saveCharacter
+            // label2
             // 
-            this.saveCharacter.Location = new System.Drawing.Point(560, 799);
-            this.saveCharacter.Name = "saveCharacter";
-            this.saveCharacter.Size = new System.Drawing.Size(129, 23);
-            this.saveCharacter.TabIndex = 12;
-            this.saveCharacter.Text = "Save";
-            this.saveCharacter.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(0, 39);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(45, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Species";
             // 
-            // printCharacter
+            // characterName
             // 
-            this.printCharacter.Location = new System.Drawing.Point(695, 828);
-            this.printCharacter.Name = "printCharacter";
-            this.printCharacter.Size = new System.Drawing.Size(129, 23);
-            this.printCharacter.TabIndex = 14;
-            this.printCharacter.Text = "Print";
-            this.printCharacter.UseVisualStyleBackColor = true;
-            this.printCharacter.Click += new System.EventHandler(this.PrintCharacter_Click);
+            this.characterName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.characterName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.characterName.Location = new System.Drawing.Point(-2, 16);
+            this.characterName.Name = "characterName";
+            this.characterName.Size = new System.Drawing.Size(171, 20);
+            this.characterName.TabIndex = 1;
             // 
-            // foundExport
+            // label1
             // 
-            this.foundExport.Location = new System.Drawing.Point(695, 799);
-            this.foundExport.Name = "foundExport";
-            this.foundExport.Size = new System.Drawing.Size(129, 23);
-            this.foundExport.TabIndex = 11;
-            this.foundExport.Text = "Foundry Export";
-            this.foundExport.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Character Name";
             // 
-            // perSkills
+            // loadCharacter
             // 
-            this.perSkills.HideSelection = false;
-            this.perSkills.Location = new System.Drawing.Point(11, 825);
-            this.perSkills.Name = "perSkills";
-            this.perSkills.Size = new System.Drawing.Size(190, 344);
-            this.perSkills.TabIndex = 15;
-            this.perSkills.UseCompatibleStateImageBehavior = false;
+            this.loadCharacter.Location = new System.Drawing.Point(560, 828);
+            this.loadCharacter.Name = "loadCharacter";
+            this.loadCharacter.Size = new System.Drawing.Size(129, 23);
+            this.loadCharacter.TabIndex = 13;
+            this.loadCharacter.Text = "Load";
+            this.loadCharacter.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.LightBlue;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.fateBox);
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.dsPoints);
+            this.panel1.Controls.Add(this.forcePoints);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.moveAtt);
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Location = new System.Drawing.Point(296, 6);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(234, 165);
+            this.panel1.TabIndex = 2;
+            // 
+            // fateBox
+            // 
+            this.fateBox.AutoSize = true;
+            this.fateBox.BackColor = System.Drawing.Color.Transparent;
+            this.fateBox.Location = new System.Drawing.Point(157, 16);
+            this.fateBox.Name = "fateBox";
+            this.fateBox.Size = new System.Drawing.Size(15, 14);
+            this.fateBox.TabIndex = 19;
+            this.fateBox.UseVisualStyleBackColor = false;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.label11.Location = new System.Drawing.Point(125, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(86, 13);
+            this.label11.TabIndex = 17;
+            this.label11.Text = "Force Sensitive?";
+            // 
+            // dsPoints
+            // 
+            this.dsPoints.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.dsPoints.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dsPoints.Location = new System.Drawing.Point(-2, 94);
+            this.dsPoints.Name = "dsPoints";
+            this.dsPoints.Size = new System.Drawing.Size(89, 20);
+            this.dsPoints.TabIndex = 14;
+            // 
+            // forcePoints
+            // 
+            this.forcePoints.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.forcePoints.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.forcePoints.Location = new System.Drawing.Point(-2, 55);
+            this.forcePoints.Name = "forcePoints";
+            this.forcePoints.Size = new System.Drawing.Size(89, 20);
+            this.forcePoints.TabIndex = 13;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label9.Location = new System.Drawing.Point(3, 78);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(86, 13);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "Dark Side Points";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label8.Location = new System.Drawing.Point(3, 39);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(66, 13);
+            this.label8.TabIndex = 11;
+            this.label8.Text = "Force Points";
+            // 
+            // moveAtt
+            // 
+            this.moveAtt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.moveAtt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.moveAtt.Location = new System.Drawing.Point(-2, 16);
+            this.moveAtt.Name = "moveAtt";
+            this.moveAtt.Size = new System.Drawing.Size(50, 20);
+            this.moveAtt.TabIndex = 10;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.label7.Location = new System.Drawing.Point(3, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(34, 13);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Move";
+            // 
+            // imageDisplay
+            // 
+            this.imageDisplay.BackgroundImage = global::Star_Wars_D6.Properties.Resources.Border_Frame;
+            this.imageDisplay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.imageDisplay.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.imageDisplay.Location = new System.Drawing.Point(536, 6);
+            this.imageDisplay.Name = "imageDisplay";
+            this.imageDisplay.Size = new System.Drawing.Size(288, 283);
+            this.imageDisplay.TabIndex = 3;
+            this.imageDisplay.TabStop = false;
+            // 
+            // imageSelect
+            // 
+            this.imageSelect.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.imageSelect.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.imageSelect.Location = new System.Drawing.Point(536, 293);
+            this.imageSelect.Name = "imageSelect";
+            this.imageSelect.Size = new System.Drawing.Size(288, 23);
+            this.imageSelect.TabIndex = 4;
+            this.imageSelect.Text = "Select Image";
+            this.imageSelect.UseVisualStyleBackColor = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.LightBlue;
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.raceAbil);
+            this.panel2.Controls.Add(this.label14);
+            this.panel2.Controls.Add(this.racialBase);
+            this.panel2.Controls.Add(this.label13);
+            this.panel2.Controls.Add(this.label12);
+            this.panel2.Location = new System.Drawing.Point(6, 206);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(282, 110);
+            this.panel2.TabIndex = 5;
+            // 
+            // raceAbil
+            // 
+            this.raceAbil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.raceAbil.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.raceAbil.Location = new System.Drawing.Point(-2, 66);
+            this.raceAbil.Multiline = true;
+            this.raceAbil.Name = "raceAbil";
+            this.raceAbil.Size = new System.Drawing.Size(282, 42);
+            this.raceAbil.TabIndex = 6;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label14.Location = new System.Drawing.Point(3, 50);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(42, 13);
+            this.label14.TabIndex = 5;
+            this.label14.Text = "Abilities";
+            // 
+            // racialBase
+            // 
+            this.racialBase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.racialBase.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.racialBase.Location = new System.Drawing.Point(71, 21);
+            this.racialBase.Name = "racialBase";
+            this.racialBase.Size = new System.Drawing.Size(35, 20);
+            this.racialBase.TabIndex = 4;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label13.Location = new System.Drawing.Point(3, 24);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(71, 13);
+            this.label13.TabIndex = 3;
+            this.label13.Text = "Attribute Dice";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.label12.Location = new System.Drawing.Point(77, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(92, 13);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "Racial Information";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.LightBlue;
+            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.checkBoxCharacterCreation);
+            this.panel3.Controls.Add(this.specialConvert);
+            this.panel3.Controls.Add(this.label21);
+            this.panel3.Controls.Add(this.skillDice);
+            this.panel3.Controls.Add(this.label19);
+            this.panel3.Controls.Add(this.specialDice);
+            this.panel3.Controls.Add(this.label10);
+            this.panel3.Controls.Add(this.label18);
+            this.panel3.Controls.Add(this.charPoints);
+            this.panel3.Controls.Add(this.currentAttribute);
+            this.panel3.Controls.Add(this.label17);
+            this.panel3.Controls.Add(this.label16);
+            this.panel3.Location = new System.Drawing.Point(296, 177);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(234, 139);
+            this.panel3.TabIndex = 6;
+            // 
+            // checkBoxCharacterCreation
+            // 
+            this.checkBoxCharacterCreation.AutoSize = true;
+            this.checkBoxCharacterCreation.BackColor = System.Drawing.Color.Transparent;
+            this.checkBoxCharacterCreation.Location = new System.Drawing.Point(160, 114);
+            this.checkBoxCharacterCreation.Name = "checkBoxCharacterCreation";
+            this.checkBoxCharacterCreation.Size = new System.Drawing.Size(15, 14);
+            this.checkBoxCharacterCreation.TabIndex = 13;
+            this.checkBoxCharacterCreation.UseVisualStyleBackColor = false;
+            // 
+            // specialConvert
+            // 
+            this.specialConvert.AutoSize = true;
+            this.specialConvert.BackColor = System.Drawing.Color.Transparent;
+            this.specialConvert.Location = new System.Drawing.Point(146, 66);
+            this.specialConvert.Name = "specialConvert";
+            this.specialConvert.Size = new System.Drawing.Size(15, 14);
+            this.specialConvert.TabIndex = 12;
+            this.specialConvert.UseVisualStyleBackColor = false;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label21.Location = new System.Drawing.Point(108, 95);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(122, 13);
+            this.label21.TabIndex = 14;
+            this.label21.Text = "Character Advancement";
+            // 
+            // skillDice
+            // 
+            this.skillDice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.skillDice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.skillDice.Location = new System.Drawing.Point(94, 40);
+            this.skillDice.Name = "skillDice";
+            this.skillDice.Size = new System.Drawing.Size(45, 20);
+            this.skillDice.TabIndex = 9;
+            this.skillDice.Text = "7D";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label19.Location = new System.Drawing.Point(3, 66);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(77, 13);
+            this.label19.TabIndex = 8;
+            this.label19.Text = "Specializations";
+            // 
+            // specialDice
+            // 
+            this.specialDice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.specialDice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.specialDice.Location = new System.Drawing.Point(94, 63);
+            this.specialDice.Name = "specialDice";
+            this.specialDice.ReadOnly = true;
+            this.specialDice.Size = new System.Drawing.Size(45, 20);
+            this.specialDice.TabIndex = 7;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label10.Location = new System.Drawing.Point(6, 95);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(85, 13);
+            this.label10.TabIndex = 16;
+            this.label10.Text = "Character Points";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label18.Location = new System.Drawing.Point(3, 43);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(51, 13);
+            this.label18.TabIndex = 6;
+            this.label18.Text = "Skill Dice";
+            // 
+            // charPoints
+            // 
+            this.charPoints.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.charPoints.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.charPoints.Location = new System.Drawing.Point(6, 111);
+            this.charPoints.Name = "charPoints";
+            this.charPoints.Size = new System.Drawing.Size(86, 20);
+            this.charPoints.TabIndex = 15;
+            // 
+            // currentAttribute
+            // 
+            this.currentAttribute.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.currentAttribute.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.currentAttribute.Location = new System.Drawing.Point(94, 16);
+            this.currentAttribute.Name = "currentAttribute";
+            this.currentAttribute.Size = new System.Drawing.Size(45, 20);
+            this.currentAttribute.TabIndex = 5;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label17.Location = new System.Drawing.Point(3, 21);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(71, 13);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "Attribute Dice";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.label16.Location = new System.Drawing.Point(81, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(73, 13);
+            this.label16.TabIndex = 2;
+            this.label16.Text = "Current Points";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.LightBlue;
+            this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
+            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel4.Controls.Add(this.dexSkills);
+            this.panel4.Controls.Add(this.dexAtt);
+            this.panel4.Controls.Add(this.dexLabel);
+            this.panel4.Location = new System.Drawing.Point(6, 322);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 463);
+            this.panel4.TabIndex = 7;
+            // 
+            // dexSkills
+            // 
+            this.dexSkills.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.dexSkills.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dexSkills.HideSelection = false;
+            this.dexSkills.Location = new System.Drawing.Point(-2, 32);
+            this.dexSkills.Name = "dexSkills";
+            this.dexSkills.Size = new System.Drawing.Size(200, 429);
+            this.dexSkills.TabIndex = 6;
+            this.dexSkills.UseCompatibleStateImageBehavior = false;
+            // 
+            // dexAtt
+            // 
+            this.dexAtt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.dexAtt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.dexAtt.Location = new System.Drawing.Point(147, 9);
+            this.dexAtt.Name = "dexAtt";
+            this.dexAtt.ReadOnly = true;
+            this.dexAtt.Size = new System.Drawing.Size(46, 20);
+            this.dexAtt.TabIndex = 5;
+            // 
+            // dexLabel
+            // 
+            this.dexLabel.AutoSize = true;
+            this.dexLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.dexLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dexLabel.Location = new System.Drawing.Point(3, 9);
+            this.dexLabel.Name = "dexLabel";
+            this.dexLabel.Size = new System.Drawing.Size(71, 20);
+            this.dexLabel.TabIndex = 3;
+            this.dexLabel.Text = "Dexterity";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.LightBlue;
+            this.panel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel5.BackgroundImage")));
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel5.Controls.Add(this.knowSkills);
+            this.panel5.Controls.Add(this.knowAtt);
+            this.panel5.Controls.Add(this.knowLabel);
+            this.panel5.Location = new System.Drawing.Point(212, 322);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(200, 463);
+            this.panel5.TabIndex = 8;
+            // 
+            // knowSkills
+            // 
+            this.knowSkills.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.knowSkills.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.knowSkills.HideSelection = false;
+            this.knowSkills.Location = new System.Drawing.Point(-2, 32);
+            this.knowSkills.Name = "knowSkills";
+            this.knowSkills.Size = new System.Drawing.Size(200, 429);
+            this.knowSkills.TabIndex = 7;
+            this.knowSkills.UseCompatibleStateImageBehavior = false;
+            // 
+            // knowAtt
+            // 
+            this.knowAtt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.knowAtt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.knowAtt.Location = new System.Drawing.Point(147, 6);
+            this.knowAtt.Name = "knowAtt";
+            this.knowAtt.ReadOnly = true;
+            this.knowAtt.Size = new System.Drawing.Size(46, 20);
+            this.knowAtt.TabIndex = 5;
+            // 
+            // knowLabel
+            // 
+            this.knowLabel.AutoSize = true;
+            this.knowLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.knowLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.knowLabel.Location = new System.Drawing.Point(3, 9);
+            this.knowLabel.Name = "knowLabel";
+            this.knowLabel.Size = new System.Drawing.Size(87, 20);
+            this.knowLabel.TabIndex = 3;
+            this.knowLabel.Text = "Knowledge";
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.LightBlue;
+            this.panel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel6.BackgroundImage")));
+            this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel6.Controls.Add(this.mechSkills);
+            this.panel6.Controls.Add(this.mechAtt);
+            this.panel6.Controls.Add(this.mechLabel);
+            this.panel6.Location = new System.Drawing.Point(418, 322);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(200, 463);
+            this.panel6.TabIndex = 9;
+            // 
+            // mechSkills
+            // 
+            this.mechSkills.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.mechSkills.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.mechSkills.HideSelection = false;
+            this.mechSkills.Location = new System.Drawing.Point(-2, 32);
+            this.mechSkills.Name = "mechSkills";
+            this.mechSkills.Size = new System.Drawing.Size(200, 429);
+            this.mechSkills.TabIndex = 7;
+            this.mechSkills.UseCompatibleStateImageBehavior = false;
+            // 
+            // mechAtt
+            // 
+            this.mechAtt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.mechAtt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.mechAtt.Location = new System.Drawing.Point(147, 9);
+            this.mechAtt.Name = "mechAtt";
+            this.mechAtt.ReadOnly = true;
+            this.mechAtt.Size = new System.Drawing.Size(46, 20);
+            this.mechAtt.TabIndex = 5;
+            // 
+            // mechLabel
+            // 
+            this.mechLabel.AutoSize = true;
+            this.mechLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.mechLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mechLabel.Location = new System.Drawing.Point(3, 9);
+            this.mechLabel.Name = "mechLabel";
+            this.mechLabel.Size = new System.Drawing.Size(89, 20);
+            this.mechLabel.TabIndex = 3;
+            this.mechLabel.Text = "Mechanical";
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.LightBlue;
+            this.panel7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel7.BackgroundImage")));
+            this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel7.Controls.Add(this.perAtt);
+            this.panel7.Controls.Add(this.perLabel);
+            this.panel7.Location = new System.Drawing.Point(6, 791);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(200, 383);
+            this.panel7.TabIndex = 8;
+            // 
+            // perAtt
+            // 
+            this.perAtt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.perAtt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.perAtt.Location = new System.Drawing.Point(147, 9);
+            this.perAtt.Name = "perAtt";
+            this.perAtt.ReadOnly = true;
+            this.perAtt.Size = new System.Drawing.Size(46, 20);
+            this.perAtt.TabIndex = 5;
+            // 
+            // perLabel
+            // 
+            this.perLabel.AutoSize = true;
+            this.perLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.perLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.perLabel.Location = new System.Drawing.Point(3, 9);
+            this.perLabel.Name = "perLabel";
+            this.perLabel.Size = new System.Drawing.Size(85, 20);
+            this.perLabel.TabIndex = 3;
+            this.perLabel.Text = "Perception";
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.LightBlue;
+            this.panel8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel8.BackgroundImage")));
+            this.panel8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel8.Controls.Add(this.strSkills);
+            this.panel8.Controls.Add(this.strAtt);
+            this.panel8.Controls.Add(this.strLabel);
+            this.panel8.Location = new System.Drawing.Point(212, 791);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(200, 383);
+            this.panel8.TabIndex = 8;
+            // 
+            // strSkills
+            // 
+            this.strSkills.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.strSkills.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.strSkills.HideSelection = false;
+            this.strSkills.Location = new System.Drawing.Point(-2, 32);
+            this.strSkills.Name = "strSkills";
+            this.strSkills.Size = new System.Drawing.Size(200, 349);
+            this.strSkills.TabIndex = 16;
+            this.strSkills.UseCompatibleStateImageBehavior = false;
+            // 
+            // strAtt
+            // 
+            this.strAtt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.strAtt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.strAtt.Location = new System.Drawing.Point(147, 9);
+            this.strAtt.Name = "strAtt";
+            this.strAtt.ReadOnly = true;
+            this.strAtt.Size = new System.Drawing.Size(46, 20);
+            this.strAtt.TabIndex = 5;
+            // 
+            // strLabel
+            // 
+            this.strLabel.AutoSize = true;
+            this.strLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.strLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.strLabel.Location = new System.Drawing.Point(3, 9);
+            this.strLabel.Name = "strLabel";
+            this.strLabel.Size = new System.Drawing.Size(71, 20);
+            this.strLabel.TabIndex = 3;
+            this.strLabel.Text = "Strength";
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(204)))), ((int)(((byte)(255)))));
+            this.panel9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel9.BackgroundImage")));
+            this.panel9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel9.Controls.Add(this.techSkills);
+            this.panel9.Controls.Add(this.techAtt);
+            this.panel9.Controls.Add(this.techLabel);
+            this.panel9.Location = new System.Drawing.Point(624, 322);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(200, 463);
+            this.panel9.TabIndex = 10;
+            // 
+            // techSkills
+            // 
+            this.techSkills.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.techSkills.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.techSkills.HideSelection = false;
+            this.techSkills.Location = new System.Drawing.Point(-2, 32);
+            this.techSkills.Name = "techSkills";
+            this.techSkills.Size = new System.Drawing.Size(200, 429);
+            this.techSkills.TabIndex = 7;
+            this.techSkills.UseCompatibleStateImageBehavior = false;
+            // 
+            // techAtt
+            // 
+            this.techAtt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.techAtt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.techAtt.Location = new System.Drawing.Point(147, 9);
+            this.techAtt.Name = "techAtt";
+            this.techAtt.ReadOnly = true;
+            this.techAtt.Size = new System.Drawing.Size(46, 20);
+            this.techAtt.TabIndex = 5;
+            // 
+            // techLabel
+            // 
+            this.techLabel.AutoSize = true;
+            this.techLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(227)))), ((int)(((byte)(255)))));
+            this.techLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.techLabel.Location = new System.Drawing.Point(3, 9);
+            this.techLabel.Name = "techLabel";
+            this.techLabel.Size = new System.Drawing.Size(76, 20);
+            this.techLabel.TabIndex = 3;
+            this.techLabel.Text = "Technical";
             // 
             // tabControl
             // 
@@ -2693,13 +2861,35 @@
             this.tabControl.Size = new System.Drawing.Size(875, 1222);
             this.tabControl.TabIndex = 31;
             // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.textBox5);
+            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox5.Location = new System.Drawing.Point(9, 562);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(460, 136);
+            this.groupBox5.TabIndex = 5;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Information";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(6, 28);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(448, 102);
+            this.textBox5.TabIndex = 0;
+            this.textBox5.Text = "Holocron Designer\r\nDesigner: Frostipanda\r\nVersion: 0.9.0.5\r\n";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(911, 971);
+            this.ClientSize = new System.Drawing.Size(893, 992);
             this.Controls.Add(this.tabControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -2710,30 +2900,31 @@
             this.Text = "Holocron Designer";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.aboutPage.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.cpLog.ResumeLayout(false);
             this.tabCampaign.ResumeLayout(false);
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
-            this.panel21.ResumeLayout(false);
-            this.panel21.PerformLayout();
-            this.panel22.ResumeLayout(false);
-            this.panel22.PerformLayout();
             this.panel23.ResumeLayout(false);
             this.panel23.PerformLayout();
+            this.panel22.ResumeLayout(false);
+            this.panel22.PerformLayout();
+            this.panel21.ResumeLayout(false);
+            this.panel21.PerformLayout();
+            this.panel20.ResumeLayout(false);
+            this.panel20.PerformLayout();
+            this.panel19.ResumeLayout(false);
+            this.panel19.PerformLayout();
+            this.panel18.ResumeLayout(false);
+            this.panel18.PerformLayout();
             this.tabBackground.ResumeLayout(false);
-            this.tabBackground.PerformLayout();
+            this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
             this.tabEquipment.ResumeLayout(false);
@@ -2743,28 +2934,30 @@
             this.tabForce.ResumeLayout(false);
             this.tabForce.PerformLayout();
             this.tabMain.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.imageDisplay)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.mainCharPanel.ResumeLayout(false);
             this.mainCharPanel.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imageDisplay)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
             this.tabControl.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2834,7 +3027,6 @@
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.Label label49;
-        public System.Windows.Forms.Panel panel11;
         public System.Windows.Forms.Panel panel12;
         public System.Windows.Forms.TextBox racialAbil;
         public System.Windows.Forms.Label label46;
@@ -2849,7 +3041,6 @@
         private System.Windows.Forms.Button openShop;
         public System.Windows.Forms.TextBox playerCreditsTextBox;
         private System.Windows.Forms.Label Credits;
-        public System.Windows.Forms.Panel panel14;
         public System.Windows.Forms.Panel weapInv;
         public System.Windows.Forms.Panel armorInv;
         public System.Windows.Forms.Panel gearInv;
@@ -2860,7 +3051,6 @@
         public System.Windows.Forms.Button forceEditButton;
         private System.Windows.Forms.Button openLearning;
         private System.Windows.Forms.Label label32;
-        public System.Windows.Forms.Panel panel17;
         public System.Windows.Forms.Panel forcePowersPanel;
         public System.Windows.Forms.TextBox forceAlter;
         public System.Windows.Forms.TextBox forceCon;
@@ -2945,6 +3135,12 @@
         public System.Windows.Forms.TextBox techAtt;
         public System.Windows.Forms.Label techLabel;
         public System.Windows.Forms.TabControl tabControl;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }
 

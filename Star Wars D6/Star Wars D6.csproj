@@ -50,6 +50,26 @@
   <PropertyGroup>
     <ApplicationIcon>pngaaa.com-5928904.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -168,6 +188,13 @@
     <None Include="Resources\pngaaa.com-5928904.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Force.png" />
+    <None Include="Resources\equipment.png" />
+    <None Include="Resources\Background.png" />
+    <None Include="Resources\Border Frame.png" />
+    <None Include="Resources\Frame1.png" />
+    <None Include="Resources\Frame.png" />
+    <None Include="Resources\Banner.png" />
     <None Include="Resources\version.txt" />
     <None Include="Resources\Coffee.png" />
     <None Include="Resources\Discord.png" />
