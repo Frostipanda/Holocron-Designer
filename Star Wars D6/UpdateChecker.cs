@@ -7,7 +7,7 @@ namespace Star_Wars_D6
     public class UpdateChecker
     {
         // Define the current version here
-        private const string CurrentVersion = "0.9.0.5"; // Change this whenever you update the program version
+        private const string CurrentVersion = "0.9.0.2"; // Change this whenever you update the program version
         private const string VersionUrl = "https://raw.githubusercontent.com/Frostipanda/Holocron-Designer/master/Star%20Wars%20D6/Resources/version.txt";
         private const string GitHubUrl = "https://github.com/Frostipanda/Holocron-Designer";
 
